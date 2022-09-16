@@ -1,0 +1,4 @@
+Frequencies,Words
+5,2
+1,hola
+23,asdf.com
