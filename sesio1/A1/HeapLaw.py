@@ -12,7 +12,7 @@ def heap_law(N, k, B):
     return k*(N**B)
 
 def plots(is_log, words, diff_words,directory_path):
-    popt, pcov = curve_fit(heap_law, words, diff_words, bounds=([0.0, 0.2],[100000000000000.0, 2.0]))
+    popt, pcov = curve_fit(heap_law, words, diff_words, bounds=([0.0, 0.1],[1000000.0, 2.0]))
     
     plt.plot(words, diff_words,"r", label="Normal")
     plt.plot(words, heap_law(words, *popt), "b--", label="HeapLaw")
@@ -35,6 +35,8 @@ def count_words():
     for i in range(0, 11):
         words = []
         diff_words = []
+        lpal = []
+        N = 0
         for j in range(0,3):
             
             
@@ -54,11 +56,11 @@ def count_words():
                     except TransportError:
                         pass
                 
-                lpal = []
+                
                 for v in voc:
                     lpal.append((v.encode("utf-8", "ignore"), voc[v]))
             
-                N = 0
+                
                 for pal, cnt in sorted(lpal, key=lambda x: x[0 if False else 1]):
                         N = N + int(cnt)
                 words.append(N)
@@ -67,6 +69,6 @@ def count_words():
             except NotFoundError:
                     print(f'Index {index} does not exists')    
      
-        plots(False, words, diff_words,"groups/"+str(i))                                  
+    plots(False, words, diff_words,"groups/"+str(i))                                   
 
 count_words()

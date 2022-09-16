@@ -81,32 +81,5 @@ def create_indexes():
         # Bulk execution of elasticsearch operations (faster than executing all one by one)
 	        print('Indexing ...')
 	        bulk(client, ldocs)
-"""
-def create_indexes():
-    Dir = "0"
-    ldocs = []
-    for i in range(0,11):
-	    ftxt = codecs.open("./groups/"+str(Dir)+"/"+str(i), "r", encoding='iso-8859-1')
-	    text = ''
-	    for line in ftxt:
-	    	text += line
-        # Insert operation for a document with fields' path' and 'text'
-	    ldocs.append({'_op_type': 'index', '_index': (str(i)+str(Dir)).lower(), 'path': "./groups/"+str(Dir)+"/"+str(i), 'text': text})
-	    # Working with ElasticSearch
-	    client = Elasticsearch(timeout=1000)
-	    try:
-        	# Drop index if it exists
-	    	ind = Index((str(i)+str(Dir)).lower(), using=client)
-	    	ind.delete()
-	    except NotFoundError:
-	    		pass
-	    # then create it
-	    ind.settings(number_of_shards=1)
-	    ind.create()
-	    # Bulk execution of elasticsearch operations (faster than executing all one by one)
-	    print('Indexing ...')
-	    bulk(client, ldocs)
-"""	    
-
 create_groups()
 create_indexes()
