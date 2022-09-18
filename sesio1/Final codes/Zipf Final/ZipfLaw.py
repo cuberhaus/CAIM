@@ -9,7 +9,7 @@ from scipy.optimize import curve_fit
 DIRECTORY_PATH = "./"
 
 
-def ZipfLaw(rank, a, b, c):
+def zipf_law(rank, a, b, c):
     """
 
     :param rank:
@@ -35,7 +35,7 @@ def plots(is_log):
     rank = list(range(1, 1001))
 
     freq = df.iloc[0:1000, 0].values.tolist()
-    popt, pcov = curve_fit(ZipfLaw, rank, freq, bounds=([0.5, -500000.0, -500000.0], [2.0, 500000.0, 5000000.0]))
+    popt, pcov = curve_fit(zipf_law, rank, freq, bounds=([0.5, -500000.0, -500000.0], [2.0, 500000.0, 5000000.0]))
 
     print('Zipf parameters:')
     if is_log:
@@ -46,7 +46,7 @@ def plots(is_log):
     print("a = %f, b = %f, c = %f" % (popt[0], popt[1], popt[2]))
 
     plt.plot(rank, freq, label="Normal")
-    plt.plot(rank, ZipfLaw(rank, *popt), label="ZipfLaw")
+    plt.plot(rank, zipf_law(rank, *popt), label="ZipfLaw")
     plt.legend()
     plt.ylabel('Frequency')
     plt.xlabel("Rank")
