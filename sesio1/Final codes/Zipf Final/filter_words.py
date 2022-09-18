@@ -6,15 +6,16 @@ import os
 from tqdm import tqdm
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--path', required=True, default=None, help='Path to the files')
-
 path_words = parser.parse_args().path
 
+# Read file
+parser.add_argument('--path', required=True, default=None, help='Path to the files')
 df = pd.read_csv(path_words, sep=", ", header=0)
 
-#   We erase the last two rows
+# We erase the last two rows
 df = df.iloc[:-2]
 
+# Filter out non alpha "words"
 for index, row in tqdm(df.iterrows(), "Rows:"):
     word = str(row[1])  # Must convert to string cause there are some floats
     if not word.isalpha():
