@@ -11,11 +11,11 @@ DIRECTORY_PATH = "./"
 
 def zipf_law(rank, a, b, c):
     """
-
-    :param rank:
-    :param a:
-    :param b:
-    :param c:
+    Given a word rank and parameters a,b,c return the value in a power-law distribution
+    :param rank: rank
+    :param a: a
+    :param b: b
+    :param c: c
     :return:
     """
     return c / ((rank + b) ** a)
@@ -23,9 +23,9 @@ def zipf_law(rank, a, b, c):
 
 def plots(is_log):
     """
-
-    :param is_log:
-    :return:
+    Draw a plot of a given dataset to show it follows Zipf's Law
+    :param is_log: if True, draw the plot in a log-log scale, otherwise draw in a 1:1 scale
+    :return None
     """
     parser = argparse.ArgumentParser()
     parser.add_argument('--path', required=True, default=None, help='Path to the files')
