@@ -53,10 +53,6 @@ def plots(is_log, words, diff_words, directory_path):
 
 
 def count_words():
-    """
-
-    :return:
-    """
     directory = os.listdir("./groups")
     words = []
     diff_words = []
