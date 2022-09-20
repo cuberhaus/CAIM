@@ -1,33 +1,19 @@
-import os
-
+import pandas as pd
 import matplotlib.pyplot as plt
+import numpy
+import math
+import os
 from elasticsearch import Elasticsearch
-from elasticsearch.exceptions import NotFoundError, TransportError
 from elasticsearch.helpers import scan
+from elasticsearch.exceptions import NotFoundError, TransportError
 from scipy.optimize import curve_fit
 
 
 def heap_law(N, k, B):
-    """
-    Given N the number of total words and parameters k,B return the value,
-    that corresponds to the power-law distribution.
-    :param N: N numbers
-    :param k: k
-    :param B: B
-    :return:
-    """
     return k * (N ** B)
 
 
 def plots(is_log, words, diff_words, directory_path):
-    """
-    Draw a plot of a given dataset to show it follows Heap's Law
-    :param is_log: if True, draw the plot in a log-log scale, otherwise draw in a 1:1 scale
-    :param words: all words
-    :param diff_words: different words
-    :param directory_path: path to store the file
-    :return:
-    """
     popt, pcov = curve_fit(heap_law, words, diff_words, bounds=([0.0, 0.1], [1000000.0, 2.0]))
 
     print('Heap parameters:')
@@ -53,13 +39,12 @@ def plots(is_log, words, diff_words, directory_path):
 
 
 def count_words():
-    """
-
-    :return:
-    """
     directory = os.listdir("./groups")
     words = []
     diff_words = []
+    print(directory)
+    directory.sort(key=int)
+    print(directory)
     for i in directory:
         try:
             index = str(i)
@@ -81,20 +66,29 @@ def count_words():
 
             lpal = []
             N = 0
-            diff_counter = 0
             for v in voc:
                 lpal.append((v.encode("utf-8", "ignore"), voc[v]))
-
+            # print(lpal)
+            diff_counter = 0
             for pal, cnt in sorted(lpal, key=lambda x: x[0 if False else 1]):
-                if (pal.decode()).isalpha():
+                # for word in pal:
+                # print(str(word))
+                if pal.decode().isalpha():
                     diff_counter = diff_counter + 1
                     N = N + int(cnt)
-
+                # print(pal.decode())
             words.append(N)
             diff_words.append(diff_counter)
+            # for pal, cnt in sorted(lpal, key=lambda x: x[0 if False else 1]):
+            #     N = N + int(cnt)
+
+            # words.append(N)
+            # diff_words.append(len(lpal))            
         except NotFoundError:
             print(f'Index {index} does not exists')
-
+    # words.sort()
+    # diff_words.sort()
+    words, diff_words = zip(*sorted(zip(words, diff_words)))
     print(words)
     print(diff_words)
     plots(False, words, diff_words, "./")
