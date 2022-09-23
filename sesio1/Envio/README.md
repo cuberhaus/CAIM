@@ -1,9 +1,9 @@
 # Instruccions d'execució del programari
 ## ZipfLaw
 
-Primer generem mitjançant l'script CountWords.py els fitxers de dades .txt. Després executem el programa filter_words.py que ens filtrarà les paraules i les col·locarà en un arxiu en format csv.
+Primer generem mitjançant l'script CountWords.py els fitxers de dades .txt. Després executem el programa filter_words.py (amb el flag --path indiquem el fitxer que volem fer servir) que ens filtrarà les paraules i les col·locarà en un arxiu en format csv.
 ```shell
-python3 filter_words.py --path words_nov.txt (archiu de les dades acabat amb extensiu .txt)
+python3 filter_words.py --path words_nov.txt (archiu de les dades acabat amb extensió txt)
 ```
 Tot seguit executarem el programa ZipfLaw.py(amb el flag --path indiquem el fitxer que volem fer servir) que ens crearà uns gràfics amb els resultats corresponents.
 ```shell
