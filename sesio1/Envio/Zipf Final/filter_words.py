@@ -7,10 +7,10 @@ from tqdm import tqdm
 
 def main():
     parser = argparse.ArgumentParser()
-    path_words = parser.parse_args().path
 
     # Read file
     parser.add_argument('--path', required=True, default=None, help='Path to the files')
+    path_words = parser.parse_args().path
     df = pd.read_csv(path_words, sep=", ", header=0)
 
     # We erase the last two rows
