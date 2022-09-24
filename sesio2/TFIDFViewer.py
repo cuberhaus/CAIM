@@ -101,10 +101,10 @@ def print_term_weigth_vector(twv):
     :param twv:
     :return:
     """
-    tf = w / max_freq
-    idf = np.log2(dcount / df)
-    tfidfw.append((t, tf * idf))
-    pass
+    for (term, weight) in twv:
+        print(term)
+        print(weight)
+    return None
 
 
 def normalize(tw):
@@ -130,12 +130,21 @@ def cosine_similarity(tw1, tw2):
     :param tw2:
     :return:
     """
-    res = [0]*len(tw1)
+    res = 0
     normalize(tw1)
     normalize(tw2)
-    for i in range(tw1):
+    for i in range(len(tw1)):
         res += tw1[i] * tw2[i]
-    res /= len(tw1) * len(tw2)
+    sum = 0
+    sum2 = 0
+    for i in range(len(tw1)):
+        sum += tw1[i] ** 2
+        sum2 += tw2[i] ** 2
+    l1 = np.sqrt(sum)
+    l2 = np.sqrt(sum2)
+
+    res = res / (l1 * l2)
+    return res
     return 0
 
 def doc_count(client, index):
