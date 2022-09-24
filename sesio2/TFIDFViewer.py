@@ -15,8 +15,6 @@ TFIDFViewer
 
 :Date:  05/07/2017
 """
-import math
-
 from elasticsearch import Elasticsearch
 from elasticsearch.exceptions import NotFoundError
 from elasticsearch.client import CatClient
@@ -90,9 +88,9 @@ def toTFIDF(client, index, file_id):
 
     tfidfw = []
     for (t, w),(_, df) in zip(file_tv, file_df):
-        #
-        # Something happens here
-        #
+        tf = w / max_freq
+        idf = np.log2(dcount / df)
+        tfidfw.append((t, tf * idf))
         pass
 
     return normalize(tfidfw)
@@ -103,9 +101,9 @@ def print_term_weigth_vector(twv):
     :param twv:
     :return:
     """
-    #
-    # Program something here
-    #
+    tf = w / max_freq
+    idf = np.log2(dcount / df)
+    tfidfw.append((t, tf * idf))
     pass
 
 
@@ -119,7 +117,7 @@ def normalize(tw):
     sum = 0
     for i in tw:
         sum += i ** 2
-    vmod = math.sqrt(sum)
+    vmod = np.sqrt(sum)
     for i in range(len(tw)):
         tw[i] = tw[i] / vmod
     return None
@@ -132,9 +130,12 @@ def cosine_similarity(tw1, tw2):
     :param tw2:
     :return:
     """
-    #
-    # Program something here
-    #
+    res = [0]*len(tw1)
+    normalize(tw1)
+    normalize(tw2)
+    for i in range(tw1):
+        res += tw1[i] * tw2[i]
+    res /= len(tw1) * len(tw2)
     return 0
 
 def doc_count(client, index):
