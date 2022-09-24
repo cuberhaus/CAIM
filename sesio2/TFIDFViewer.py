@@ -145,7 +145,6 @@ def cosine_similarity(tw1, tw2):
 
     res = res / (l1 * l2)
     return res
-    return 0
 
 def doc_count(client, index):
     """
