@@ -15,6 +15,7 @@ TFIDFViewer
 
 :Date:  05/07/2017
 """
+import math
 
 from elasticsearch import Elasticsearch
 from elasticsearch.exceptions import NotFoundError
@@ -115,9 +116,12 @@ def normalize(tw):
     :param tw:
     :return:
     """
-    #
-    # Program something here
-    #
+    sum = 0
+    for i in tw:
+        sum += i ** 2
+    vmod = math.sqrt(sum)
+    for i in range(len(tw)):
+        tw[i] = tw[i] / vmod
     return None
 
 
