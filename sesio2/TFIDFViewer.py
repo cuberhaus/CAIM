@@ -93,7 +93,7 @@ def toTFIDF(client, index, file_id):
         idf = np.log2(dcount / df)
         tfidfw.append((t, tf * idf))
         pass
-    normalize(tfidfw)
+    # normalize(tfidfw)
     return tfidfw
 
 
@@ -145,7 +145,10 @@ def cosine_similarity(tw1, tw2):
         sum2 += tw2[i][1] ** 2
     l1 = np.sqrt(sum1)
     l2 = np.sqrt(sum2)
-
+    print(tw1)
+    print(tw2)
+    print("module1: " + str(l1) + " module2: " + str(l2))
+    print(l1 * l2)
     res = res / (l1 * l2)
     return res
 
