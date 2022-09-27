@@ -134,17 +134,15 @@ def cosine_similarity(tw1, tw2):
     :return:
     """
     res = 0
-    print(tw1)
-    print(tw2)
     # normalize(tw1)
     # normalize(tw2)
     for i in range(len(tw1)):
-        res += tw1[i] * tw2[i]
+        res += tw1[i][1] * tw2[i][1]
     sum1 = 0
     sum2 = 0
     for i in range(len(tw1)):
-        sum1 += tw1[i] ** 2
-        sum2 += tw2[i] ** 2
+        sum1 += tw1[i][1] ** 2
+        sum2 += tw2[i][1] ** 2
     l1 = np.sqrt(sum1)
     l2 = np.sqrt(sum2)
 
@@ -195,8 +193,6 @@ if __name__ == '__main__':
             print(f'TFIDF FILE {file2}')
             print_term_weigth_vector(file2_tw)
             print('---------------------')
-        print(file1_tw)
-        print(file2_tw)
         print(f"Similarity = {cosine_similarity(file1_tw, file2_tw):3.5f}")
 
     except NotFoundError:
