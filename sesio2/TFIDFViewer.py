@@ -27,6 +27,7 @@ import numpy as np
 
 __author__ = 'bejar'
 
+
 def search_file_by_path(client, index, path):
     """
     Search for a file using its path
@@ -87,13 +88,14 @@ def toTFIDF(client, index, file_id):
     dcount = doc_count(client, index)
 
     tfidfw = []
-    for (t, w),(_, df) in zip(file_tv, file_df):
+    for (t, w), (_, df) in zip(file_tv, file_df):
         tf = w / max_freq
         idf = np.log2(dcount / df)
         tfidfw.append((t, tf * idf))
         pass
+    normalize(tfidfw)
+    return tfidfw
 
-    return normalize(tfidfw)
 
 def print_term_weigth_vector(twv):
     """
@@ -115,11 +117,12 @@ def normalize(tw):
     :return:
     """
     sum = 0
-    for i in tw:
-        sum += i ** 2
+    for (i, j) in tw:
+        # print(i, j)
+        sum += j ** 2
     vmod = np.sqrt(sum)
     for i in range(len(tw)):
-        tw[i] = tw[i] / vmod
+        tw[i] = (tw[i][0], tw[i][1] / vmod)
     return None
 
 
@@ -131,20 +134,23 @@ def cosine_similarity(tw1, tw2):
     :return:
     """
     res = 0
-    normalize(tw1)
-    normalize(tw2)
+    print(tw1)
+    print(tw2)
+    # normalize(tw1)
+    # normalize(tw2)
     for i in range(len(tw1)):
         res += tw1[i] * tw2[i]
-    sum = 0
+    sum1 = 0
     sum2 = 0
     for i in range(len(tw1)):
-        sum += tw1[i] ** 2
+        sum1 += tw1[i] ** 2
         sum2 += tw2[i] ** 2
-    l1 = np.sqrt(sum)
+    l1 = np.sqrt(sum1)
     l2 = np.sqrt(sum2)
 
     res = res / (l1 * l2)
     return res
+
 
 def doc_count(client, index):
     """
@@ -164,7 +170,6 @@ if __name__ == '__main__':
     parser.add_argument('--print', default=False, action='store_true', help='Print TFIDF vectors')
 
     args = parser.parse_args()
-
 
     index = args.index
 
@@ -186,13 +191,13 @@ if __name__ == '__main__':
         if args.print:
             print(f'TFIDF FILE {file1}')
             print_term_weigth_vector(file1_tw)
-            print ('---------------------')
+            print('---------------------')
             print(f'TFIDF FILE {file2}')
             print_term_weigth_vector(file2_tw)
-            print ('---------------------')
-
+            print('---------------------')
+        print(file1_tw)
+        print(file2_tw)
         print(f"Similarity = {cosine_similarity(file1_tw, file2_tw):3.5f}")
 
     except NotFoundError:
         print(f'Index {index} does not exists')
-
