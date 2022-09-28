@@ -22,7 +22,7 @@ from elasticsearch_dsl import Search
 from elasticsearch_dsl.query import Q
 
 import argparse
-
+import os
 import numpy as np
 
 __author__ = 'bejar'
@@ -161,7 +161,7 @@ def cosine_similarity(tw1, tw2):
         sum2 += tw2[i][1] ** 2
     l1 = np.sqrt(sum1)
     l2 = np.sqrt(sum2)
-    print("module1: " + str(l1) + " module2: " + str(l2))
+    #print("module1: " + str(l1) + " module2: " + str(l2))
     res = summ / (l1 * l2)
     return res
 
@@ -177,39 +177,72 @@ def doc_count(client, index):
     return int(CatClient(client).count(index=[index], format='json')[0]['count'])
 
 
+def generate_files_list(path):
+    """
+    Generates a list of all the files inside a path (recursivelly)
+    :param path:
+    :return:
+    """
+    if path[-1] == '/':
+        path = path[:-1]
+
+    lfiles = []
+    
+    for lf in os.walk(path):
+        if lf[2]:
+            for f in lf[2]:
+                lfiles.append(lf[0] + '/' + f)
+    return lfiles
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--index', default=None, required=True, help='Index to search')
-    parser.add_argument('--files', default=None, required=True, nargs=2, help='Paths of the files to compare')
+    #parser.add_argument('--files', default=None, required=True, nargs=2, help='Paths of the files to compare')
+    parser.add_argument('--path', default=False, required=True, help='Path to the files')
     parser.add_argument('--print', default=False, action='store_true', help='Print TFIDF vectors')
 
     args = parser.parse_args()
 
     index = args.index
 
-    file1 = args.files[0]
-    file2 = args.files[1]
+    path = args.path
+    
+    directory = os.listdir(path)
+    sizeFolder = len(directory)
+    for i in range(0, sizeFolder):
+        file1 = generate_files_list(str(path) + '/' + str(directory[i]))       
+        size_file1 = len(file1)
+        
+        for j in range(i+1, sizeFolder):     	
+            file2 = generate_files_list(str(path) + '/' + str(directory[j]))
+            print("Folders: " + str(directory[i]) + "  " + str(directory[j]) + ':')
+            size_file2 = len(file2)
+            summ = 0
+            for l in range(0, 50):
+            	for t in range(0, 50):
+            	    client = Elasticsearch(timeout=1000)
+            	    try:
+                        # Get the files ids
+                        file1_id = search_file_by_path(client, index, file1[l])
+                        file2_id = search_file_by_path(client, index, file2[t])
 
-    client = Elasticsearch(timeout=1000)
+                        # Compute the TF-IDF vectors
+                        file1_tw = toTFIDF(client, index, file1_id)
+                        file2_tw = toTFIDF(client, index, file2_id)
 
-    try:
+                        if args.print:
+	                        print(f'TFIDF FILE {file1}')
+	                        print_term_weigth_vector(file1_tw)
+	                        print('---------------------')
+	                        print(f'TFIDF FILE {file2}')
+	                        print_term_weigth_vector(file2_tw)
+	                        print('---------------------')
+                        sim =cosine_similarity(file1_tw, file2_tw)                  
+                        print(f"Similarity = {sim}")
+                        summ += sim
+            	    except NotFoundError:
+            	    	print(f'Index {index} does not exists')
+        media = summ/2500
+        print(media)
 
-        # Get the files ids
-        file1_id = search_file_by_path(client, index, file1)
-        file2_id = search_file_by_path(client, index, file2)
 
-        # Compute the TF-IDF vectors
-        file1_tw = toTFIDF(client, index, file1_id)
-        file2_tw = toTFIDF(client, index, file2_id)
-
-        if args.print:
-            print(f'TFIDF FILE {file1}')
-            print_term_weigth_vector(file1_tw)
-            print('---------------------')
-            print(f'TFIDF FILE {file2}')
-            print_term_weigth_vector(file2_tw)
-            print('---------------------')
-        print(f"Similarity = {cosine_similarity(file1_tw, file2_tw):3.5f}")
-
-    except NotFoundError:
-        print(f'Index {index} does not exists')
