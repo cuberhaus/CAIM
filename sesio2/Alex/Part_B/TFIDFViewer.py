@@ -154,9 +154,10 @@ def cosine_similarity(tw1, tw2):
             j += 1
             
     sum1 = 0
-    sum2 = 0
-    for i in range(len(tw1)):
+    for i in range(size_tw1):
         sum1 += tw1[i][1] ** 2
+    sum2 = 0
+    for i in range(size_tw2):
         sum2 += tw2[i][1] ** 2
     l1 = np.sqrt(sum1)
     l2 = np.sqrt(sum2)
