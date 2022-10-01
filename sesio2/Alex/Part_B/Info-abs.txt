@@ -1,0 +1,30 @@
+python3 TFIDFViewer.py --index abs --path arxiv_abs/astro-ph.updates.on.arXiv.org arxiv_abs/cond-mat.updates.on.arXiv.org > a1.txt
+python3 TFIDFViewer.py --index abs --path arxiv_abs/astro-ph.updates.on.arXiv.org arxiv_abs/cs.updates.on.arXiv.org > a2.txt
+python3 TFIDFViewer.py --index abs --path arxiv_abs/astro-ph.updates.on.arXiv.org arxiv_abs/hep-ph.updates.on.arXiv.org > a3.txt
+python3 TFIDFViewer.py --index abs --path arxiv_abs/astro-ph.updates.on.arXiv.org arxiv_abs/hep-th.updates.on.arXiv.org > a4.txt
+python3 TFIDFViewer.py --index abs --path arxiv_abs/astro-ph.updates.on.arXiv.org arxiv_abs/math.updates.on.arXiv.org > a5.txt
+python3 TFIDFViewer.py --index abs --path arxiv_abs/astro-ph.updates.on.arXiv.org arxiv_abs/physics.updates.on.arXiv.org > a6.txt
+python3 TFIDFViewer.py --index abs --path arxiv_abs/astro-ph.updates.on.arXiv.org arxiv_abs/quant-ph.updates.on.arXiv.org > a7.txt
+python3 TFIDFViewer.py --index abs --path arxiv_abs/cond-mat.updates.on.arXiv.org arxiv_abs/cs.updates.on.arXiv.org > a8.txt
+python3 TFIDFViewer.py --index abs --path arxiv_abs/cond-mat.updates.on.arXiv.org arxiv_abs/hep-ph.updates.on.arXiv.org > a9.txt
+python3 TFIDFViewer.py --index abs --path arxiv_abs/cond-mat.updates.on.arXiv.org arxiv_abs/hep-th.updates.on.arXiv.org > a10.txt
+python3 TFIDFViewer.py --index abs --path arxiv_abs/cond-mat.updates.on.arXiv.org arxiv_abs/math.updates.on.arXiv.org > a11.txt
+python3 TFIDFViewer.py --index abs --path arxiv_abs/cond-mat.updates.on.arXiv.org arxiv_abs/physics.updates.on.arXiv.org > a12.txt
+python3 TFIDFViewer.py --index abs --path arxiv_abs/cond-mat.updates.on.arXiv.org arxiv_abs/quant-ph.updates.on.arXiv.org > a13.txt
+python3 TFIDFViewer.py --index abs --path arxiv_abs/cs.updates.on.arXiv.org arxiv_abs/hep-ph.updates.on.arXiv.org > a14.txt
+python3 TFIDFViewer.py --index abs --path arxiv_abs/cs.updates.on.arXiv.org arxiv_abs/hep-th.updates.on.arXiv.org > a15.txt
+python3 TFIDFViewer.py --index abs --path arxiv_abs/cs.updates.on.arXiv.org arxiv_abs/math.updates.on.arXiv.org > a16.txt
+python3 TFIDFViewer.py --index abs --path arxiv_abs/cs.updates.on.arXiv.org arxiv_abs/physics.updates.on.arXiv.org > a17.txt
+python3 TFIDFViewer.py --index abs --path arxiv_abs/cs.updates.on.arXiv.org arxiv_abs/quant-ph.updates.on.arXiv.org > a18.txt
+python3 TFIDFViewer.py --index abs --path arxiv_abs/hep-ph.updates.on.arXiv.org arxiv_abs/hep-th.updates.on.arXiv.org > a19.txt
+python3 TFIDFViewer.py --index abs --path arxiv_abs/hep-ph.updates.on.arXiv.org arxiv_abs/math.updates.on.arXiv.org > a20.txt
+python3 TFIDFViewer.py --index abs --path arxiv_abs/hep-ph.updates.on.arXiv.org arxiv_abs/physics.updates.on.arXiv.org > a21.txt
+python3 TFIDFViewer.py --index abs --path arxiv_abs/hep-ph.updates.on.arXiv.org arxiv_abs/quant-ph.updates.on.arXiv.org > a22.txt
+python3 TFIDFViewer.py --index abs --path arxiv_abs/hep-th.updates.on.arXiv.org arxiv_abs/math.updates.on.arXiv.org > a23.txt
+python3 TFIDFViewer.py --index abs --path arxiv_abs/hep-th.updates.on.arXiv.org arxiv_abs/physics.updates.on.arXiv.org > a24.txt
+python3 TFIDFViewer.py --index abs --path arxiv_abs/hep-th.updates.on.arXiv.org arxiv_abs/quant-ph.updates.on.arXiv.org > a25.txt
+python3 TFIDFViewer.py --index abs --path arxiv_abs/math.updates.on.arXiv.org arxiv_abs/physics.updates.on.arXiv.org > a26.txt
+python3 TFIDFViewer.py --index abs --path arxiv_abs/math.updates.on.arXiv.org arxiv_abs/quant-ph.updates.on.arXiv.org > a27.txt
+python3 TFIDFViewer.py --index abs --path arxiv_abs/physics.updates.on.arXiv.org arxiv_abs/quant-ph.updates.on.arXiv.org > a28.txt
+
+

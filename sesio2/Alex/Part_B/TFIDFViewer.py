@@ -198,51 +198,56 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--index', default=None, required=True, help='Index to search')
     #parser.add_argument('--files', default=None, required=True, nargs=2, help='Paths of the files to compare')
-    parser.add_argument('--path', default=False, required=True, help='Path to the files')
+    parser.add_argument('--path', default=False, required=True, nargs=2, help='Paths of the files to compare')
     parser.add_argument('--print', default=False, action='store_true', help='Print TFIDF vectors')
 
     args = parser.parse_args()
 
     index = args.index
-
-    path = args.path
     
-    directory = os.listdir(path)
-    sizeFolder = len(directory)
-    for i in range(0, sizeFolder):
-        file1 = generate_files_list(str(path) + '/' + str(directory[i]))       
-        size_file1 = len(file1)
-        
-        for j in range(i+1, sizeFolder):     	
-            file2 = generate_files_list(str(path) + '/' + str(directory[j]))
-            print("Folders: " + str(directory[i]) + "  " + str(directory[j]) + ':')
-            size_file2 = len(file2)
-            summ = 0
-            for l in range(0, 50):
-            	for t in range(0, 50):
-            	    client = Elasticsearch(timeout=1000)
-            	    try:
-                        # Get the files ids
-                        file1_id = search_file_by_path(client, index, file1[l])
-                        file2_id = search_file_by_path(client, index, file2[t])
+    folder1 = args.path[0]
+    folder2 = args.path[1]
+    
+    
+    file1 = generate_files_list(str(folder1))       
+    size_file1 = len(file1)
+    file2 = generate_files_list(str(folder2))
+    size_file2 = len(file2)
+    summ = 0
+    print("Files are " + str(folder1) + "  " + str(folder2))
+    range1 = 50
+    range2 = 50
+    if len(file1) < 50:
+        range1 = len(file1)
+    if len(file2) < 50:
+        range2 = len(file2)    
+    for i in range(0, range1):
+    	for j in range(0, range2):
+    	    client = Elasticsearch(timeout=1000)
+    	    try:
+    	        if file1[i] != file2[j] :
+                    # Get the files ids
+                    file1_id = search_file_by_path(client, index, file1[i])
+                    file2_id = search_file_by_path(client, index, file2[j])
 
-                        # Compute the TF-IDF vectors
-                        file1_tw = toTFIDF(client, index, file1_id)
-                        file2_tw = toTFIDF(client, index, file2_id)
+                    # Compute the TF-IDF vectors
+                    file1_tw = toTFIDF(client, index, file1_id)
+                    file2_tw = toTFIDF(client, index, file2_id)
 
-                        if args.print:
-	                        print(f'TFIDF FILE {file1}')
-	                        print_term_weigth_vector(file1_tw)
-	                        print('---------------------')
-	                        print(f'TFIDF FILE {file2}')
-	                        print_term_weigth_vector(file2_tw)
-	                        print('---------------------')
-                        sim =cosine_similarity(file1_tw, file2_tw)                  
-                        print(f"Similarity = {sim}")
-                        summ += sim
-            	    except NotFoundError:
-            	    	print(f'Index {index} does not exists')
-        media = summ/2500
-        print(media)
+                    if args.print:
+                        print(f'TFIDF FILE {file1}')
+                        print_term_weigth_vector(file1_tw)
+                        print('---------------------')
+                        print(f'TFIDF FILE {file2}')
+                        print_term_weigth_vector(file2_tw)
+                        print('---------------------')
+                    sim = float(f"{cosine_similarity(file1_tw, file2_tw):3.5f}")              
+                    print(f"Similarity = {sim}")
+                    summ += sim
+    	    except NotFoundError:
+    	    	print(f'Index {index} does not exists')
+    
+    media = summ/(range1*range2)
+    print(media)
 
 
