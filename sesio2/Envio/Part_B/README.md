@@ -2,13 +2,18 @@
 
 Part_A
 En aquesta carpeta hi ha tots els fitxers de la primera part de la pràctica.
-A abs-info(el conjunt de dades arxiv_abs) ia news-info(20_newsgroups) tenim els resultats que obtenim en indexar amb cada token i filtre que fem servir. El nom de cada fitxer indica el tocken i els filtres que fem servir.
+A abs-info (el conjunt de dades arxiv_abs) ia news-info(20_newsgroups) tenim els resultats que obtenim en indexar amb 
+cada token i filtre que fem servir. El nom de cada fitxer indica el token i els filtres que fem servir.
 A l'arxiu snowball.out tenim els tokens que els extraiem usant CountWords.py.
-El fitxer data_snowball.csv el creem usant filter_words.py de la practica1. D'aquest fitxer usant el ZipfLaw.py(també de la practica1) creem els grfics del Zipf.
+El fitxer data_snowball.csv el creem fent servir filter_words.py de la practica1. 
+D'aquest fitxer fent servir el ZipfLaw.py (també de la practica1) creem els gràfics del Zipf.
 
 
 Part_B
-Fem servir TFIDFViewer.py per calcular la similaritat de cada conjunt de dades. A les carpetes abs-similarity, news-similarity, novels-similarity hi ha els resultats de cada comparacio, a cada fitxer de cada carpeta hi ha els noms de cada arxiu que comparem(ex en similarity a a1 aquesta: arxiv_abs/astro-ph.updates .on.arXiv.org arxiv_abs/cond-mat.updates.on.arXiv.org).
+Fem servir TFIDFViewer.py per calcular la similitud de cada conjunt de dades. 
+A les carpetes abs-similarity, news-similarity, novels-similarity hi ha els resultats de cada comparació,
+a cada fitxer de cada carpeta hi ha els noms de cada arxiu que comparem 
+(ex en similarity a a1 aquesta: arxiv_abs/astro-ph.updates .on.arXiv.org arxiv_abs/cond-mat.updates.on.arXiv.org).
 
 
 # Instruccions d'execució del programari
