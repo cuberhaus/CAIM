@@ -195,6 +195,9 @@ def generate_files_list(path):
 
 
 if __name__ == '__main__':
+    """
+    Modified so that it can compare up to 50 files inside a folder with 50 files in another folder
+    """
     parser = argparse.ArgumentParser()
     parser.add_argument('--index', default=None, required=True, help='Index to search')
     # parser.add_argument('--files', default=None, required=True, nargs=2, help='Paths of the files to compare')
