@@ -133,26 +133,26 @@ def cosine_similarity(tw1, tw2):
     :param tw2:
     :return:
     """
-    #normalize(tw1)
-    #normalize(tw2)
+    # normalize(tw1)
+    # normalize(tw2)
     i = 0
     j = 0
     size_tw1 = len(tw1)
     size_tw2 = len(tw2)
     summ = 0
-    while i < size_tw1 and j < size_tw2:   
-                                                            
-        (term1,weight1) = tw1[i]    
-        (term2,weight2) = tw2[j]
-        if term1 == term2:   
+    while i < size_tw1 and j < size_tw2:
+
+        (term1, weight1) = tw1[i]
+        (term2, weight2) = tw2[j]
+        if term1 == term2:
             summ += weight1 * weight2
             i += 1
             j += 1
-        elif term1 < term2:   
+        elif term1 < term2:
             i += 1
-        else:   
+        else:
             j += 1
-            
+
     sum1 = 0
     for i in range(size_tw1):
         sum1 += tw1[i][1] ** 2
@@ -161,7 +161,6 @@ def cosine_similarity(tw1, tw2):
         sum2 += tw2[i][1] ** 2
     l1 = np.sqrt(sum1)
     l2 = np.sqrt(sum2)
-    #print("module1: " + str(l1) + " module2: " + str(l2))
     res = summ / (l1 * l2)
     return res
 
@@ -187,29 +186,32 @@ def generate_files_list(path):
         path = path[:-1]
 
     lfiles = []
-    
+
     for lf in os.walk(path):
         if lf[2]:
             for f in lf[2]:
                 lfiles.append(lf[0] + '/' + f)
     return lfiles
 
+
 if __name__ == '__main__':
+    """
+    Modified so that it can compare up to 50 files inside a folder with 50 files in another folder
+    """
     parser = argparse.ArgumentParser()
     parser.add_argument('--index', default=None, required=True, help='Index to search')
-    #parser.add_argument('--files', default=None, required=True, nargs=2, help='Paths of the files to compare')
+    # parser.add_argument('--files', default=None, required=True, nargs=2, help='Paths of the files to compare')
     parser.add_argument('--path', default=False, required=True, nargs=2, help='Paths of the files to compare')
     parser.add_argument('--print', default=False, action='store_true', help='Print TFIDF vectors')
 
     args = parser.parse_args()
 
     index = args.index
-    
+
     folder1 = args.path[0]
     folder2 = args.path[1]
-    
-    
-    file1 = generate_files_list(str(folder1))       
+
+    file1 = generate_files_list(str(folder1))
     size_file1 = len(file1)
     file2 = generate_files_list(str(folder2))
     size_file2 = len(file2)
@@ -220,12 +222,12 @@ if __name__ == '__main__':
     if len(file1) < 50:
         range1 = len(file1)
     if len(file2) < 50:
-        range2 = len(file2)    
+        range2 = len(file2)
     for i in range(0, range1):
-    	for j in range(0, range2):
-    	    client = Elasticsearch(timeout=1000)
-    	    try:
-    	        if file1[i] != file2[j] :
+        for j in range(0, range2):
+            client = Elasticsearch(timeout=1000)
+            try:
+                if file1[i] != file2[j]:
                     # Get the files ids
                     file1_id = search_file_by_path(client, index, file1[i])
                     file2_id = search_file_by_path(client, index, file2[j])
@@ -241,13 +243,11 @@ if __name__ == '__main__':
                         print(f'TFIDF FILE {file2}')
                         print_term_weigth_vector(file2_tw)
                         print('---------------------')
-                    sim = float(f"{cosine_similarity(file1_tw, file2_tw):3.5f}")              
+                    sim = float(f"{cosine_similarity(file1_tw, file2_tw):3.5f}")
                     print(f"Similarity = {sim}")
                     summ += sim
-    	    except NotFoundError:
-    	    	print(f'Index {index} does not exists')
-    
-    media = summ/(range1*range2)
+            except NotFoundError:
+                print(f'Index {index} does not exists')
+
+    media = summ / (range1 * range2)
     print(media)
-
-
