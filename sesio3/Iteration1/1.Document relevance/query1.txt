@@ -1,0 +1,19 @@
+['toronto', 'nyc']
+ID= 7UtmhIMBDGqtS2cF7zIT SCORE=9.774561
+PATH= 20_newsgroups/alt.atheism/0000574
+TEXT: In article <1r1mr8$eov@aurora.engr.LaTech.edu>, ra
+-----------------------------------------------------------------
+ID= WEtnhIMBDGqtS2cFE3Us SCORE=4.285014
+PATH= 20_newsgroups/sci.med/0013128
+TEXT: Here is a press release from the Natural Resources
+-----------------------------------------------------------------
+ID= 1ktmhIMBDGqtS2cF8Tjq SCORE=3.982832
+PATH= 20_newsgroups/talk.politics.misc/0018667
+TEXT: v140pxgt@ubvmsb.cc.buffalo.edu (Daniel B Case) wri
+-----------------------------------------------------------------
+ID= dUtmhIMBDGqtS2cF-kPV SCORE=3.5931416
+PATH= 20_newsgroups/talk.politics.guns/0015998
+TEXT: Jim De Arras (jmd@cube.handheld.com) wrote:
+: > La
+-----------------------------------------------------------------
+4 Documents
