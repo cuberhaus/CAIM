@@ -141,7 +141,7 @@ if __name__ == '__main__':
                 s = s.query(q)
                 response = s[0:nhits].execute()
                 
-                #Get the documents				
+                # Query to dictionary		
                 dictionary = {}
                 for element in query:  
                     if '^' in element:
@@ -154,16 +154,29 @@ if __name__ == '__main__':
 				
                 print(dictionary)
 				
-                sum_documents = {}
-                #for every document compute TF-IDF				
+                sum_documents = 0
+                # For every document compute TF-IDF				
                 for r in response:  # only returns a specific number of results
                     tfidf = toTFIDF(client, index, r.meta.id)
-				    
+                    for e in range(len(tfidf)):
+                        sum_documents += tfidf[e][1]
                     print(f'ID= {r.meta.id} SCORE={r.meta.score}')
                     print(f'PATH= {r.path}')
                     print(f'TEXT: {r.text[:50]}')
                     print('-----------------------------------------------------------------')
-
+                
+                #Create new query 
+                new_dictionary = dictionary
+                second_part = beta*sum_documents/nhits
+                for e in dictionary:
+                    new_dictionary[e] = alpha*new_dictionary[e] + second_part
+                
+                query = []
+                for element in new_dictionary:
+                    query.append(element + '^' + str(new_dictionary[element]))
+                
+                print(query)           
+                    
         else:
             print('No query parameters passed')
 
