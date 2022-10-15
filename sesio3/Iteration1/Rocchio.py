@@ -153,7 +153,6 @@ if __name__ == '__main__':
                         value = 1.0
                     dictionary[key] = value
 
-                print(dictionary)
 
                 sum_documents = 0
                 # For every document compute TF-IDF
@@ -173,15 +172,23 @@ if __name__ == '__main__':
                 # print(tfidf_docs)
                 for elem in tfidf_docs:
                     tfidf_docs[elem] = BETA * tfidf_docs[elem] / len(response)
+                print()
+                # print("DICTIONARY" + str(dictionary))
+                print()
                 for elem in dictionary:
-                    tfidf_docs[elem] += ALPHA * dictionary[elem]
+                    # print("DICT ELEM: " + str(dictionary[elem]))
+                    # print("TFIDF: " + str(tfidf_docs[elem]))
+                    if elem not in tfidf_docs:
+                        tfidf_docs[elem] = ALPHA * dictionary[elem]
+                    else:
+                        tfidf_docs[elem] += ALPHA * dictionary[elem]
                 # Create new query
                 sorted_keys = sorted(tfidf_docs, key=tfidf_docs.get, reverse=True)
                 # print(sorted_keys)
                 k_docs = {}
                 for i in range(R):
                     k_docs[sorted_keys[i]] = tfidf_docs[sorted_keys[i]]
-                print(k_docs)
+                # print(k_docs)
                 # new_dictionary = dictionary
                 # second_part = BETA * sum_documents / nhits
                 # print("DICTIONARY" + str(dictionary))
