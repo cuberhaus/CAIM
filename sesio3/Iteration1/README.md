@@ -5,15 +5,15 @@ A la carpeta 1.Document_Relevance es troben els resultats de les tres queries de
 A la carpeta Experiments hi ha tots els experiments que hem fet amb l'algorisme de Rocchio.Hi ha una carpeta per a cadascun dels 8 experiments(abs,Alfa,Beta,Initial,K,novels,nrounds,R).
 
 
-Ejemplo de como indexar 20_newsgroups
+Exemple de com indexar 20_newsgroups
 ```shell
 python3 IndexFilesPreprocess.py --index news --path 20_newsgroups --token letter --filter lowercase asciifolding snowball stop
 ```
-Ejemplo de como indexar arxiv_abs
+Exemple de com indexar arxiv_abs
 ```shell
 python3 IndexFilesPreprocess.py --index abs --path arxiv_abs --token letter --filter lowercase asciifolding snowball stop
 ```
-Ejemplo de como indexar novels
+Exemple de com indexar novels
 ```shell
 python3 IndexFilesPreprocess.py --index novels --path novels --token letter --filter lowercase asciifolding snowball stop
 ```
