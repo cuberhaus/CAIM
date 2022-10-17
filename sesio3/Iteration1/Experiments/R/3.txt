@@ -1,0 +1,87 @@
+Original query: ['computer', 'windows']
+Iteration: 0
+Dictionary for the original query: {'computer': 1.0, 'windows': 1.0}
+New query:['window^1.3845835088776115', 'comput^1.0503453787026895', 'computer^0.6', 'windows^0.6', 'x^0.5820682392873677', 'strobl^0.47888760141384557', 'gmd^0.43888760141384553', 'dos^0.43048883802870785', 'wolfgang^0.4049677251516476', 'font^0.40254933777074076']
+-----------------------------------------------------------------
+ID= 33dp54MBujO1U3soNP4U SCORE=8.867617
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002226
+TEXT: Hello,
+I want a little network for 3 users. All us
+-----------------------------------------------------------------
+ID= ZHdp54MBujO1U3soNP4T SCORE=8.751202
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002028
+TEXT: Sometimes when I boot up windows 3.1, after the wi
+-----------------------------------------------------------------
+ID= PHdp54MBujO1U3soMP6_ SCORE=8.68136
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002077
+TEXT: I don't know much about computers, so please bear 
+-----------------------------------------------------------------
+ID= rXdp54MBujO1U3soIuQK SCORE=8.279485
+PATH= 20_newsgroups/comp.graphics/0001507
+TEXT: Pascal Perret, in article <1993Apr21.125750.263@ei
+-----------------------------------------------------------------
+ID= GXdp54MBujO1U3soNP8U SCORE=8.2558975
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002656
+TEXT: wlieftin@cs.vu.nl (Liefting W) writes:
+: Hello all
+-----------------------------------------------------------------
+ID= vXhp54MBujO1U3soRiBQ SCORE=8.157447
+PATH= 20_newsgroups/sci.crypt/0011355
+TEXT: In article <ygoland.735123994@wright> 
+(The Jester
+-----------------------------------------------------------------
+ID= G3dp54MBujO1U3soMP2_ SCORE=8.151908
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002229
+TEXT: Hi:
+On the 1024x768x256 mode, the font sizes of Wi
+-----------------------------------------------------------------
+ID= 5Hhp54MBujO1U3soOw5s SCORE=8.089462
+PATH= 20_newsgroups/comp.windows.x/0005117
+TEXT: I have a peculiar color problem with MacX, Apple's
+-----------------------------------------------------------------
+ID= lndp54MBujO1U3soMPy- SCORE=8.063556
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002349
+TEXT: In <14957@news.duke.edu> kdb@sunbar.mc.duke.edu (K
+-----------------------------------------------------------------
+ID= ZXdp54MBujO1U3soMP2_ SCORE=8.056592
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002881
+TEXT: Is there a 768x1024 Trident driver for windows any
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 1
+Dictionary for the original query: {'window': 1.3845835088776115, 'comput': 1.0503453787026895, 'computer': 0.6, 'windows': 0.6, 'x': 0.5820682392873677, 'strobl': 0.47888760141384557, 'gmd': 0.43888760141384553, 'dos': 0.43048883802870785, 'wolfgang': 0.4049677251516476, 'font': 0.40254933777074076}
+New query:['mac^2.924494771431368', 'os^2.625565487708504', 'scsi^2.2191293152419673', 'mb^2.1291206942296523', 'bit^2.1216059623271755', 'ibm^1.658645744772888', 'window^1.4921387179069703', 'color^1.3193146528409259', 'pc^1.1562741456761574', 'nubus^1.1446202756774724']
+-----------------------------------------------------------------
+ID= i3dp54MBujO1U3soLPb1 SCORE=16.668213
+PATH= 20_newsgroups/comp.sys.mac.hardware/0004532
+TEXT: {Send follow ups to comp.sys.mac.advocacy. Sorry a
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 2
+Dictionary for the original query: {'mac': 2.924494771431368, 'os': 2.625565487708504, 'scsi': 2.2191293152419673, 'mb': 2.1291206942296523, 'bit': 2.1216059623271755, 'ibm': 1.658645744772888, 'window': 1.4921387179069703, 'color': 1.3193146528409259, 'pc': 1.1562741456761574, 'nubus': 1.1446202756774724}
+New query:['mac^4.679191634290189', 'os^4.200904780333607', 'scsi^3.5506069043871475', 'mb^3.4065931107674436', 'bit^3.3945695397234807', 'ibm^2.653833191636621', 'color^2.1109034445454813', 'pc^1.850038633081852', 'nubus^1.8313924410839557', 'window^1.5566718433245854']
+-----------------------------------------------------------------
+ID= i3dp54MBujO1U3soLPb1 SCORE=117.435234
+PATH= 20_newsgroups/comp.sys.mac.hardware/0004532
+TEXT: {Send follow ups to comp.sys.mac.advocacy. Sorry a
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 3
+Dictionary for the original query: {'mac': 4.679191634290189, 'os': 4.200904780333607, 'scsi': 3.5506069043871475, 'mb': 3.4065931107674436, 'bit': 3.3945695397234807, 'ibm': 2.653833191636621, 'color': 2.1109034445454813, 'pc': 1.850038633081852, 'nubus': 1.8313924410839557, 'window': 1.5566718433245854}
+New query:['mac^5.732009752005482', 'os^5.146108355908668', 'scsi^4.349493457874256', 'mb^4.173076560690118', 'bit^4.158347686161264', 'ibm^3.2509456597548603', 'color^2.5858567195682145', 'pc^2.2662973255252687', 'nubus^2.2434557403278457', 'window^1.5953917185751547']
+-----------------------------------------------------------------
+ID= i3dp54MBujO1U3soLPb1 SCORE=276.2385
+PATH= 20_newsgroups/comp.sys.mac.hardware/0004532
+TEXT: {Send follow ups to comp.sys.mac.advocacy. Sorry a
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 4
+Dictionary for the original query: {'mac': 5.732009752005482, 'os': 5.146108355908668, 'scsi': 4.349493457874256, 'mb': 4.173076560690118, 'bit': 4.158347686161264, 'ibm': 3.2509456597548603, 'color': 2.5858567195682145, 'pc': 2.2662973255252687, 'nubus': 2.2434557403278457, 'window': 1.5953917185751547}
+New query:['mac^6.363700622634656', 'os^5.713230501253705', 'scsi^4.8288253899665206', 'mb^4.632966630643724', 'bit^4.6166145740239335', 'ibm^3.609213140625804', 'color^2.8708286845818547', 'pc^2.5160525409913186', 'nubus^2.4906937198741796', 'window^1.6186236437254962']
+-----------------------------------------------------------------
+ID= i3dp54MBujO1U3soLPb1 SCORE=469.86353
+PATH= 20_newsgroups/comp.sys.mac.hardware/0004532
+TEXT: {Send follow ups to comp.sys.mac.advocacy. Sorry a
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+1 Documents

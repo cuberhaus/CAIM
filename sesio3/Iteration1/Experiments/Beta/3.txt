@@ -1,0 +1,130 @@
+Original query: ['computer', 'windows']
+Iteration: 0
+Dictionary for the original query: {'computer': 1.0, 'windows': 1.0}
+New query:['window^1.2327688728989066', 'comput^1.010874977886577', 'dos^0.6638658394179082']
+-----------------------------------------------------------------
+ID= 33dp54MBujO1U3soNP4U SCORE=8.867617
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002226
+TEXT: Hello,
+I want a little network for 3 users. All us
+-----------------------------------------------------------------
+ID= ZHdp54MBujO1U3soNP4T SCORE=8.751202
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002028
+TEXT: Sometimes when I boot up windows 3.1, after the wi
+-----------------------------------------------------------------
+ID= PHdp54MBujO1U3soMP6_ SCORE=8.68136
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002077
+TEXT: I don't know much about computers, so please bear 
+-----------------------------------------------------------------
+ID= rXdp54MBujO1U3soIuQK SCORE=8.279485
+PATH= 20_newsgroups/comp.graphics/0001507
+TEXT: Pascal Perret, in article <1993Apr21.125750.263@ei
+-----------------------------------------------------------------
+ID= GXdp54MBujO1U3soNP8U SCORE=8.2558975
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002656
+TEXT: wlieftin@cs.vu.nl (Liefting W) writes:
+: Hello all
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 1
+Dictionary for the original query: {'window': 1.2327688728989066, 'comput': 1.010874977886577, 'dos': 0.6638658394179082}
+New query:['window^2.249176754654653', 'dos^1.6588966303500712', 'comput^1.5631300416083225']
+-----------------------------------------------------------------
+ID= ZHdp54MBujO1U3soNP4T SCORE=22.528849
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002028
+TEXT: Sometimes when I boot up windows 3.1, after the wi
+-----------------------------------------------------------------
+ID= PHdp54MBujO1U3soMP6_ SCORE=21.593628
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002077
+TEXT: I don't know much about computers, so please bear 
+-----------------------------------------------------------------
+ID= rXdp54MBujO1U3soIuQK SCORE=20.70911
+PATH= 20_newsgroups/comp.graphics/0001507
+TEXT: Pascal Perret, in article <1993Apr21.125750.263@ei
+-----------------------------------------------------------------
+ID= 3ndp54MBujO1U3soNP8U SCORE=20.653893
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002046
+TEXT: In article <1993Apr28.053700.12929@lugb.latrobe.ed
+-----------------------------------------------------------------
+ID= NHhp54MBujO1U3soNAHo SCORE=19.913332
+PATH= 20_newsgroups/misc.forsale/0006215
+TEXT: Hi!
+I have several computer related books for sale
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 2
+Dictionary for the original query: {'window': 2.249176754654653, 'dos': 1.6588966303500712, 'comput': 1.5631300416083225}
+New query:['window^2.8590214837081005', 'dos^2.191280758476414', 'comput^1.7211069656059683']
+-----------------------------------------------------------------
+ID= ZHdp54MBujO1U3soNP4T SCORE=49.13613
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002028
+TEXT: Sometimes when I boot up windows 3.1, after the wi
+-----------------------------------------------------------------
+ID= PHdp54MBujO1U3soMP6_ SCORE=46.107258
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002077
+TEXT: I don't know much about computers, so please bear 
+-----------------------------------------------------------------
+ID= 3ndp54MBujO1U3soNP8U SCORE=45.511833
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002046
+TEXT: In article <1993Apr28.053700.12929@lugb.latrobe.ed
+-----------------------------------------------------------------
+ID= rXdp54MBujO1U3soIuQK SCORE=44.349144
+PATH= 20_newsgroups/comp.graphics/0001507
+TEXT: Pascal Perret, in article <1993Apr21.125750.263@ei
+-----------------------------------------------------------------
+ID= B3hp54MBujO1U3soOQxM SCORE=44.199867
+PATH= 20_newsgroups/comp.windows.x/0005821
+TEXT: >markw@pspmf3.gpsemi.com (Mark Wilkinson - Ext 344
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 3
+Dictionary for the original query: {'window': 2.8590214837081005, 'dos': 2.191280758476414, 'comput': 1.7211069656059683}
+New query:['window^3.224928321140169', 'dos^2.5107112353522196', 'comput^1.815893120004556']
+-----------------------------------------------------------------
+ID= ZHdp54MBujO1U3soNP4T SCORE=82.341225
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002028
+TEXT: Sometimes when I boot up windows 3.1, after the wi
+-----------------------------------------------------------------
+ID= 3ndp54MBujO1U3soNP8U SCORE=76.61245
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002046
+TEXT: In article <1993Apr28.053700.12929@lugb.latrobe.ed
+-----------------------------------------------------------------
+ID= PHdp54MBujO1U3soMP6_ SCORE=76.573524
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002077
+TEXT: I don't know much about computers, so please bear 
+-----------------------------------------------------------------
+ID= B3hp54MBujO1U3soOQxM SCORE=75.28429
+PATH= 20_newsgroups/comp.windows.x/0005821
+TEXT: >markw@pspmf3.gpsemi.com (Mark Wilkinson - Ext 344
+-----------------------------------------------------------------
+ID= rXdp54MBujO1U3soIuQK SCORE=73.70356
+PATH= 20_newsgroups/comp.graphics/0001507
+TEXT: Pascal Perret, in article <1993Apr21.125750.263@ei
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 4
+Dictionary for the original query: {'window': 3.224928321140169, 'dos': 2.5107112353522196, 'comput': 1.815893120004556}
+New query:['window^3.4146972657533574', 'dos^2.8666293853439595', 'comput^1.7397193618531968']
+-----------------------------------------------------------------
+ID= ZHdp54MBujO1U3soNP4T SCORE=119.505
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002028
+TEXT: Sometimes when I boot up windows 3.1, after the wi
+-----------------------------------------------------------------
+ID= 3ndp54MBujO1U3soNP8U SCORE=111.45866
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002046
+TEXT: In article <1993Apr28.053700.12929@lugb.latrobe.ed
+-----------------------------------------------------------------
+ID= PHdp54MBujO1U3soMP6_ SCORE=110.61135
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002077
+TEXT: I don't know much about computers, so please bear 
+-----------------------------------------------------------------
+ID= B3hp54MBujO1U3soOQxM SCORE=110.28372
+PATH= 20_newsgroups/comp.windows.x/0005821
+TEXT: >markw@pspmf3.gpsemi.com (Mark Wilkinson - Ext 344
+-----------------------------------------------------------------
+ID= 4ndp54MBujO1U3soNP4U SCORE=107.79512
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002345
+TEXT: In article <3160.180.uupcb@hal9k.com> scott.lynn@h
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+91 Documents

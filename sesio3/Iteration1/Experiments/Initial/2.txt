@@ -1,0 +1,137 @@
+Original query: ['computer^2', 'windows']
+Iteration: 0
+Dictionary for the original query: {'computer': 2.0, 'windows': 1.0}
+New query:['computer^2.0', 'comput^1.5560533157672913', 'window^1.2803317873802633', 'windows^1.0', 'mb^0.8381820442411776']
+-----------------------------------------------------------------
+ID= 33dp54MBujO1U3soNP4U SCORE=13.34765
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002226
+TEXT: Hello,
+I want a little network for 3 users. All us
+-----------------------------------------------------------------
+ID= ZHdp54MBujO1U3soNP4T SCORE=12.899965
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002028
+TEXT: Sometimes when I boot up windows 3.1, after the wi
+-----------------------------------------------------------------
+ID= PHdp54MBujO1U3soMP6_ SCORE=12.748522
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002077
+TEXT: I don't know much about computers, so please bear 
+-----------------------------------------------------------------
+ID= vXhp54MBujO1U3soRiBQ SCORE=12.68983
+PATH= 20_newsgroups/sci.crypt/0011355
+TEXT: In article <ygoland.735123994@wright> 
+(The Jester
+-----------------------------------------------------------------
+ID= U3dp54MBujO1U3soGdm- SCORE=12.361224
+PATH= 20_newsgroups/comp.sys.ibm.pc.hardware/0003312
+TEXT:   I saw the following computer in a store and want
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 1
+Dictionary for the original query: {'computer': 2.0, 'comput': 1.5560533157672913, 'window': 1.2803317873802633, 'windows': 1.0, 'mb': 0.8381820442411776}
+New query:['comput^2.839529983340583', 'mb^2.3657778911049685', 'window^2.313619992389339', 'computer^2.0', 'windows^1.0']
+-----------------------------------------------------------------
+ID= 33dp54MBujO1U3soNP4U SCORE=43.085392
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002226
+TEXT: Hello,
+I want a little network for 3 users. All us
+-----------------------------------------------------------------
+ID= U3dp54MBujO1U3soGdm- SCORE=41.737114
+PATH= 20_newsgroups/comp.sys.ibm.pc.hardware/0003312
+TEXT:   I saw the following computer in a store and want
+-----------------------------------------------------------------
+ID= GXdp54MBujO1U3soNP8U SCORE=40.02042
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002656
+TEXT: wlieftin@cs.vu.nl (Liefting W) writes:
+: Hello all
+-----------------------------------------------------------------
+ID= rXdp54MBujO1U3soIuQK SCORE=39.439594
+PATH= 20_newsgroups/comp.graphics/0001507
+TEXT: Pascal Perret, in article <1993Apr21.125750.263@ei
+-----------------------------------------------------------------
+ID= pHdp54MBujO1U3soGdm- SCORE=39.20112
+PATH= 20_newsgroups/comp.sys.ibm.pc.hardware/0003979
+TEXT: I have a Standard Computer 486DX2/66mhz EISA Tower
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 2
+Dictionary for the original query: {'comput': 2.839529983340583, 'mb': 2.3657778911049685, 'window': 2.313619992389339, 'computer': 2.0, 'windows': 1.0}
+New query:['mb^4.429354092789649', 'comput^4.184708888961648', 'window^3.3389681553061332', 'computer^2.0', 'windows^1.0']
+-----------------------------------------------------------------
+ID= U3dp54MBujO1U3soGdm- SCORE=90.645966
+PATH= 20_newsgroups/comp.sys.ibm.pc.hardware/0003312
+TEXT:   I saw the following computer in a store and want
+-----------------------------------------------------------------
+ID= 33dp54MBujO1U3soNP4U SCORE=90.03482
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002226
+TEXT: Hello,
+I want a little network for 3 users. All us
+-----------------------------------------------------------------
+ID= pHdp54MBujO1U3soGdm- SCORE=85.780045
+PATH= 20_newsgroups/comp.sys.ibm.pc.hardware/0003979
+TEXT: I have a Standard Computer 486DX2/66mhz EISA Tower
+-----------------------------------------------------------------
+ID= 2ndp54MBujO1U3soGdm_ SCORE=85.243195
+PATH= 20_newsgroups/comp.sys.ibm.pc.hardware/0003316
+TEXT: In article <1993Apr18.023428.17605@cronkite.ocis.t
+-----------------------------------------------------------------
+ID= GXdp54MBujO1U3soNP8U SCORE=84.49448
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002656
+TEXT: wlieftin@cs.vu.nl (Liefting W) writes:
+: Hello all
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 3
+Dictionary for the original query: {'mb': 4.429354092789649, 'comput': 4.184708888961648, 'window': 3.3389681553061332, 'computer': 2.0, 'windows': 1.0}
+New query:['mb^6.492930294474329', 'comput^5.529887794582713', 'window^4.364316318222928', 'computer^2.0', 'windows^1.0']
+-----------------------------------------------------------------
+ID= U3dp54MBujO1U3soGdm- SCORE=162.90665
+PATH= 20_newsgroups/comp.sys.ibm.pc.hardware/0003312
+TEXT:   I saw the following computer in a store and want
+-----------------------------------------------------------------
+ID= 33dp54MBujO1U3soNP4U SCORE=156.86832
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002226
+TEXT: Hello,
+I want a little network for 3 users. All us
+-----------------------------------------------------------------
+ID= pHdp54MBujO1U3soGdm- SCORE=154.87361
+PATH= 20_newsgroups/comp.sys.ibm.pc.hardware/0003979
+TEXT: I have a Standard Computer 486DX2/66mhz EISA Tower
+-----------------------------------------------------------------
+ID= 2ndp54MBujO1U3soGdm_ SCORE=153.45685
+PATH= 20_newsgroups/comp.sys.ibm.pc.hardware/0003316
+TEXT: In article <1993Apr18.023428.17605@cronkite.ocis.t
+-----------------------------------------------------------------
+ID= GXdp54MBujO1U3soNP8U SCORE=148.35849
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002656
+TEXT: wlieftin@cs.vu.nl (Liefting W) writes:
+: Hello all
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 4
+Dictionary for the original query: {'mb': 6.492930294474329, 'comput': 5.529887794582713, 'window': 4.364316318222928, 'computer': 2.0, 'windows': 1.0}
+New query:['mb^8.55650649615901', 'comput^6.875066700203778', 'window^5.389664481139722', 'computer^2.0', 'windows^1.0']
+-----------------------------------------------------------------
+ID= U3dp54MBujO1U3soGdm- SCORE=258.51913
+PATH= 20_newsgroups/comp.sys.ibm.pc.hardware/0003312
+TEXT:   I saw the following computer in a store and want
+-----------------------------------------------------------------
+ID= pHdp54MBujO1U3soGdm- SCORE=246.48181
+PATH= 20_newsgroups/comp.sys.ibm.pc.hardware/0003979
+TEXT: I have a Standard Computer 486DX2/66mhz EISA Tower
+-----------------------------------------------------------------
+ID= 2ndp54MBujO1U3soGdm_ SCORE=243.76842
+PATH= 20_newsgroups/comp.sys.ibm.pc.hardware/0003316
+TEXT: In article <1993Apr18.023428.17605@cronkite.ocis.t
+-----------------------------------------------------------------
+ID= 33dp54MBujO1U3soNP4U SCORE=243.5859
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002226
+TEXT: Hello,
+I want a little network for 3 users. All us
+-----------------------------------------------------------------
+ID= GXdp54MBujO1U3soNP8U SCORE=231.61244
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002656
+TEXT: wlieftin@cs.vu.nl (Liefting W) writes:
+: Hello all
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+64 Documents

@@ -1,0 +1,137 @@
+Original query: ['computer', 'windows']
+Iteration: 0
+Dictionary for the original query: {'computer': 1.0, 'windows': 1.0}
+New query:['computer^2.0', 'windows^2.0', 'window^1.438230351715391']
+-----------------------------------------------------------------
+ID= 33dp54MBujO1U3soNP4U SCORE=8.867617
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002226
+TEXT: Hello,
+I want a little network for 3 users. All us
+-----------------------------------------------------------------
+ID= ZHdp54MBujO1U3soNP4T SCORE=8.751202
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002028
+TEXT: Sometimes when I boot up windows 3.1, after the wi
+-----------------------------------------------------------------
+ID= PHdp54MBujO1U3soMP6_ SCORE=8.68136
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002077
+TEXT: I don't know much about computers, so please bear 
+-----------------------------------------------------------------
+ID= rXdp54MBujO1U3soIuQK SCORE=8.279485
+PATH= 20_newsgroups/comp.graphics/0001507
+TEXT: Pascal Perret, in article <1993Apr21.125750.263@ei
+-----------------------------------------------------------------
+ID= GXdp54MBujO1U3soNP8U SCORE=8.2558975
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002656
+TEXT: wlieftin@cs.vu.nl (Liefting W) writes:
+: Hello all
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 1
+Dictionary for the original query: {'computer': 2.0, 'windows': 2.0, 'window': 1.438230351715391}
+New query:['window^4.865441247547098', 'computer^4.0', 'windows^4.0']
+-----------------------------------------------------------------
+ID= 33dp54MBujO1U3soNP4U SCORE=32.913208
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002226
+TEXT: Hello,
+I want a little network for 3 users. All us
+-----------------------------------------------------------------
+ID= ZHdp54MBujO1U3soNP4T SCORE=32.87298
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002028
+TEXT: Sometimes when I boot up windows 3.1, after the wi
+-----------------------------------------------------------------
+ID= PHdp54MBujO1U3soMP6_ SCORE=32.680367
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002077
+TEXT: I don't know much about computers, so please bear 
+-----------------------------------------------------------------
+ID= 5Hhp54MBujO1U3soOw5s SCORE=31.229012
+PATH= 20_newsgroups/comp.windows.x/0005117
+TEXT: I have a peculiar color problem with MacX, Apple's
+-----------------------------------------------------------------
+ID= G3dp54MBujO1U3soMP2_ SCORE=31.147919
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002229
+TEXT: Hi:
+On the 1024x768x256 mode, the font sizes of Wi
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 2
+Dictionary for the original query: {'window': 4.865441247547098, 'computer': 4.0, 'windows': 4.0}
+New query:['window^11.719863039210512', 'computer^8.0', 'windows^8.0']
+-----------------------------------------------------------------
+ID= ZHdp54MBujO1U3soNP4T SCORE=90.27068
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002028
+TEXT: Sometimes when I boot up windows 3.1, after the wi
+-----------------------------------------------------------------
+ID= PHdp54MBujO1U3soMP6_ SCORE=89.85593
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002077
+TEXT: I don't know much about computers, so please bear 
+-----------------------------------------------------------------
+ID= 33dp54MBujO1U3soNP4U SCORE=89.7312
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002226
+TEXT: Hello,
+I want a little network for 3 users. All us
+-----------------------------------------------------------------
+ID= 5Hhp54MBujO1U3soOw5s SCORE=87.1342
+PATH= 20_newsgroups/comp.windows.x/0005117
+TEXT: I have a peculiar color problem with MacX, Apple's
+-----------------------------------------------------------------
+ID= iXhp54MBujO1U3soOw5s SCORE=86.64717
+PATH= 20_newsgroups/comp.windows.x/0005361
+TEXT: Hi there netters,
+I require a window to appear at 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 3
+Dictionary for the original query: {'window': 11.719863039210512, 'computer': 8.0, 'windows': 8.0}
+New query:['window^25.42870662253734', 'computer^16.0', 'windows^16.0']
+-----------------------------------------------------------------
+ID= ZHdp54MBujO1U3soNP4T SCORE=214.22026
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002028
+TEXT: Sometimes when I boot up windows 3.1, after the wi
+-----------------------------------------------------------------
+ID= PHdp54MBujO1U3soMP6_ SCORE=213.38461
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002077
+TEXT: I don't know much about computers, so please bear 
+-----------------------------------------------------------------
+ID= 33dp54MBujO1U3soNP4U SCORE=212.09402
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002226
+TEXT: Hello,
+I want a little network for 3 users. All us
+-----------------------------------------------------------------
+ID= 5Hhp54MBujO1U3soOw5s SCORE=208.57066
+PATH= 20_newsgroups/comp.windows.x/0005117
+TEXT: I have a peculiar color problem with MacX, Apple's
+-----------------------------------------------------------------
+ID= iXhp54MBujO1U3soOw5s SCORE=207.45227
+PATH= 20_newsgroups/comp.windows.x/0005361
+TEXT: Hi there netters,
+I require a window to appear at 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 4
+Dictionary for the original query: {'window': 25.42870662253734, 'computer': 16.0, 'windows': 16.0}
+New query:['window^52.846393789191', 'computer^32.0', 'windows^32.0']
+-----------------------------------------------------------------
+ID= ZHdp54MBujO1U3soNP4T SCORE=471.2736
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002028
+TEXT: Sometimes when I boot up windows 3.1, after the wi
+-----------------------------------------------------------------
+ID= PHdp54MBujO1U3soMP6_ SCORE=469.61954
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002077
+TEXT: I don't know much about computers, so please bear 
+-----------------------------------------------------------------
+ID= 33dp54MBujO1U3soNP4U SCORE=465.54648
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002226
+TEXT: Hello,
+I want a little network for 3 users. All us
+-----------------------------------------------------------------
+ID= 5Hhp54MBujO1U3soOw5s SCORE=461.0697
+PATH= 20_newsgroups/comp.windows.x/0005117
+TEXT: I have a peculiar color problem with MacX, Apple's
+-----------------------------------------------------------------
+ID= iXhp54MBujO1U3soOw5s SCORE=458.65567
+PATH= 20_newsgroups/comp.windows.x/0005361
+TEXT: Hi there netters,
+I require a window to appear at 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+293 Documents

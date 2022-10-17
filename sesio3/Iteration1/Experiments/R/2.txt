@@ -1,0 +1,142 @@
+Original query: ['computer', 'windows']
+Iteration: 0
+Dictionary for the original query: {'computer': 1.0, 'windows': 1.0}
+New query:['window^1.3845835088776115', 'comput^1.0503453787026895', 'computer^0.6', 'windows^0.6', 'x^0.5820682392873677']
+-----------------------------------------------------------------
+ID= 33dp54MBujO1U3soNP4U SCORE=8.867617
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002226
+TEXT: Hello,
+I want a little network for 3 users. All us
+-----------------------------------------------------------------
+ID= ZHdp54MBujO1U3soNP4T SCORE=8.751202
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002028
+TEXT: Sometimes when I boot up windows 3.1, after the wi
+-----------------------------------------------------------------
+ID= PHdp54MBujO1U3soMP6_ SCORE=8.68136
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002077
+TEXT: I don't know much about computers, so please bear 
+-----------------------------------------------------------------
+ID= rXdp54MBujO1U3soIuQK SCORE=8.279485
+PATH= 20_newsgroups/comp.graphics/0001507
+TEXT: Pascal Perret, in article <1993Apr21.125750.263@ei
+-----------------------------------------------------------------
+ID= GXdp54MBujO1U3soNP8U SCORE=8.2558975
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002656
+TEXT: wlieftin@cs.vu.nl (Liefting W) writes:
+: Hello all
+-----------------------------------------------------------------
+ID= vXhp54MBujO1U3soRiBQ SCORE=8.157447
+PATH= 20_newsgroups/sci.crypt/0011355
+TEXT: In article <ygoland.735123994@wright> 
+(The Jester
+-----------------------------------------------------------------
+ID= G3dp54MBujO1U3soMP2_ SCORE=8.151908
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002229
+TEXT: Hi:
+On the 1024x768x256 mode, the font sizes of Wi
+-----------------------------------------------------------------
+ID= 5Hhp54MBujO1U3soOw5s SCORE=8.089462
+PATH= 20_newsgroups/comp.windows.x/0005117
+TEXT: I have a peculiar color problem with MacX, Apple's
+-----------------------------------------------------------------
+ID= lndp54MBujO1U3soMPy- SCORE=8.063556
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002349
+TEXT: In <14957@news.duke.edu> kdb@sunbar.mc.duke.edu (K
+-----------------------------------------------------------------
+ID= ZXdp54MBujO1U3soMP2_ SCORE=8.056592
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002881
+TEXT: Is there a 768x1024 Trident driver for windows any
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 1
+Dictionary for the original query: {'window': 1.3845835088776115, 'comput': 1.0503453787026895, 'computer': 0.6, 'windows': 0.6, 'x': 0.5820682392873677}
+New query:['window^2.4486007079581107', 'x^1.3783396353686903', 'comput^1.3300067660153894', 'nt^0.5263898090053903', 'xhibit^0.48403363415286443']
+-----------------------------------------------------------------
+ID= rXdp54MBujO1U3soIuQK SCORE=25.918766
+PATH= 20_newsgroups/comp.graphics/0001507
+TEXT: Pascal Perret, in article <1993Apr21.125750.263@ei
+-----------------------------------------------------------------
+ID= G3dp54MBujO1U3soMP2_ SCORE=25.477942
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002229
+TEXT: Hi:
+On the 1024x768x256 mode, the font sizes of Wi
+-----------------------------------------------------------------
+ID= ZXdp54MBujO1U3soMP2_ SCORE=25.358145
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002881
+TEXT: Is there a 768x1024 Trident driver for windows any
+-----------------------------------------------------------------
+ID= 5Hhp54MBujO1U3soOw5s SCORE=24.845173
+PATH= 20_newsgroups/comp.windows.x/0005117
+TEXT: I have a peculiar color problem with MacX, Apple's
+-----------------------------------------------------------------
+ID= Z3hp54MBujO1U3soOg1j SCORE=24.596495
+PATH= 20_newsgroups/comp.windows.x/0005932
+TEXT: harden@skate.ics.com (Aub Harden) writes:
+>In arti
+-----------------------------------------------------------------
+ID= GXdp54MBujO1U3soNP8U SCORE=24.558592
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002656
+TEXT: wlieftin@cs.vu.nl (Liefting W) writes:
+: Hello all
+-----------------------------------------------------------------
+ID= Bndp54MBujO1U3soMP6_ SCORE=24.463657
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002925
+TEXT: I am not sure whether I am here in the right area,
+-----------------------------------------------------------------
+ID= aHhp54MBujO1U3soOg1j SCORE=24.032146
+PATH= 20_newsgroups/comp.windows.x/0005842
+TEXT: An application we *must* use requires upper-case i
+-----------------------------------------------------------------
+ID= NHhp54MBujO1U3soNAHo SCORE=24.020348
+PATH= 20_newsgroups/misc.forsale/0006215
+TEXT: Hi!
+I have several computer related books for sale
+-----------------------------------------------------------------
+ID= 3ndp54MBujO1U3soNP8U SCORE=23.863571
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002046
+TEXT: In article <1993Apr28.053700.12929@lugb.latrobe.ed
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 2
+Dictionary for the original query: {'window': 2.4486007079581107, 'x': 1.3783396353686903, 'comput': 1.3300067660153894, 'nt': 0.5263898090053903, 'xhibit': 0.48403363415286443}
+New query:['xhibit^6.098823790326091', 'nt^3.558771101597157', 'window^2.847324873649303', 'confer^2.449904255316358', 'x^2.0921843071898047']
+-----------------------------------------------------------------
+ID= Z3hp54MBujO1U3soOg1j SCORE=56.75225
+PATH= 20_newsgroups/comp.windows.x/0005932
+TEXT: harden@skate.ics.com (Aub Harden) writes:
+>In arti
+-----------------------------------------------------------------
+ID= Gnhp54MBujO1U3soOg1j SCORE=55.31154
+PATH= 20_newsgroups/comp.windows.x/0005929
+TEXT: In article <1993May14.191035.19271@vpbuild.vp.com>
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 3
+Dictionary for the original query: {'xhibit': 6.098823790326091, 'nt': 3.558771101597157, 'window': 2.847324873649303, 'confer': 2.449904255316358, 'x': 2.0921843071898047}
+New query:['xhibit^9.467697884030027', 'nt^5.378199877152217', 'confer^3.919846808506173', 'window^3.086559373064018', 'x^2.520491110282473']
+-----------------------------------------------------------------
+ID= Gnhp54MBujO1U3soOg1j SCORE=215.22528
+PATH= 20_newsgroups/comp.windows.x/0005929
+TEXT: In article <1993May14.191035.19271@vpbuild.vp.com>
+-----------------------------------------------------------------
+ID= Z3hp54MBujO1U3soOg1j SCORE=212.26126
+PATH= 20_newsgroups/comp.windows.x/0005932
+TEXT: harden@skate.ics.com (Aub Harden) writes:
+>In arti
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 4
+Dictionary for the original query: {'xhibit': 9.467697884030027, 'nt': 5.378199877152217, 'confer': 3.919846808506173, 'window': 3.086559373064018, 'x': 2.520491110282473}
+New query:['xhibit^11.489022340252388', 'nt^6.469857142485253', 'confer^4.801812340420062', 'window^3.2301000727128475', 'x^2.7774751921380743']
+-----------------------------------------------------------------
+ID= Gnhp54MBujO1U3soOg1j SCORE=454.46802
+PATH= 20_newsgroups/comp.windows.x/0005929
+TEXT: In article <1993May14.191035.19271@vpbuild.vp.com>
+-----------------------------------------------------------------
+ID= Z3hp54MBujO1U3soOg1j SCORE=444.49673
+PATH= 20_newsgroups/comp.windows.x/0005932
+TEXT: harden@skate.ics.com (Aub Harden) writes:
+>In arti
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+2 Documents

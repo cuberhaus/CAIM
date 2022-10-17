@@ -1,0 +1,248 @@
+Original query: ['computer', 'windows']
+Iteration: 0
+Dictionary for the original query: {'computer': 1.0, 'windows': 1.0}
+New query:['window^1.3845835088776115', 'comput^1.0503453787026895']
+-----------------------------------------------------------------
+ID= 33dp54MBujO1U3soNP4U SCORE=8.867617
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002226
+TEXT: Hello,
+I want a little network for 3 users. All us
+-----------------------------------------------------------------
+ID= ZHdp54MBujO1U3soNP4T SCORE=8.751202
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002028
+TEXT: Sometimes when I boot up windows 3.1, after the wi
+-----------------------------------------------------------------
+ID= PHdp54MBujO1U3soMP6_ SCORE=8.68136
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002077
+TEXT: I don't know much about computers, so please bear 
+-----------------------------------------------------------------
+ID= rXdp54MBujO1U3soIuQK SCORE=8.279485
+PATH= 20_newsgroups/comp.graphics/0001507
+TEXT: Pascal Perret, in article <1993Apr21.125750.263@ei
+-----------------------------------------------------------------
+ID= GXdp54MBujO1U3soNP8U SCORE=8.2558975
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002656
+TEXT: wlieftin@cs.vu.nl (Liefting W) writes:
+: Hello all
+-----------------------------------------------------------------
+ID= vXhp54MBujO1U3soRiBQ SCORE=8.157447
+PATH= 20_newsgroups/sci.crypt/0011355
+TEXT: In article <ygoland.735123994@wright> 
+(The Jester
+-----------------------------------------------------------------
+ID= G3dp54MBujO1U3soMP2_ SCORE=8.151908
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002229
+TEXT: Hi:
+On the 1024x768x256 mode, the font sizes of Wi
+-----------------------------------------------------------------
+ID= 5Hhp54MBujO1U3soOw5s SCORE=8.089462
+PATH= 20_newsgroups/comp.windows.x/0005117
+TEXT: I have a peculiar color problem with MacX, Apple's
+-----------------------------------------------------------------
+ID= lndp54MBujO1U3soMPy- SCORE=8.063556
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002349
+TEXT: In <14957@news.duke.edu> kdb@sunbar.mc.duke.edu (K
+-----------------------------------------------------------------
+ID= ZXdp54MBujO1U3soMP2_ SCORE=8.056592
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002881
+TEXT: Is there a 768x1024 Trident driver for windows any
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 1
+Dictionary for the original query: {'window': 1.3845835088776115, 'comput': 1.0503453787026895}
+New query:['window^2.2867939930347045', 'comput^1.5139565631953142']
+-----------------------------------------------------------------
+ID= 33dp54MBujO1U3soNP4U SCORE=19.648174
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002226
+TEXT: Hello,
+I want a little network for 3 users. All us
+-----------------------------------------------------------------
+ID= ZHdp54MBujO1U3soNP4T SCORE=19.481298
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002028
+TEXT: Sometimes when I boot up windows 3.1, after the wi
+-----------------------------------------------------------------
+ID= PHdp54MBujO1U3soMP6_ SCORE=19.34203
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002077
+TEXT: I don't know much about computers, so please bear 
+-----------------------------------------------------------------
+ID= rXdp54MBujO1U3soIuQK SCORE=18.379549
+PATH= 20_newsgroups/comp.graphics/0001507
+TEXT: Pascal Perret, in article <1993Apr21.125750.263@ei
+-----------------------------------------------------------------
+ID= GXdp54MBujO1U3soNP8U SCORE=18.362747
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002656
+TEXT: wlieftin@cs.vu.nl (Liefting W) writes:
+: Hello all
+-----------------------------------------------------------------
+ID= G3dp54MBujO1U3soMP2_ SCORE=18.26946
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002229
+TEXT: Hi:
+On the 1024x768x256 mode, the font sizes of Wi
+-----------------------------------------------------------------
+ID= 5Hhp54MBujO1U3soOw5s SCORE=18.203808
+PATH= 20_newsgroups/comp.windows.x/0005117
+TEXT: I have a peculiar color problem with MacX, Apple's
+-----------------------------------------------------------------
+ID= iXhp54MBujO1U3soOw5s SCORE=18.086193
+PATH= 20_newsgroups/comp.windows.x/0005361
+TEXT: Hi there netters,
+I require a window to appear at 
+-----------------------------------------------------------------
+ID= ZXdp54MBujO1U3soMP2_ SCORE=17.999594
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002881
+TEXT: Is there a 768x1024 Trident driver for windows any
+-----------------------------------------------------------------
+ID= vXhp54MBujO1U3soRiBQ SCORE=17.937218
+PATH= 20_newsgroups/sci.crypt/0011355
+TEXT: In article <ygoland.735123994@wright> 
+(The Jester
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 2
+Dictionary for the original query: {'window': 2.2867939930347045, 'comput': 1.5139565631953142}
+New query:['window^2.9889061358976448', 'comput^1.7053545016362075']
+-----------------------------------------------------------------
+ID= 33dp54MBujO1U3soNP4U SCORE=36.46425
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002226
+TEXT: Hello,
+I want a little network for 3 users. All us
+-----------------------------------------------------------------
+ID= ZHdp54MBujO1U3soNP4T SCORE=36.287174
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002028
+TEXT: Sometimes when I boot up windows 3.1, after the wi
+-----------------------------------------------------------------
+ID= PHdp54MBujO1U3soMP6_ SCORE=36.051258
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002077
+TEXT: I don't know much about computers, so please bear 
+-----------------------------------------------------------------
+ID= G3dp54MBujO1U3soMP2_ SCORE=34.207165
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002229
+TEXT: Hi:
+On the 1024x768x256 mode, the font sizes of Wi
+-----------------------------------------------------------------
+ID= 5Hhp54MBujO1U3soOw5s SCORE=34.19121
+PATH= 20_newsgroups/comp.windows.x/0005117
+TEXT: I have a peculiar color problem with MacX, Apple's
+-----------------------------------------------------------------
+ID= GXdp54MBujO1U3soNP8U SCORE=34.180584
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002656
+TEXT: wlieftin@cs.vu.nl (Liefting W) writes:
+: Hello all
+-----------------------------------------------------------------
+ID= rXdp54MBujO1U3soIuQK SCORE=34.16012
+PATH= 20_newsgroups/comp.graphics/0001507
+TEXT: Pascal Perret, in article <1993Apr21.125750.263@ei
+-----------------------------------------------------------------
+ID= iXhp54MBujO1U3soOw5s SCORE=33.978043
+PATH= 20_newsgroups/comp.windows.x/0005361
+TEXT: Hi there netters,
+I require a window to appear at 
+-----------------------------------------------------------------
+ID= ZXdp54MBujO1U3soMP2_ SCORE=33.620876
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002881
+TEXT: Is there a 768x1024 Trident driver for windows any
+-----------------------------------------------------------------
+ID= U3dp54MBujO1U3soL_yT SCORE=33.393993
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002842
+TEXT: In article <1r8anlINN60g@skeena.ucs.ubc.ca> ewoo@u
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 3
+Dictionary for the original query: {'window': 2.9889061358976448, 'comput': 1.7053545016362075}
+New query:['window^3.4101734216154087', 'comput^1.8201932647007433']
+-----------------------------------------------------------------
+ID= 33dp54MBujO1U3soNP4U SCORE=57.21837
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002226
+TEXT: Hello,
+I want a little network for 3 users. All us
+-----------------------------------------------------------------
+ID= ZHdp54MBujO1U3soNP4T SCORE=57.118546
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002028
+TEXT: Sometimes when I boot up windows 3.1, after the wi
+-----------------------------------------------------------------
+ID= PHdp54MBujO1U3soMP6_ SCORE=56.77862
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002077
+TEXT: I don't know much about computers, so please bear 
+-----------------------------------------------------------------
+ID= 5Hhp54MBujO1U3soOw5s SCORE=54.198635
+PATH= 20_newsgroups/comp.windows.x/0005117
+TEXT: I have a peculiar color problem with MacX, Apple's
+-----------------------------------------------------------------
+ID= G3dp54MBujO1U3soMP2_ SCORE=54.081516
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002229
+TEXT: Hi:
+On the 1024x768x256 mode, the font sizes of Wi
+-----------------------------------------------------------------
+ID= iXhp54MBujO1U3soOw5s SCORE=53.87099
+PATH= 20_newsgroups/comp.windows.x/0005361
+TEXT: Hi there netters,
+I require a window to appear at 
+-----------------------------------------------------------------
+ID= GXdp54MBujO1U3soNP8U SCORE=53.77173
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002656
+TEXT: wlieftin@cs.vu.nl (Liefting W) writes:
+: Hello all
+-----------------------------------------------------------------
+ID= rXdp54MBujO1U3soIuQK SCORE=53.67028
+PATH= 20_newsgroups/comp.graphics/0001507
+TEXT: Pascal Perret, in article <1993Apr21.125750.263@ei
+-----------------------------------------------------------------
+ID= ZXdp54MBujO1U3soMP2_ SCORE=53.04683
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002881
+TEXT: Is there a 768x1024 Trident driver for windows any
+-----------------------------------------------------------------
+ID= U3dp54MBujO1U3soL_yT SCORE=52.822334
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002842
+TEXT: In article <1r8anlINN60g@skeena.ucs.ubc.ca> ewoo@u
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 4
+Dictionary for the original query: {'window': 3.4101734216154087, 'comput': 1.8201932647007433}
+New query:['window^3.6629337930460673', 'comput^1.889096522539465']
+-----------------------------------------------------------------
+ID= ZHdp54MBujO1U3soNP4T SCORE=80.36522
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002028
+TEXT: Sometimes when I boot up windows 3.1, after the wi
+-----------------------------------------------------------------
+ID= 33dp54MBujO1U3soNP4U SCORE=80.33532
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002226
+TEXT: Hello,
+I want a little network for 3 users. All us
+-----------------------------------------------------------------
+ID= PHdp54MBujO1U3soMP6_ SCORE=79.91686
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002077
+TEXT: I don't know much about computers, so please bear 
+-----------------------------------------------------------------
+ID= 5Hhp54MBujO1U3soOw5s SCORE=76.618065
+PATH= 20_newsgroups/comp.windows.x/0005117
+TEXT: I have a peculiar color problem with MacX, Apple's
+-----------------------------------------------------------------
+ID= G3dp54MBujO1U3soMP2_ SCORE=76.31786
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002229
+TEXT: Hi:
+On the 1024x768x256 mode, the font sizes of Wi
+-----------------------------------------------------------------
+ID= iXhp54MBujO1U3soOw5s SCORE=76.164604
+PATH= 20_newsgroups/comp.windows.x/0005361
+TEXT: Hi there netters,
+I require a window to appear at 
+-----------------------------------------------------------------
+ID= GXdp54MBujO1U3soNP8U SCORE=75.626854
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002656
+TEXT: wlieftin@cs.vu.nl (Liefting W) writes:
+: Hello all
+-----------------------------------------------------------------
+ID= rXdp54MBujO1U3soIuQK SCORE=75.4182
+PATH= 20_newsgroups/comp.graphics/0001507
+TEXT: Pascal Perret, in article <1993Apr21.125750.263@ei
+-----------------------------------------------------------------
+ID= ZXdp54MBujO1U3soMP2_ SCORE=74.755585
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002881
+TEXT: Is there a 768x1024 Trident driver for windows any
+-----------------------------------------------------------------
+ID= U3dp54MBujO1U3soL_yT SCORE=74.56601
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002842
+TEXT: In article <1r8anlINN60g@skeena.ucs.ubc.ca> ewoo@u
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+293 Documents

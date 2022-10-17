@@ -1,0 +1,459 @@
+Original query: ['computer', 'windows']
+Iteration: 0
+Dictionary for the original query: {'computer': 1.0, 'windows': 1.0}
+New query:['window^1.4167638807730463', 'comput^0.952901418103947', 'computer^0.6']
+-----------------------------------------------------------------
+ID= 33dp54MBujO1U3soNP4U SCORE=8.867617
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002226
+TEXT: Hello,
+I want a little network for 3 users. All us
+-----------------------------------------------------------------
+ID= ZHdp54MBujO1U3soNP4T SCORE=8.751202
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002028
+TEXT: Sometimes when I boot up windows 3.1, after the wi
+-----------------------------------------------------------------
+ID= PHdp54MBujO1U3soMP6_ SCORE=8.68136
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002077
+TEXT: I don't know much about computers, so please bear 
+-----------------------------------------------------------------
+ID= rXdp54MBujO1U3soIuQK SCORE=8.279485
+PATH= 20_newsgroups/comp.graphics/0001507
+TEXT: Pascal Perret, in article <1993Apr21.125750.263@ei
+-----------------------------------------------------------------
+ID= GXdp54MBujO1U3soNP8U SCORE=8.2558975
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002656
+TEXT: wlieftin@cs.vu.nl (Liefting W) writes:
+: Hello all
+-----------------------------------------------------------------
+ID= vXhp54MBujO1U3soRiBQ SCORE=8.157447
+PATH= 20_newsgroups/sci.crypt/0011355
+TEXT: In article <ygoland.735123994@wright> 
+(The Jester
+-----------------------------------------------------------------
+ID= G3dp54MBujO1U3soMP2_ SCORE=8.151908
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002229
+TEXT: Hi:
+On the 1024x768x256 mode, the font sizes of Wi
+-----------------------------------------------------------------
+ID= 5Hhp54MBujO1U3soOw5s SCORE=8.089462
+PATH= 20_newsgroups/comp.windows.x/0005117
+TEXT: I have a peculiar color problem with MacX, Apple's
+-----------------------------------------------------------------
+ID= lndp54MBujO1U3soMPy- SCORE=8.063556
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002349
+TEXT: In <14957@news.duke.edu> kdb@sunbar.mc.duke.edu (K
+-----------------------------------------------------------------
+ID= ZXdp54MBujO1U3soMP2_ SCORE=8.056592
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002881
+TEXT: Is there a 768x1024 Trident driver for windows any
+-----------------------------------------------------------------
+ID= iXhp54MBujO1U3soOw5s SCORE=8.034799
+PATH= 20_newsgroups/comp.windows.x/0005361
+TEXT: Hi there netters,
+I require a window to appear at 
+-----------------------------------------------------------------
+ID= U3dp54MBujO1U3soGdm- SCORE=7.9761343
+PATH= 20_newsgroups/comp.sys.ibm.pc.hardware/0003312
+TEXT:   I saw the following computer in a store and want
+-----------------------------------------------------------------
+ID= U3dp54MBujO1U3soL_yT SCORE=7.9472275
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002842
+TEXT: In article <1r8anlINN60g@skeena.ucs.ubc.ca> ewoo@u
+-----------------------------------------------------------------
+ID= 3ndp54MBujO1U3soNP8U SCORE=7.888296
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002046
+TEXT: In article <1993Apr28.053700.12929@lugb.latrobe.ed
+-----------------------------------------------------------------
+ID= Z3hp54MBujO1U3soOg1j SCORE=7.8588195
+PATH= 20_newsgroups/comp.windows.x/0005932
+TEXT: harden@skate.ics.com (Aub Harden) writes:
+>In arti
+-----------------------------------------------------------------
+ID= bXdp54MBujO1U3soMPy- SCORE=7.8366356
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002145
+TEXT: In article <1993Apr30.172938.6386@samba.oit.unc.ed
+-----------------------------------------------------------------
+ID= PHdp54MBujO1U3soMP2_ SCORE=7.832814
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002314
+TEXT: In article <C71C1K.2yK@news.rich.bnr.ca> bjgrier@b
+-----------------------------------------------------------------
+ID= Bndp54MBujO1U3soMP6_ SCORE=7.8172917
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002925
+TEXT: I am not sure whether I am here in the right area,
+-----------------------------------------------------------------
+ID= vXhp54MBujO1U3soNQO0 SCORE=7.7980585
+PATH= 20_newsgroups/misc.forsale/0006312
+TEXT: GATEWAY Telepath 9600/9600 FAx/modem for gateway c
+-----------------------------------------------------------------
+ID= NHhp54MBujO1U3soNAHo SCORE=7.7966914
+PATH= 20_newsgroups/misc.forsale/0006215
+TEXT: Hi!
+I have several computer related books for sale
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 1
+Dictionary for the original query: {'window': 1.4167638807730463, 'comput': 0.952901418103947, 'computer': 0.6}
+New query:['window^2.266822209236874', 'comput^1.524642268966315', 'x^0.498148857598542']
+-----------------------------------------------------------------
+ID= 33dp54MBujO1U3soNP4U SCORE=22.040836
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002226
+TEXT: Hello,
+I want a little network for 3 users. All us
+-----------------------------------------------------------------
+ID= ZHdp54MBujO1U3soNP4T SCORE=21.714392
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002028
+TEXT: Sometimes when I boot up windows 3.1, after the wi
+-----------------------------------------------------------------
+ID= PHdp54MBujO1U3soMP6_ SCORE=21.534492
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002077
+TEXT: I don't know much about computers, so please bear 
+-----------------------------------------------------------------
+ID= rXdp54MBujO1U3soIuQK SCORE=20.564953
+PATH= 20_newsgroups/comp.graphics/0001507
+TEXT: Pascal Perret, in article <1993Apr21.125750.263@ei
+-----------------------------------------------------------------
+ID= GXdp54MBujO1U3soNP8U SCORE=20.49188
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002656
+TEXT: wlieftin@cs.vu.nl (Liefting W) writes:
+: Hello all
+-----------------------------------------------------------------
+ID= vXhp54MBujO1U3soRiBQ SCORE=20.33165
+PATH= 20_newsgroups/sci.crypt/0011355
+TEXT: In article <ygoland.735123994@wright> 
+(The Jester
+-----------------------------------------------------------------
+ID= G3dp54MBujO1U3soMP2_ SCORE=20.177559
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002229
+TEXT: Hi:
+On the 1024x768x256 mode, the font sizes of Wi
+-----------------------------------------------------------------
+ID= lndp54MBujO1U3soMPy- SCORE=20.056139
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002349
+TEXT: In <14957@news.duke.edu> kdb@sunbar.mc.duke.edu (K
+-----------------------------------------------------------------
+ID= 5Hhp54MBujO1U3soOw5s SCORE=19.992733
+PATH= 20_newsgroups/comp.windows.x/0005117
+TEXT: I have a peculiar color problem with MacX, Apple's
+-----------------------------------------------------------------
+ID= ZXdp54MBujO1U3soMP2_ SCORE=19.964544
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002881
+TEXT: Is there a 768x1024 Trident driver for windows any
+-----------------------------------------------------------------
+ID= U3dp54MBujO1U3soGdm- SCORE=19.87341
+PATH= 20_newsgroups/comp.sys.ibm.pc.hardware/0003312
+TEXT:   I saw the following computer in a store and want
+-----------------------------------------------------------------
+ID= iXhp54MBujO1U3soOw5s SCORE=19.855434
+PATH= 20_newsgroups/comp.windows.x/0005361
+TEXT: Hi there netters,
+I require a window to appear at 
+-----------------------------------------------------------------
+ID= U3dp54MBujO1U3soL_yT SCORE=19.665316
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002842
+TEXT: In article <1r8anlINN60g@skeena.ucs.ubc.ca> ewoo@u
+-----------------------------------------------------------------
+ID= 3ndp54MBujO1U3soNP8U SCORE=19.564528
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002046
+TEXT: In article <1993Apr28.053700.12929@lugb.latrobe.ed
+-----------------------------------------------------------------
+ID= PHdp54MBujO1U3soMP2_ SCORE=19.471552
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002314
+TEXT: In article <C71C1K.2yK@news.rich.bnr.ca> bjgrier@b
+-----------------------------------------------------------------
+ID= bXdp54MBujO1U3soMPy- SCORE=19.464985
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002145
+TEXT: In article <1993Apr30.172938.6386@samba.oit.unc.ed
+-----------------------------------------------------------------
+ID= Z3hp54MBujO1U3soOg1j SCORE=19.456001
+PATH= 20_newsgroups/comp.windows.x/0005932
+TEXT: harden@skate.ics.com (Aub Harden) writes:
+>In arti
+-----------------------------------------------------------------
+ID= vXhp54MBujO1U3soNQO0 SCORE=19.369164
+PATH= 20_newsgroups/misc.forsale/0006312
+TEXT: GATEWAY Telepath 9600/9600 FAx/modem for gateway c
+-----------------------------------------------------------------
+ID= Bndp54MBujO1U3soMP6_ SCORE=19.340275
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002925
+TEXT: I am not sure whether I am here in the right area,
+-----------------------------------------------------------------
+ID= NHhp54MBujO1U3soNAHo SCORE=19.316063
+PATH= 20_newsgroups/misc.forsale/0006215
+TEXT: Hi!
+I have several computer related books for sale
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 2
+Dictionary for the original query: {'window': 2.266822209236874, 'comput': 1.524642268966315, 'x': 0.498148857598542}
+New query:['window^2.7985505356030096', 'comput^1.5725480375343952', 'x^1.3491116635696976']
+-----------------------------------------------------------------
+ID= rXdp54MBujO1U3soIuQK SCORE=38.506016
+PATH= 20_newsgroups/comp.graphics/0001507
+TEXT: Pascal Perret, in article <1993Apr21.125750.263@ei
+-----------------------------------------------------------------
+ID= G3dp54MBujO1U3soMP2_ SCORE=38.042953
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002229
+TEXT: Hi:
+On the 1024x768x256 mode, the font sizes of Wi
+-----------------------------------------------------------------
+ID= ZXdp54MBujO1U3soMP2_ SCORE=37.696712
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002881
+TEXT: Is there a 768x1024 Trident driver for windows any
+-----------------------------------------------------------------
+ID= 5Hhp54MBujO1U3soOw5s SCORE=37.448154
+PATH= 20_newsgroups/comp.windows.x/0005117
+TEXT: I have a peculiar color problem with MacX, Apple's
+-----------------------------------------------------------------
+ID= GXdp54MBujO1U3soNP8U SCORE=37.329483
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002656
+TEXT: wlieftin@cs.vu.nl (Liefting W) writes:
+: Hello all
+-----------------------------------------------------------------
+ID= Z3hp54MBujO1U3soOg1j SCORE=36.695618
+PATH= 20_newsgroups/comp.windows.x/0005932
+TEXT: harden@skate.ics.com (Aub Harden) writes:
+>In arti
+-----------------------------------------------------------------
+ID= Bndp54MBujO1U3soMP6_ SCORE=36.529625
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002925
+TEXT: I am not sure whether I am here in the right area,
+-----------------------------------------------------------------
+ID= NHhp54MBujO1U3soNAHo SCORE=36.046253
+PATH= 20_newsgroups/misc.forsale/0006215
+TEXT: Hi!
+I have several computer related books for sale
+-----------------------------------------------------------------
+ID= 3ndp54MBujO1U3soNP8U SCORE=36.043488
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002046
+TEXT: In article <1993Apr28.053700.12929@lugb.latrobe.ed
+-----------------------------------------------------------------
+ID= aHhp54MBujO1U3soOg1j SCORE=35.93822
+PATH= 20_newsgroups/comp.windows.x/0005842
+TEXT: An application we *must* use requires upper-case i
+-----------------------------------------------------------------
+ID= U3dp54MBujO1U3soGdm- SCORE=35.924137
+PATH= 20_newsgroups/comp.sys.ibm.pc.hardware/0003312
+TEXT:   I saw the following computer in a store and want
+-----------------------------------------------------------------
+ID= Gnhp54MBujO1U3soOg1j SCORE=34.887897
+PATH= 20_newsgroups/comp.windows.x/0005929
+TEXT: In article <1993May14.191035.19271@vpbuild.vp.com>
+-----------------------------------------------------------------
+ID= DHhp54MBujO1U3soOw9s SCORE=34.85515
+PATH= 20_newsgroups/comp.windows.x/0005292
+TEXT: Hi,
+  Please reply to me direct as I am not a memb
+-----------------------------------------------------------------
+ID= B3hp54MBujO1U3soOQxM SCORE=34.84277
+PATH= 20_newsgroups/comp.windows.x/0005821
+TEXT: >markw@pspmf3.gpsemi.com (Mark Wilkinson - Ext 344
+-----------------------------------------------------------------
+ID= KXhp54MBujO1U3soOw5s SCORE=34.5621
+PATH= 20_newsgroups/comp.windows.x/0005584
+TEXT: >	I am looking for information on any work that de
+-----------------------------------------------------------------
+ID= 2ndp54MBujO1U3soGdm_ SCORE=34.268803
+PATH= 20_newsgroups/comp.sys.ibm.pc.hardware/0003316
+TEXT: In article <1993Apr18.023428.17605@cronkite.ocis.t
+-----------------------------------------------------------------
+ID= 1Hdp54MBujO1U3soNP4U SCORE=33.486763
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002628
+TEXT: HHHHEEEELLLLPPPP Meeeeeee!
+	I installed a 256 colo
+-----------------------------------------------------------------
+ID= uHhp54MBujO1U3soOw5s SCORE=33.168346
+PATH= 20_newsgroups/comp.windows.x/0005872
+TEXT: From:  DENNIS L. HART                       Date: 
+-----------------------------------------------------------------
+ID= sndp54MBujO1U3soHNvK SCORE=33.116814
+PATH= 20_newsgroups/comp.sys.ibm.pc.hardware/0003431
+TEXT: In article <1993Apr19.144814.17736@aio.jsc.nasa.go
+-----------------------------------------------------------------
+ID= p3hp54MBujO1U3soOgxj SCORE=32.971977
+PATH= 20_newsgroups/comp.windows.x/0005199
+TEXT: >I think you may find that either Quarterdeck (Des
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 3
+Dictionary for the original query: {'window': 2.7985505356030096, 'comput': 1.5725480375343952, 'x': 1.3491116635696976}
+New query:['window^3.117587531422691', 'x^1.8596893471523914', 'comput^1.6012914986752433']
+-----------------------------------------------------------------
+ID= rXdp54MBujO1U3soIuQK SCORE=62.635174
+PATH= 20_newsgroups/comp.graphics/0001507
+TEXT: Pascal Perret, in article <1993Apr21.125750.263@ei
+-----------------------------------------------------------------
+ID= G3dp54MBujO1U3soMP2_ SCORE=61.937996
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002229
+TEXT: Hi:
+On the 1024x768x256 mode, the font sizes of Wi
+-----------------------------------------------------------------
+ID= ZXdp54MBujO1U3soMP2_ SCORE=61.649216
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002881
+TEXT: Is there a 768x1024 Trident driver for windows any
+-----------------------------------------------------------------
+ID= 5Hhp54MBujO1U3soOw5s SCORE=60.246204
+PATH= 20_newsgroups/comp.windows.x/0005117
+TEXT: I have a peculiar color problem with MacX, Apple's
+-----------------------------------------------------------------
+ID= Z3hp54MBujO1U3soOg1j SCORE=59.798775
+PATH= 20_newsgroups/comp.windows.x/0005932
+TEXT: harden@skate.ics.com (Aub Harden) writes:
+>In arti
+-----------------------------------------------------------------
+ID= Bndp54MBujO1U3soMP6_ SCORE=59.546886
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002925
+TEXT: I am not sure whether I am here in the right area,
+-----------------------------------------------------------------
+ID= aHhp54MBujO1U3soOg1j SCORE=58.621548
+PATH= 20_newsgroups/comp.windows.x/0005842
+TEXT: An application we *must* use requires upper-case i
+-----------------------------------------------------------------
+ID= GXdp54MBujO1U3soNP8U SCORE=58.456463
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002656
+TEXT: wlieftin@cs.vu.nl (Liefting W) writes:
+: Hello all
+-----------------------------------------------------------------
+ID= B3hp54MBujO1U3soOQxM SCORE=58.30654
+PATH= 20_newsgroups/comp.windows.x/0005821
+TEXT: >markw@pspmf3.gpsemi.com (Mark Wilkinson - Ext 344
+-----------------------------------------------------------------
+ID= NHhp54MBujO1U3soNAHo SCORE=58.036087
+PATH= 20_newsgroups/misc.forsale/0006215
+TEXT: Hi!
+I have several computer related books for sale
+-----------------------------------------------------------------
+ID= DHhp54MBujO1U3soOw9s SCORE=57.49739
+PATH= 20_newsgroups/comp.windows.x/0005292
+TEXT: Hi,
+  Please reply to me direct as I am not a memb
+-----------------------------------------------------------------
+ID= Gnhp54MBujO1U3soOg1j SCORE=57.39381
+PATH= 20_newsgroups/comp.windows.x/0005929
+TEXT: In article <1993May14.191035.19271@vpbuild.vp.com>
+-----------------------------------------------------------------
+ID= 3ndp54MBujO1U3soNP8U SCORE=57.20285
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002046
+TEXT: In article <1993Apr28.053700.12929@lugb.latrobe.ed
+-----------------------------------------------------------------
+ID= KXhp54MBujO1U3soOw5s SCORE=56.4078
+PATH= 20_newsgroups/comp.windows.x/0005584
+TEXT: >	I am looking for information on any work that de
+-----------------------------------------------------------------
+ID= U3dp54MBujO1U3soGdm- SCORE=56.186615
+PATH= 20_newsgroups/comp.sys.ibm.pc.hardware/0003312
+TEXT:   I saw the following computer in a store and want
+-----------------------------------------------------------------
+ID= sndp54MBujO1U3soHNvK SCORE=55.374268
+PATH= 20_newsgroups/comp.sys.ibm.pc.hardware/0003431
+TEXT: In article <1993Apr19.144814.17736@aio.jsc.nasa.go
+-----------------------------------------------------------------
+ID= uHhp54MBujO1U3soOw5s SCORE=55.147163
+PATH= 20_newsgroups/comp.windows.x/0005872
+TEXT: From:  DENNIS L. HART                       Date: 
+-----------------------------------------------------------------
+ID= 1Hdp54MBujO1U3soNP4U SCORE=53.877083
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002628
+TEXT: HHHHEEEELLLLPPPP Meeeeeee!
+	I installed a 256 colo
+-----------------------------------------------------------------
+ID= 2ndp54MBujO1U3soGdm_ SCORE=53.544094
+PATH= 20_newsgroups/comp.sys.ibm.pc.hardware/0003316
+TEXT: In article <1993Apr18.023428.17605@cronkite.ocis.t
+-----------------------------------------------------------------
+ID= p3hp54MBujO1U3soOgxj SCORE=53.07629
+PATH= 20_newsgroups/comp.windows.x/0005199
+TEXT: >I think you may find that either Quarterdeck (Des
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 4
+Dictionary for the original query: {'window': 3.117587531422691, 'x': 1.8596893471523914, 'comput': 1.6012914986752433}
+New query:['window^3.3345312927825446', 'x^2.1847793725015423', 'comput^1.5937464975727003']
+-----------------------------------------------------------------
+ID= rXdp54MBujO1U3soIuQK SCORE=90.47718
+PATH= 20_newsgroups/comp.graphics/0001507
+TEXT: Pascal Perret, in article <1993Apr21.125750.263@ei
+-----------------------------------------------------------------
+ID= G3dp54MBujO1U3soMP2_ SCORE=89.45082
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002229
+TEXT: Hi:
+On the 1024x768x256 mode, the font sizes of Wi
+-----------------------------------------------------------------
+ID= ZXdp54MBujO1U3soMP2_ SCORE=89.333916
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002881
+TEXT: Is there a 768x1024 Trident driver for windows any
+-----------------------------------------------------------------
+ID= Z3hp54MBujO1U3soOg1j SCORE=86.42005
+PATH= 20_newsgroups/comp.windows.x/0005932
+TEXT: harden@skate.ics.com (Aub Harden) writes:
+>In arti
+-----------------------------------------------------------------
+ID= 5Hhp54MBujO1U3soOw5s SCORE=86.249825
+PATH= 20_newsgroups/comp.windows.x/0005117
+TEXT: I have a peculiar color problem with MacX, Apple's
+-----------------------------------------------------------------
+ID= Bndp54MBujO1U3soMP6_ SCORE=86.06089
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002925
+TEXT: I am not sure whether I am here in the right area,
+-----------------------------------------------------------------
+ID= B3hp54MBujO1U3soOQxM SCORE=85.67645
+PATH= 20_newsgroups/comp.windows.x/0005821
+TEXT: >markw@pspmf3.gpsemi.com (Mark Wilkinson - Ext 344
+-----------------------------------------------------------------
+ID= aHhp54MBujO1U3soOg1j SCORE=84.738625
+PATH= 20_newsgroups/comp.windows.x/0005842
+TEXT: An application we *must* use requires upper-case i
+-----------------------------------------------------------------
+ID= DHhp54MBujO1U3soOw9s SCORE=83.76838
+PATH= 20_newsgroups/comp.windows.x/0005292
+TEXT: Hi,
+  Please reply to me direct as I am not a memb
+-----------------------------------------------------------------
+ID= Gnhp54MBujO1U3soOg1j SCORE=83.471054
+PATH= 20_newsgroups/comp.windows.x/0005929
+TEXT: In article <1993May14.191035.19271@vpbuild.vp.com>
+-----------------------------------------------------------------
+ID= NHhp54MBujO1U3soNAHo SCORE=83.18171
+PATH= 20_newsgroups/misc.forsale/0006215
+TEXT: Hi!
+I have several computer related books for sale
+-----------------------------------------------------------------
+ID= GXdp54MBujO1U3soNP8U SCORE=82.15706
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002656
+TEXT: wlieftin@cs.vu.nl (Liefting W) writes:
+: Hello all
+-----------------------------------------------------------------
+ID= KXhp54MBujO1U3soOw5s SCORE=81.6125
+PATH= 20_newsgroups/comp.windows.x/0005584
+TEXT: >	I am looking for information on any work that de
+-----------------------------------------------------------------
+ID= sndp54MBujO1U3soHNvK SCORE=81.377975
+PATH= 20_newsgroups/comp.sys.ibm.pc.hardware/0003431
+TEXT: In article <1993Apr19.144814.17736@aio.jsc.nasa.go
+-----------------------------------------------------------------
+ID= 3ndp54MBujO1U3soNP8U SCORE=81.170456
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002046
+TEXT: In article <1993Apr28.053700.12929@lugb.latrobe.ed
+-----------------------------------------------------------------
+ID= uHhp54MBujO1U3soOw5s SCORE=80.70928
+PATH= 20_newsgroups/comp.windows.x/0005872
+TEXT: From:  DENNIS L. HART                       Date: 
+-----------------------------------------------------------------
+ID= U3dp54MBujO1U3soGdm- SCORE=78.97614
+PATH= 20_newsgroups/comp.sys.ibm.pc.hardware/0003312
+TEXT:   I saw the following computer in a store and want
+-----------------------------------------------------------------
+ID= 1Hdp54MBujO1U3soNP4U SCORE=77.13997
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002628
+TEXT: HHHHEEEELLLLPPPP Meeeeeee!
+	I installed a 256 colo
+-----------------------------------------------------------------
+ID= p3hp54MBujO1U3soOgxj SCORE=76.051605
+PATH= 20_newsgroups/comp.windows.x/0005199
+TEXT: >I think you may find that either Quarterdeck (Des
+-----------------------------------------------------------------
+ID= Rnhp54MBujO1U3soOgxj SCORE=75.37522
+PATH= 20_newsgroups/comp.windows.x/0005921
+TEXT: I've built xcoral on my system (SunOS 4.1.3, X11R5
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+131 Documents

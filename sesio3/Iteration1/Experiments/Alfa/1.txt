@@ -1,0 +1,86 @@
+Original query: ['computer', 'windows']
+Iteration: 0
+Dictionary for the original query: {'computer': 1.0, 'windows': 1.0}
+New query:['window^1.438230351715391', 'comput^1.1793541408676733', 'dos^0.7745101459875594']
+-----------------------------------------------------------------
+ID= 33dp54MBujO1U3soNP4U SCORE=8.867617
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002226
+TEXT: Hello,
+I want a little network for 3 users. All us
+-----------------------------------------------------------------
+ID= ZHdp54MBujO1U3soNP4T SCORE=8.751202
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002028
+TEXT: Sometimes when I boot up windows 3.1, after the wi
+-----------------------------------------------------------------
+ID= PHdp54MBujO1U3soMP6_ SCORE=8.68136
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002077
+TEXT: I don't know much about computers, so please bear 
+-----------------------------------------------------------------
+ID= rXdp54MBujO1U3soIuQK SCORE=8.279485
+PATH= 20_newsgroups/comp.graphics/0001507
+TEXT: Pascal Perret, in article <1993Apr21.125750.263@ei
+-----------------------------------------------------------------
+ID= GXdp54MBujO1U3soNP8U SCORE=8.2558975
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002656
+TEXT: wlieftin@cs.vu.nl (Liefting W) writes:
+: Hello all
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 1
+Dictionary for the original query: {'window': 1.438230351715391, 'comput': 1.1793541408676733, 'dos': 0.7745101459875594}
+New query:['window^2.0487474064109383', 'gillard^1.737098102350511', 'dos^1.6255753436800588']
+-----------------------------------------------------------------
+ID= ZHdp54MBujO1U3soNP4T SCORE=24.825123
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002028
+TEXT: Sometimes when I boot up windows 3.1, after the wi
+-----------------------------------------------------------------
+ID= PHdp54MBujO1U3soMP6_ SCORE=23.745672
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002077
+TEXT: I don't know much about computers, so please bear 
+-----------------------------------------------------------------
+ID= 3ndp54MBujO1U3soNP8U SCORE=22.781492
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002046
+TEXT: In article <1993Apr28.053700.12929@lugb.latrobe.ed
+-----------------------------------------------------------------
+ID= rXdp54MBujO1U3soIuQK SCORE=22.780716
+PATH= 20_newsgroups/comp.graphics/0001507
+TEXT: Pascal Perret, in article <1993Apr21.125750.263@ei
+-----------------------------------------------------------------
+ID= NHhp54MBujO1U3soNAHo SCORE=21.932772
+PATH= 20_newsgroups/misc.forsale/0006215
+TEXT: Hi!
+I have several computer related books for sale
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 2
+Dictionary for the original query: {'window': 2.0487474064109383, 'gillard': 1.737098102350511, 'dos': 1.6255753436800588}
+New query:['gillard^4.69016487634638', 'boot^2.8961046580198', 'latrob^2.5141599074226892']
+-----------------------------------------------------------------
+ID= 3ndp54MBujO1U3soNP8U SCORE=67.42765
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002046
+TEXT: In article <1993Apr28.053700.12929@lugb.latrobe.ed
+-----------------------------------------------------------------
+ID= ZHdp54MBujO1U3soNP4T SCORE=65.98121
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002028
+TEXT: Sometimes when I boot up windows 3.1, after the wi
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 3
+Dictionary for the original query: {'gillard': 4.69016487634638, 'boot': 2.8961046580198, 'latrob': 2.5141599074226892}
+New query:['gillard^6.521562589967346', 'latrob^5.531151796329916', 'efff^3.7223530764653807']
+-----------------------------------------------------------------
+ID= 3ndp54MBujO1U3soNP8U SCORE=196.55376
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002046
+TEXT: In article <1993Apr28.053700.12929@lugb.latrobe.ed
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 4
+Dictionary for the original query: {'gillard': 6.521562589967346, 'latrob': 5.531151796329916, 'efff': 3.7223530764653807}
+New query:['gillard^6.88784213269154', 'latrob^6.134550174111362', 'efff^4.4668236917584565']
+-----------------------------------------------------------------
+ID= 3ndp54MBujO1U3soNP8U SCORE=424.63995
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002046
+TEXT: In article <1993Apr28.053700.12929@lugb.latrobe.ed
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+1 Documents

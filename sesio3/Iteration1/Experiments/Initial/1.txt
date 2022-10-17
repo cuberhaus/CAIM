@@ -1,0 +1,93 @@
+Original query: ['computer', 'windows']
+Iteration: 0
+Dictionary for the original query: {'computer': 1.0, 'windows': 1.0}
+New query:['window^1.438230351715391', 'comput^1.1793541408676733', 'computer^1.0', 'windows^1.0', 'dos^0.7745101459875594']
+-----------------------------------------------------------------
+ID= 33dp54MBujO1U3soNP4U SCORE=8.867617
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002226
+TEXT: Hello,
+I want a little network for 3 users. All us
+-----------------------------------------------------------------
+ID= ZHdp54MBujO1U3soNP4T SCORE=8.751202
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002028
+TEXT: Sometimes when I boot up windows 3.1, after the wi
+-----------------------------------------------------------------
+ID= PHdp54MBujO1U3soMP6_ SCORE=8.68136
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002077
+TEXT: I don't know much about computers, so please bear 
+-----------------------------------------------------------------
+ID= rXdp54MBujO1U3soIuQK SCORE=8.279485
+PATH= 20_newsgroups/comp.graphics/0001507
+TEXT: Pascal Perret, in article <1993Apr21.125750.263@ei
+-----------------------------------------------------------------
+ID= GXdp54MBujO1U3soNP8U SCORE=8.2558975
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002656
+TEXT: wlieftin@cs.vu.nl (Liefting W) writes:
+: Hello all
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 1
+Dictionary for the original query: {'window': 1.438230351715391, 'comput': 1.1793541408676733, 'computer': 1.0, 'windows': 1.0, 'dos': 0.7745101459875594}
+New query:['window^3.0325908038453564', 'comput^2.5383459338698877', 'dos^2.130201555763727', 'gillard^1.737098102350511', 'boot^1.15844186320792']
+-----------------------------------------------------------------
+ID= ZHdp54MBujO1U3soNP4T SCORE=33.576324
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002028
+TEXT: Sometimes when I boot up windows 3.1, after the wi
+-----------------------------------------------------------------
+ID= PHdp54MBujO1U3soMP6_ SCORE=32.427032
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002077
+TEXT: I don't know much about computers, so please bear 
+-----------------------------------------------------------------
+ID= rXdp54MBujO1U3soIuQK SCORE=31.0602
+PATH= 20_newsgroups/comp.graphics/0001507
+TEXT: Pascal Perret, in article <1993Apr21.125750.263@ei
+-----------------------------------------------------------------
+ID= 3ndp54MBujO1U3soNP8U SCORE=30.669788
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002046
+TEXT: In article <1993Apr28.053700.12929@lugb.latrobe.ed
+-----------------------------------------------------------------
+ID= lndp54MBujO1U3soMPy- SCORE=29.8719
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002349
+TEXT: In <14957@news.duke.edu> kdb@sunbar.mc.duke.edu (K
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 2
+Dictionary for the original query: {'window': 3.0325908038453564, 'comput': 2.5383459338698877, 'dos': 2.130201555763727, 'gillard': 1.737098102350511, 'boot': 1.15844186320792}
+New query:['gillard^6.079843358226788', 'window^5.033481411100094', 'dos^4.314857745184934', 'boot^4.054546521227721', 'comput^3.8340929328731344']
+-----------------------------------------------------------------
+ID= ZHdp54MBujO1U3soNP4T SCORE=101.80591
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002028
+TEXT: Sometimes when I boot up windows 3.1, after the wi
+-----------------------------------------------------------------
+ID= 3ndp54MBujO1U3soNP8U SCORE=100.64107
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002046
+TEXT: In article <1993Apr28.053700.12929@lugb.latrobe.ed
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 3
+Dictionary for the original query: {'gillard': 6.079843358226788, 'window': 5.033481411100094, 'dos': 4.314857745184934, 'boot': 4.054546521227721, 'comput': 3.8340929328731344}
+New query:['gillard^10.422588614103066', 'window^7.034372018354831', 'boot^6.9506511792475205', 'dos^6.499513934606141', 'comput^5.129839931876381']
+-----------------------------------------------------------------
+ID= 3ndp54MBujO1U3soNP8U SCORE=285.22223
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002046
+TEXT: In article <1993Apr28.053700.12929@lugb.latrobe.ed
+-----------------------------------------------------------------
+ID= ZHdp54MBujO1U3soNP4T SCORE=275.47452
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002028
+TEXT: Sometimes when I boot up windows 3.1, after the wi
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 4
+Dictionary for the original query: {'gillard': 10.422588614103066, 'window': 7.034372018354831, 'boot': 6.9506511792475205, 'dos': 6.499513934606141, 'comput': 5.129839931876381}
+New query:['gillard^14.765333869979344', 'boot^9.84675583726732', 'window^9.035262625609569', 'dos^8.684170124027348', 'comput^6.425586930879628']
+-----------------------------------------------------------------
+ID= 3ndp54MBujO1U3soNP8U SCORE=584.4133
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002046
+TEXT: In article <1993Apr28.053700.12929@lugb.latrobe.ed
+-----------------------------------------------------------------
+ID= ZHdp54MBujO1U3soNP4T SCORE=554.58215
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002028
+TEXT: Sometimes when I boot up windows 3.1, after the wi
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+2 Documents

@@ -1,0 +1,119 @@
+Original query: ['computer', 'windows']
+Iteration: 0
+Dictionary for the original query: {'computer': 1.0, 'windows': 1.0}
+New query:['computer^0.6', 'windows^0.6', 'window^0.4109229576329689']
+-----------------------------------------------------------------
+ID= 33dp54MBujO1U3soNP4U SCORE=8.867617
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002226
+TEXT: Hello,
+I want a little network for 3 users. All us
+-----------------------------------------------------------------
+ID= ZHdp54MBujO1U3soNP4T SCORE=8.751202
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002028
+TEXT: Sometimes when I boot up windows 3.1, after the wi
+-----------------------------------------------------------------
+ID= PHdp54MBujO1U3soMP6_ SCORE=8.68136
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002077
+TEXT: I don't know much about computers, so please bear 
+-----------------------------------------------------------------
+ID= rXdp54MBujO1U3soIuQK SCORE=8.279485
+PATH= 20_newsgroups/comp.graphics/0001507
+TEXT: Pascal Perret, in article <1993Apr21.125750.263@ei
+-----------------------------------------------------------------
+ID= GXdp54MBujO1U3soNP8U SCORE=8.2558975
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002656
+TEXT: wlieftin@cs.vu.nl (Liefting W) writes:
+: Hello all
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 1
+Dictionary for the original query: {'computer': 0.6, 'windows': 0.6, 'window': 0.4109229576329689}
+New query:['window^0.6574767322127502', 'computer^0.36', 'windows^0.36']
+-----------------------------------------------------------------
+ID= 33dp54MBujO1U3soNP4U SCORE=15.991146
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002226
+TEXT: Hello,
+I want a little network for 3 users. All us
+-----------------------------------------------------------------
+ID= ZHdp54MBujO1U3soNP4T SCORE=15.893171
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002028
+TEXT: Sometimes when I boot up windows 3.1, after the wi
+-----------------------------------------------------------------
+ID= PHdp54MBujO1U3soMP6_ SCORE=15.786259
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002077
+TEXT: I don't know much about computers, so please bear 
+-----------------------------------------------------------------
+ID= GXdp54MBujO1U3soNP8U SCORE=14.974049
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002656
+TEXT: wlieftin@cs.vu.nl (Liefting W) writes:
+: Hello all
+-----------------------------------------------------------------
+ID= rXdp54MBujO1U3soIuQK SCORE=14.972984
+PATH= 20_newsgroups/comp.graphics/0001507
+TEXT: Pascal Perret, in article <1993Apr21.125750.263@ei
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 2
+Dictionary for the original query: {'window': 0.6574767322127502, 'computer': 0.36, 'windows': 0.36}
+New query:['window^0.9627661947894548', 'comput^0.29881512425993234', 'font^0.26836622518049386']
+-----------------------------------------------------------------
+ID= ZHdp54MBujO1U3soNP4T SCORE=22.069601
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002028
+TEXT: Sometimes when I boot up windows 3.1, after the wi
+-----------------------------------------------------------------
+ID= 33dp54MBujO1U3soNP4U SCORE=22.068222
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002226
+TEXT: Hello,
+I want a little network for 3 users. All us
+-----------------------------------------------------------------
+ID= PHdp54MBujO1U3soMP6_ SCORE=21.945278
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002077
+TEXT: I don't know much about computers, so please bear 
+-----------------------------------------------------------------
+ID= 5Hhp54MBujO1U3soOw5s SCORE=21.026094
+PATH= 20_newsgroups/comp.windows.x/0005117
+TEXT: I have a peculiar color problem with MacX, Apple's
+-----------------------------------------------------------------
+ID= G3dp54MBujO1U3soMP2_ SCORE=20.949083
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002229
+TEXT: Hi:
+On the 1024x768x256 mode, the font sizes of Wi
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 3
+Dictionary for the original query: {'window': 0.9627661947894548, 'comput': 0.29881512425993234, 'font': 0.26836622518049386}
+New query:['window^1.0818178678113572', 'font^0.8487560504500711', 'lat^0.4117647252093401']
+-----------------------------------------------------------------
+ID= G3dp54MBujO1U3soMP2_ SCORE=28.818127
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002229
+TEXT: Hi:
+On the 1024x768x256 mode, the font sizes of Wi
+-----------------------------------------------------------------
+ID= B3hp54MBujO1U3soOQxM SCORE=26.72655
+PATH= 20_newsgroups/comp.windows.x/0005821
+TEXT: >markw@pspmf3.gpsemi.com (Mark Wilkinson - Ext 344
+-----------------------------------------------------------------
+ID= uHhp54MBujO1U3soOw5s SCORE=24.863321
+PATH= 20_newsgroups/comp.windows.x/0005872
+TEXT: From:  DENNIS L. HART                       Date: 
+-----------------------------------------------------------------
+ID= N3dp54MBujO1U3soNP8U SCORE=24.319815
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002199
+TEXT: In a previous article, ellard2@husc8.harvard.edu (
+-----------------------------------------------------------------
+ID= OXhp54MBujO1U3soNAHo SCORE=23.706635
+PATH= 20_newsgroups/misc.forsale/0006649
+TEXT: For Sale...:
+        Three software packages for I
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 4
+Dictionary for the original query: {'window': 1.0818178678113572, 'font': 0.8487560504500711, 'lat': 0.4117647252093401}
+New query:['lat^2.3058824611723048', 'vxt^1.5882353478037228', 'window^1.1254932462236567']
+-----------------------------------------------------------------
+ID= uHhp54MBujO1U3soOw5s SCORE=39.43255
+PATH= 20_newsgroups/comp.windows.x/0005872
+TEXT: From:  DENNIS L. HART                       Date: 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+1 Documents
