@@ -1,0 +1,92 @@
+Original query: ['computer', 'windows']
+Iteration: 0
+Dictionary for the original query: {'computer': 1.0, 'windows': 1.0}
+New query:['window^2.000510331204092', 'brownian^0.9068987490152202', 'stft^0.6958210763588084']
+-----------------------------------------------------------------
+ID= c3gP6IMBujO1U3so42C1 SCORE=10.280138
+PATH= arxiv_abs/cs.updates.on.arXiv.org/017911
+TEXT: Functional magnetic resonance imaging (fMRI) enabl
+-----------------------------------------------------------------
+ID= j3gQ6IMBujO1U3soIJ6H SCORE=9.810526
+PATH= arxiv_abs/cs.updates.on.arXiv.org/017383
+TEXT: Deep learning based speech enhancement in the shor
+-----------------------------------------------------------------
+ID= 9HgP6IMBujO1U3souTHS SCORE=9.777616
+PATH= arxiv_abs/cond-mat.updates.on.arXiv.org/003046
+TEXT: Brownian simulations can be used to generate stati
+-----------------------------------------------------------------
+ID= 0HgQ6IMBujO1U3soePoN SCORE=9.777616
+PATH= arxiv_abs/math.updates.on.arXiv.org/004237
+TEXT: Brownian simulations can be used to generate stati
+-----------------------------------------------------------------
+ID= mXgQ6IMBujO1U3soBoXR SCORE=9.755221
+PATH= arxiv_abs/cs.updates.on.arXiv.org/002854
+TEXT: There has been renewed recent interest in developi
+-----------------------------------------------------------------
+ID= gngQ6IMBujO1U3soD4v1 SCORE=9.64057
+PATH= arxiv_abs/cs.updates.on.arXiv.org/013955
+TEXT: Internet of Things (IoT)-based indoor localization
+-----------------------------------------------------------------
+ID= w3gP6IMBujO1U3souTHS SCORE=9.549604
+PATH= arxiv_abs/cond-mat.updates.on.arXiv.org/000319
+TEXT: The concept of a hyperuniformity disorder length $
+-----------------------------------------------------------------
+ID= OHgQ6IMBujO1U3soC4kV SCORE=9.345181
+PATH= arxiv_abs/cs.updates.on.arXiv.org/015528
+TEXT: The malware has been being one of the most damagin
+-----------------------------------------------------------------
+ID= q3gQ6IMBujO1U3soPLtB SCORE=9.31304
+PATH= arxiv_abs/astro-ph.updates.on.arXiv.org/000943
+TEXT: This paper presents the characterization of the in
+-----------------------------------------------------------------
+ID= yHgQ6IMBujO1U3soTc8U SCORE=9.31304
+PATH= arxiv_abs/astro-ph.updates.on.arXiv.org/000169
+TEXT: This paper presents the characterization of the in
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 1
+Dictionary for the original query: {'window': 2.000510331204092, 'brownian': 0.9068987490152202, 'stft': 0.6958210763588084}
+New query:['window^1.200306198722455', 'brownian^0.544139249409132', 'stft^0.41749264581528506']
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 2
+Dictionary for the original query: {'window': 1.200306198722455, 'brownian': 0.544139249409132, 'stft': 0.41749264581528506}
+New query:['window^0.720183719233473', 'brownian^0.3264835496454792', 'stft^0.250495587489171']
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 3
+Dictionary for the original query: {'window': 0.720183719233473, 'brownian': 0.3264835496454792, 'stft': 0.250495587489171}
+New query:['window^0.4321102315400838', 'brownian^0.1958901297872875', 'stft^0.1502973524935026']
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 4
+Dictionary for the original query: {'window': 0.4321102315400838, 'brownian': 0.1958901297872875, 'stft': 0.1502973524935026}
+New query:['window^0.25926613892405026', 'brownian^0.1175340778723725', 'stft^0.09017841149610155']
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 5
+Dictionary for the original query: {'window': 0.25926613892405026, 'brownian': 0.1175340778723725, 'stft': 0.09017841149610155}
+New query:['window^0.15555968335443016', 'brownian^0.07052044672342349', 'stft^0.05410704689766093']
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 6
+Dictionary for the original query: {'window': 0.15555968335443016, 'brownian': 0.07052044672342349, 'stft': 0.05410704689766093}
+New query:['window^0.09333581001265809', 'brownian^0.04231226803405409', 'stft^0.032464228138596556']
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 7
+Dictionary for the original query: {'window': 0.09333581001265809, 'brownian': 0.04231226803405409, 'stft': 0.032464228138596556}
+New query:['window^0.05600148600759485', 'brownian^0.025387360820432456', 'stft^0.019478536883157933']
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 8
+Dictionary for the original query: {'window': 0.05600148600759485, 'brownian': 0.025387360820432456, 'stft': 0.019478536883157933}
+New query:['window^0.03360089160455691', 'brownian^0.015232416492259473', 'stft^0.01168712212989476']
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 9
+Dictionary for the original query: {'window': 0.03360089160455691, 'brownian': 0.015232416492259473, 'stft': 0.01168712212989476}
+New query:['window^0.020160534962734147', 'brownian^0.009139449895355683', 'stft^0.007012273277936855']
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+0 Documents

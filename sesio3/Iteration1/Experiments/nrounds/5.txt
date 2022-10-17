@@ -1,0 +1,1926 @@
+Original query: ['computer', 'windows']
+Iteration: 0
+Dictionary for the original query: {'computer': 1.0, 'windows': 1.0}
+New query:['window^1.3845835088776115', 'comput^1.0503453787026895', 'computer^0.6']
+-----------------------------------------------------------------
+ID= 33dp54MBujO1U3soNP4U SCORE=8.867617
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002226
+TEXT: Hello,
+I want a little network for 3 users. All us
+-----------------------------------------------------------------
+ID= ZHdp54MBujO1U3soNP4T SCORE=8.751202
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002028
+TEXT: Sometimes when I boot up windows 3.1, after the wi
+-----------------------------------------------------------------
+ID= PHdp54MBujO1U3soMP6_ SCORE=8.68136
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002077
+TEXT: I don't know much about computers, so please bear 
+-----------------------------------------------------------------
+ID= rXdp54MBujO1U3soIuQK SCORE=8.279485
+PATH= 20_newsgroups/comp.graphics/0001507
+TEXT: Pascal Perret, in article <1993Apr21.125750.263@ei
+-----------------------------------------------------------------
+ID= GXdp54MBujO1U3soNP8U SCORE=8.2558975
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002656
+TEXT: wlieftin@cs.vu.nl (Liefting W) writes:
+: Hello all
+-----------------------------------------------------------------
+ID= vXhp54MBujO1U3soRiBQ SCORE=8.157447
+PATH= 20_newsgroups/sci.crypt/0011355
+TEXT: In article <ygoland.735123994@wright> 
+(The Jester
+-----------------------------------------------------------------
+ID= G3dp54MBujO1U3soMP2_ SCORE=8.151908
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002229
+TEXT: Hi:
+On the 1024x768x256 mode, the font sizes of Wi
+-----------------------------------------------------------------
+ID= 5Hhp54MBujO1U3soOw5s SCORE=8.089462
+PATH= 20_newsgroups/comp.windows.x/0005117
+TEXT: I have a peculiar color problem with MacX, Apple's
+-----------------------------------------------------------------
+ID= lndp54MBujO1U3soMPy- SCORE=8.063556
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002349
+TEXT: In <14957@news.duke.edu> kdb@sunbar.mc.duke.edu (K
+-----------------------------------------------------------------
+ID= ZXdp54MBujO1U3soMP2_ SCORE=8.056592
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002881
+TEXT: Is there a 768x1024 Trident driver for windows any
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 1
+Dictionary for the original query: {'window': 1.3845835088776115, 'comput': 1.0503453787026895, 'computer': 0.6}
+New query:['window^2.0724128565431257', 'comput^1.8124411397514193', 'x^0.5755080439675305']
+-----------------------------------------------------------------
+ID= 33dp54MBujO1U3soNP4U SCORE=22.336195
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002226
+TEXT: Hello,
+I want a little network for 3 users. All us
+-----------------------------------------------------------------
+ID= ZHdp54MBujO1U3soNP4T SCORE=21.970556
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002028
+TEXT: Sometimes when I boot up windows 3.1, after the wi
+-----------------------------------------------------------------
+ID= PHdp54MBujO1U3soMP6_ SCORE=21.782326
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002077
+TEXT: I don't know much about computers, so please bear 
+-----------------------------------------------------------------
+ID= rXdp54MBujO1U3soIuQK SCORE=20.827337
+PATH= 20_newsgroups/comp.graphics/0001507
+TEXT: Pascal Perret, in article <1993Apr21.125750.263@ei
+-----------------------------------------------------------------
+ID= GXdp54MBujO1U3soNP8U SCORE=20.739727
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002656
+TEXT: wlieftin@cs.vu.nl (Liefting W) writes:
+: Hello all
+-----------------------------------------------------------------
+ID= vXhp54MBujO1U3soRiBQ SCORE=20.656649
+PATH= 20_newsgroups/sci.crypt/0011355
+TEXT: In article <ygoland.735123994@wright> 
+(The Jester
+-----------------------------------------------------------------
+ID= G3dp54MBujO1U3soMP2_ SCORE=20.368761
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002229
+TEXT: Hi:
+On the 1024x768x256 mode, the font sizes of Wi
+-----------------------------------------------------------------
+ID= lndp54MBujO1U3soMPy- SCORE=20.337883
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002349
+TEXT: In <14957@news.duke.edu> kdb@sunbar.mc.duke.edu (K
+-----------------------------------------------------------------
+ID= U3dp54MBujO1U3soGdm- SCORE=20.185148
+PATH= 20_newsgroups/comp.sys.ibm.pc.hardware/0003312
+TEXT:   I saw the following computer in a store and want
+-----------------------------------------------------------------
+ID= ZXdp54MBujO1U3soMP2_ SCORE=20.175327
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002881
+TEXT: Is there a 768x1024 Trident driver for windows any
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 2
+Dictionary for the original query: {'window': 2.0724128565431257, 'comput': 1.8124411397514193, 'x': 0.5755080439675305}
+New query:['window^2.789837937726893', 'comput^1.9260942582521177', 'x^1.3416025415776023']
+-----------------------------------------------------------------
+ID= rXdp54MBujO1U3soIuQK SCORE=39.4678
+PATH= 20_newsgroups/comp.graphics/0001507
+TEXT: Pascal Perret, in article <1993Apr21.125750.263@ei
+-----------------------------------------------------------------
+ID= G3dp54MBujO1U3soMP2_ SCORE=38.6445
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002229
+TEXT: Hi:
+On the 1024x768x256 mode, the font sizes of Wi
+-----------------------------------------------------------------
+ID= ZXdp54MBujO1U3soMP2_ SCORE=38.42534
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002881
+TEXT: Is there a 768x1024 Trident driver for windows any
+-----------------------------------------------------------------
+ID= GXdp54MBujO1U3soNP8U SCORE=38.047745
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002656
+TEXT: wlieftin@cs.vu.nl (Liefting W) writes:
+: Hello all
+-----------------------------------------------------------------
+ID= 5Hhp54MBujO1U3soOw5s SCORE=37.84106
+PATH= 20_newsgroups/comp.windows.x/0005117
+TEXT: I have a peculiar color problem with MacX, Apple's
+-----------------------------------------------------------------
+ID= Z3hp54MBujO1U3soOg1j SCORE=37.298897
+PATH= 20_newsgroups/comp.windows.x/0005932
+TEXT: harden@skate.ics.com (Aub Harden) writes:
+>In arti
+-----------------------------------------------------------------
+ID= Bndp54MBujO1U3soMP6_ SCORE=37.067062
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002925
+TEXT: I am not sure whether I am here in the right area,
+-----------------------------------------------------------------
+ID= U3dp54MBujO1U3soGdm- SCORE=36.989967
+PATH= 20_newsgroups/comp.sys.ibm.pc.hardware/0003312
+TEXT:   I saw the following computer in a store and want
+-----------------------------------------------------------------
+ID= 3ndp54MBujO1U3soNP8U SCORE=36.710728
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002046
+TEXT: In article <1993Apr28.053700.12929@lugb.latrobe.ed
+-----------------------------------------------------------------
+ID= NHhp54MBujO1U3soNAHo SCORE=36.660892
+PATH= 20_newsgroups/misc.forsale/0006215
+TEXT: Hi!
+I have several computer related books for sale
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 3
+Dictionary for the original query: {'window': 2.789837937726893, 'comput': 1.9260942582521177, 'x': 1.3416025415776023}
+New query:['window^3.3775058198643118', 'x^1.9585513651378799', 'comput^1.789592541968469']
+-----------------------------------------------------------------
+ID= rXdp54MBujO1U3soIuQK SCORE=64.96953
+PATH= 20_newsgroups/comp.graphics/0001507
+TEXT: Pascal Perret, in article <1993Apr21.125750.263@ei
+-----------------------------------------------------------------
+ID= G3dp54MBujO1U3soMP2_ SCORE=63.706104
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002229
+TEXT: Hi:
+On the 1024x768x256 mode, the font sizes of Wi
+-----------------------------------------------------------------
+ID= ZXdp54MBujO1U3soMP2_ SCORE=63.588707
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002881
+TEXT: Is there a 768x1024 Trident driver for windows any
+-----------------------------------------------------------------
+ID= 5Hhp54MBujO1U3soOw5s SCORE=61.722813
+PATH= 20_newsgroups/comp.windows.x/0005117
+TEXT: I have a peculiar color problem with MacX, Apple's
+-----------------------------------------------------------------
+ID= Z3hp54MBujO1U3soOg1j SCORE=61.53646
+PATH= 20_newsgroups/comp.windows.x/0005932
+TEXT: harden@skate.ics.com (Aub Harden) writes:
+>In arti
+-----------------------------------------------------------------
+ID= Bndp54MBujO1U3soMP6_ SCORE=61.17881
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002925
+TEXT: I am not sure whether I am here in the right area,
+-----------------------------------------------------------------
+ID= GXdp54MBujO1U3soNP8U SCORE=60.521896
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002656
+TEXT: wlieftin@cs.vu.nl (Liefting W) writes:
+: Hello all
+-----------------------------------------------------------------
+ID= aHhp54MBujO1U3soOg1j SCORE=60.059147
+PATH= 20_newsgroups/comp.windows.x/0005842
+TEXT: An application we *must* use requires upper-case i
+-----------------------------------------------------------------
+ID= NHhp54MBujO1U3soNAHo SCORE=59.817562
+PATH= 20_newsgroups/misc.forsale/0006215
+TEXT: Hi!
+I have several computer related books for sale
+-----------------------------------------------------------------
+ID= B3hp54MBujO1U3soOQxM SCORE=59.18718
+PATH= 20_newsgroups/comp.windows.x/0005821
+TEXT: >markw@pspmf3.gpsemi.com (Mark Wilkinson - Ext 344
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 4
+Dictionary for the original query: {'window': 3.3775058198643118, 'x': 1.9585513651378799, 'comput': 1.789592541968469}
+New query:['window^3.6837037057503172', 'x^2.527940443553949', 'comput^1.6187441300774634']
+-----------------------------------------------------------------
+ID= rXdp54MBujO1U3soIuQK SCORE=95.10812
+PATH= 20_newsgroups/comp.graphics/0001507
+TEXT: Pascal Perret, in article <1993Apr21.125750.263@ei
+-----------------------------------------------------------------
+ID= ZXdp54MBujO1U3soMP2_ SCORE=93.53657
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002881
+TEXT: Is there a 768x1024 Trident driver for windows any
+-----------------------------------------------------------------
+ID= G3dp54MBujO1U3soMP2_ SCORE=93.480774
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002229
+TEXT: Hi:
+On the 1024x768x256 mode, the font sizes of Wi
+-----------------------------------------------------------------
+ID= Z3hp54MBujO1U3soOg1j SCORE=90.34371
+PATH= 20_newsgroups/comp.windows.x/0005932
+TEXT: harden@skate.ics.com (Aub Harden) writes:
+>In arti
+-----------------------------------------------------------------
+ID= 5Hhp54MBujO1U3soOw5s SCORE=89.89993
+PATH= 20_newsgroups/comp.windows.x/0005117
+TEXT: I have a peculiar color problem with MacX, Apple's
+-----------------------------------------------------------------
+ID= Bndp54MBujO1U3soMP6_ SCORE=89.868164
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002925
+TEXT: I am not sure whether I am here in the right area,
+-----------------------------------------------------------------
+ID= B3hp54MBujO1U3soOQxM SCORE=88.7179
+PATH= 20_newsgroups/comp.windows.x/0005821
+TEXT: >markw@pspmf3.gpsemi.com (Mark Wilkinson - Ext 344
+-----------------------------------------------------------------
+ID= aHhp54MBujO1U3soOg1j SCORE=88.31553
+PATH= 20_newsgroups/comp.windows.x/0005842
+TEXT: An application we *must* use requires upper-case i
+-----------------------------------------------------------------
+ID= DHhp54MBujO1U3soOw9s SCORE=87.39165
+PATH= 20_newsgroups/comp.windows.x/0005292
+TEXT: Hi,
+  Please reply to me direct as I am not a memb
+-----------------------------------------------------------------
+ID= Gnhp54MBujO1U3soOg1j SCORE=87.150406
+PATH= 20_newsgroups/comp.windows.x/0005929
+TEXT: In article <1993May14.191035.19271@vpbuild.vp.com>
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 5
+Dictionary for the original query: {'window': 3.6837037057503172, 'x': 2.527940443553949, 'comput': 1.6187441300774634}
+New query:['window^3.8674224372819204', 'x^2.869573890603591', 'comput^1.5162350829428601']
+-----------------------------------------------------------------
+ID= rXdp54MBujO1U3soIuQK SCORE=128.3512
+PATH= 20_newsgroups/comp.graphics/0001507
+TEXT: Pascal Perret, in article <1993Apr21.125750.263@ei
+-----------------------------------------------------------------
+ID= ZXdp54MBujO1U3soMP2_ SCORE=126.691055
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002881
+TEXT: Is there a 768x1024 Trident driver for windows any
+-----------------------------------------------------------------
+ID= G3dp54MBujO1U3soMP2_ SCORE=126.3493
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002229
+TEXT: Hi:
+On the 1024x768x256 mode, the font sizes of Wi
+-----------------------------------------------------------------
+ID= Z3hp54MBujO1U3soOg1j SCORE=122.1631
+PATH= 20_newsgroups/comp.windows.x/0005932
+TEXT: harden@skate.ics.com (Aub Harden) writes:
+>In arti
+-----------------------------------------------------------------
+ID= B3hp54MBujO1U3soOQxM SCORE=121.88514
+PATH= 20_newsgroups/comp.windows.x/0005821
+TEXT: >markw@pspmf3.gpsemi.com (Mark Wilkinson - Ext 344
+-----------------------------------------------------------------
+ID= Bndp54MBujO1U3soMP6_ SCORE=121.56518
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002925
+TEXT: I am not sure whether I am here in the right area,
+-----------------------------------------------------------------
+ID= 5Hhp54MBujO1U3soOw5s SCORE=120.75249
+PATH= 20_newsgroups/comp.windows.x/0005117
+TEXT: I have a peculiar color problem with MacX, Apple's
+-----------------------------------------------------------------
+ID= aHhp54MBujO1U3soOg1j SCORE=119.55003
+PATH= 20_newsgroups/comp.windows.x/0005842
+TEXT: An application we *must* use requires upper-case i
+-----------------------------------------------------------------
+ID= DHhp54MBujO1U3soOw9s SCORE=118.99862
+PATH= 20_newsgroups/comp.windows.x/0005292
+TEXT: Hi,
+  Please reply to me direct as I am not a memb
+-----------------------------------------------------------------
+ID= Gnhp54MBujO1U3soOg1j SCORE=118.4793
+PATH= 20_newsgroups/comp.windows.x/0005929
+TEXT: In article <1993May14.191035.19271@vpbuild.vp.com>
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 6
+Dictionary for the original query: {'window': 3.8674224372819204, 'x': 2.869573890603591, 'comput': 1.5162350829428601}
+New query:['window^3.977653676200882', 'x^3.0745539588333752', 'comput^1.454729654662098']
+-----------------------------------------------------------------
+ID= rXdp54MBujO1U3soIuQK SCORE=163.45697
+PATH= 20_newsgroups/comp.graphics/0001507
+TEXT: Pascal Perret, in article <1993Apr21.125750.263@ei
+-----------------------------------------------------------------
+ID= ZXdp54MBujO1U3soMP2_ SCORE=161.76953
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002881
+TEXT: Is there a 768x1024 Trident driver for windows any
+-----------------------------------------------------------------
+ID= G3dp54MBujO1U3soMP2_ SCORE=161.07413
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002229
+TEXT: Hi:
+On the 1024x768x256 mode, the font sizes of Wi
+-----------------------------------------------------------------
+ID= B3hp54MBujO1U3soOQxM SCORE=157.23428
+PATH= 20_newsgroups/comp.windows.x/0005821
+TEXT: >markw@pspmf3.gpsemi.com (Mark Wilkinson - Ext 344
+-----------------------------------------------------------------
+ID= Z3hp54MBujO1U3soOg1j SCORE=155.78978
+PATH= 20_newsgroups/comp.windows.x/0005932
+TEXT: harden@skate.ics.com (Aub Harden) writes:
+>In arti
+-----------------------------------------------------------------
+ID= Bndp54MBujO1U3soMP6_ SCORE=155.06679
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002925
+TEXT: I am not sure whether I am here in the right area,
+-----------------------------------------------------------------
+ID= 5Hhp54MBujO1U3soOw5s SCORE=153.21031
+PATH= 20_newsgroups/comp.windows.x/0005117
+TEXT: I have a peculiar color problem with MacX, Apple's
+-----------------------------------------------------------------
+ID= aHhp54MBujO1U3soOg1j SCORE=152.57141
+PATH= 20_newsgroups/comp.windows.x/0005842
+TEXT: An application we *must* use requires upper-case i
+-----------------------------------------------------------------
+ID= DHhp54MBujO1U3soOw9s SCORE=152.53554
+PATH= 20_newsgroups/comp.windows.x/0005292
+TEXT: Hi,
+  Please reply to me direct as I am not a memb
+-----------------------------------------------------------------
+ID= Gnhp54MBujO1U3soOg1j SCORE=151.69185
+PATH= 20_newsgroups/comp.windows.x/0005929
+TEXT: In article <1993May14.191035.19271@vpbuild.vp.com>
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 7
+Dictionary for the original query: {'window': 3.977653676200882, 'x': 3.0745539588333752, 'comput': 1.454729654662098}
+New query:['window^4.043792419552259', 'x^3.1975419997712464', 'comput^1.417826397693641']
+-----------------------------------------------------------------
+ID= rXdp54MBujO1U3soIuQK SCORE=199.68037
+PATH= 20_newsgroups/comp.graphics/0001507
+TEXT: Pascal Perret, in article <1993Apr21.125750.263@ei
+-----------------------------------------------------------------
+ID= ZXdp54MBujO1U3soMP2_ SCORE=198.0024
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002881
+TEXT: Is there a 768x1024 Trident driver for windows any
+-----------------------------------------------------------------
+ID= G3dp54MBujO1U3soMP2_ SCORE=196.91273
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002229
+TEXT: Hi:
+On the 1024x768x256 mode, the font sizes of Wi
+-----------------------------------------------------------------
+ID= B3hp54MBujO1U3soOQxM SCORE=193.89258
+PATH= 20_newsgroups/comp.windows.x/0005821
+TEXT: >markw@pspmf3.gpsemi.com (Mark Wilkinson - Ext 344
+-----------------------------------------------------------------
+ID= Z3hp54MBujO1U3soOg1j SCORE=190.50081
+PATH= 20_newsgroups/comp.windows.x/0005932
+TEXT: harden@skate.ics.com (Aub Harden) writes:
+>In arti
+-----------------------------------------------------------------
+ID= Bndp54MBujO1U3soMP6_ SCORE=189.65115
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002925
+TEXT: I am not sure whether I am here in the right area,
+-----------------------------------------------------------------
+ID= DHhp54MBujO1U3soOw9s SCORE=187.23045
+PATH= 20_newsgroups/comp.windows.x/0005292
+TEXT: Hi,
+  Please reply to me direct as I am not a memb
+-----------------------------------------------------------------
+ID= aHhp54MBujO1U3soOg1j SCORE=186.66492
+PATH= 20_newsgroups/comp.windows.x/0005842
+TEXT: An application we *must* use requires upper-case i
+-----------------------------------------------------------------
+ID= 5Hhp54MBujO1U3soOw5s SCORE=186.6313
+PATH= 20_newsgroups/comp.windows.x/0005117
+TEXT: I have a peculiar color problem with MacX, Apple's
+-----------------------------------------------------------------
+ID= Gnhp54MBujO1U3soOg1j SCORE=186.03459
+PATH= 20_newsgroups/comp.windows.x/0005929
+TEXT: In article <1993May14.191035.19271@vpbuild.vp.com>
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 8
+Dictionary for the original query: {'window': 4.043792419552259, 'x': 3.1975419997712464, 'comput': 1.417826397693641}
+New query:['window^4.0834756655630855', 'x^3.2713348243339686', 'comput^1.3956844435125666']
+-----------------------------------------------------------------
+ID= rXdp54MBujO1U3soIuQK SCORE=236.57433
+PATH= 20_newsgroups/comp.graphics/0001507
+TEXT: Pascal Perret, in article <1993Apr21.125750.263@ei
+-----------------------------------------------------------------
+ID= ZXdp54MBujO1U3soMP2_ SCORE=234.92789
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002881
+TEXT: Is there a 768x1024 Trident driver for windows any
+-----------------------------------------------------------------
+ID= G3dp54MBujO1U3soMP2_ SCORE=233.41963
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002229
+TEXT: Hi:
+On the 1024x768x256 mode, the font sizes of Wi
+-----------------------------------------------------------------
+ID= B3hp54MBujO1U3soOQxM SCORE=231.33633
+PATH= 20_newsgroups/comp.windows.x/0005821
+TEXT: >markw@pspmf3.gpsemi.com (Mark Wilkinson - Ext 344
+-----------------------------------------------------------------
+ID= Z3hp54MBujO1U3soOg1j SCORE=225.86247
+PATH= 20_newsgroups/comp.windows.x/0005932
+TEXT: harden@skate.ics.com (Aub Harden) writes:
+>In arti
+-----------------------------------------------------------------
+ID= Bndp54MBujO1U3soMP6_ SCORE=224.88518
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002925
+TEXT: I am not sure whether I am here in the right area,
+-----------------------------------------------------------------
+ID= DHhp54MBujO1U3soOw9s SCORE=222.62013
+PATH= 20_newsgroups/comp.windows.x/0005292
+TEXT: Hi,
+  Please reply to me direct as I am not a memb
+-----------------------------------------------------------------
+ID= aHhp54MBujO1U3soOg1j SCORE=221.40169
+PATH= 20_newsgroups/comp.windows.x/0005842
+TEXT: An application we *must* use requires upper-case i
+-----------------------------------------------------------------
+ID= Gnhp54MBujO1U3soOg1j SCORE=221.05545
+PATH= 20_newsgroups/comp.windows.x/0005929
+TEXT: In article <1993May14.191035.19271@vpbuild.vp.com>
+-----------------------------------------------------------------
+ID= 5Hhp54MBujO1U3soOw5s SCORE=220.63017
+PATH= 20_newsgroups/comp.windows.x/0005117
+TEXT: I have a peculiar color problem with MacX, Apple's
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 9
+Dictionary for the original query: {'window': 4.0834756655630855, 'x': 3.2713348243339686, 'comput': 1.3956844435125666}
+New query:['window^3.9881849817853707', 'x^3.473055206747693', 'comput^1.3638885995895897']
+-----------------------------------------------------------------
+ID= rXdp54MBujO1U3soIuQK SCORE=273.8706
+PATH= 20_newsgroups/comp.graphics/0001507
+TEXT: Pascal Perret, in article <1993Apr21.125750.263@ei
+-----------------------------------------------------------------
+ID= ZXdp54MBujO1U3soMP2_ SCORE=272.26895
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002881
+TEXT: Is there a 768x1024 Trident driver for windows any
+-----------------------------------------------------------------
+ID= G3dp54MBujO1U3soMP2_ SCORE=270.32745
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002229
+TEXT: Hi:
+On the 1024x768x256 mode, the font sizes of Wi
+-----------------------------------------------------------------
+ID= B3hp54MBujO1U3soOQxM SCORE=269.2514
+PATH= 20_newsgroups/comp.windows.x/0005821
+TEXT: >markw@pspmf3.gpsemi.com (Mark Wilkinson - Ext 344
+-----------------------------------------------------------------
+ID= Z3hp54MBujO1U3soOg1j SCORE=261.6145
+PATH= 20_newsgroups/comp.windows.x/0005932
+TEXT: harden@skate.ics.com (Aub Harden) writes:
+>In arti
+-----------------------------------------------------------------
+ID= Bndp54MBujO1U3soMP6_ SCORE=260.50897
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002925
+TEXT: I am not sure whether I am here in the right area,
+-----------------------------------------------------------------
+ID= DHhp54MBujO1U3soOw9s SCORE=258.4267
+PATH= 20_newsgroups/comp.windows.x/0005292
+TEXT: Hi,
+  Please reply to me direct as I am not a memb
+-----------------------------------------------------------------
+ID= aHhp54MBujO1U3soOg1j SCORE=256.5244
+PATH= 20_newsgroups/comp.windows.x/0005842
+TEXT: An application we *must* use requires upper-case i
+-----------------------------------------------------------------
+ID= Gnhp54MBujO1U3soOg1j SCORE=256.48315
+PATH= 20_newsgroups/comp.windows.x/0005929
+TEXT: In article <1993May14.191035.19271@vpbuild.vp.com>
+-----------------------------------------------------------------
+ID= sndp54MBujO1U3soHNvK SCORE=256.0245
+PATH= 20_newsgroups/comp.sys.ibm.pc.hardware/0003431
+TEXT: In article <1993Apr19.144814.17736@aio.jsc.nasa.go
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 10
+Dictionary for the original query: {'window': 3.9881849817853707, 'x': 3.473055206747693, 'comput': 1.3638885995895897}
+New query:['window^3.9310105715187413', 'x^3.594087436195928', 'comput^1.344811093235804']
+-----------------------------------------------------------------
+ID= rXdp54MBujO1U3soIuQK SCORE=311.5282
+PATH= 20_newsgroups/comp.graphics/0001507
+TEXT: Pascal Perret, in article <1993Apr21.125750.263@ei
+-----------------------------------------------------------------
+ID= ZXdp54MBujO1U3soMP2_ SCORE=309.94748
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002881
+TEXT: Is there a 768x1024 Trident driver for windows any
+-----------------------------------------------------------------
+ID= B3hp54MBujO1U3soOQxM SCORE=307.51785
+PATH= 20_newsgroups/comp.windows.x/0005821
+TEXT: >markw@pspmf3.gpsemi.com (Mark Wilkinson - Ext 344
+-----------------------------------------------------------------
+ID= G3dp54MBujO1U3soMP2_ SCORE=307.48376
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002229
+TEXT: Hi:
+On the 1024x768x256 mode, the font sizes of Wi
+-----------------------------------------------------------------
+ID= Z3hp54MBujO1U3soOg1j SCORE=297.62317
+PATH= 20_newsgroups/comp.windows.x/0005932
+TEXT: harden@skate.ics.com (Aub Harden) writes:
+>In arti
+-----------------------------------------------------------------
+ID= Bndp54MBujO1U3soMP6_ SCORE=296.37006
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002925
+TEXT: I am not sure whether I am here in the right area,
+-----------------------------------------------------------------
+ID= DHhp54MBujO1U3soOw9s SCORE=294.57138
+PATH= 20_newsgroups/comp.windows.x/0005292
+TEXT: Hi,
+  Please reply to me direct as I am not a memb
+-----------------------------------------------------------------
+ID= sndp54MBujO1U3soHNvK SCORE=292.41678
+PATH= 20_newsgroups/comp.sys.ibm.pc.hardware/0003431
+TEXT: In article <1993Apr19.144814.17736@aio.jsc.nasa.go
+-----------------------------------------------------------------
+ID= Gnhp54MBujO1U3soOg1j SCORE=292.23438
+PATH= 20_newsgroups/comp.windows.x/0005929
+TEXT: In article <1993May14.191035.19271@vpbuild.vp.com>
+-----------------------------------------------------------------
+ID= aHhp54MBujO1U3soOg1j SCORE=291.8506
+PATH= 20_newsgroups/comp.windows.x/0005842
+TEXT: An application we *must* use requires upper-case i
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 11
+Dictionary for the original query: {'window': 3.9310105715187413, 'x': 3.594087436195928, 'comput': 1.344811093235804}
+New query:['window^3.8967059253587637', 'x^3.6667067738648687', 'comput^1.3333645894235322']
+-----------------------------------------------------------------
+ID= rXdp54MBujO1U3soIuQK SCORE=349.40253
+PATH= 20_newsgroups/comp.graphics/0001507
+TEXT: Pascal Perret, in article <1993Apr21.125750.263@ei
+-----------------------------------------------------------------
+ID= ZXdp54MBujO1U3soMP2_ SCORE=347.8285
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002881
+TEXT: Is there a 768x1024 Trident driver for windows any
+-----------------------------------------------------------------
+ID= B3hp54MBujO1U3soOQxM SCORE=345.99515
+PATH= 20_newsgroups/comp.windows.x/0005821
+TEXT: >markw@pspmf3.gpsemi.com (Mark Wilkinson - Ext 344
+-----------------------------------------------------------------
+ID= G3dp54MBujO1U3soMP2_ SCORE=344.78915
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002229
+TEXT: Hi:
+On the 1024x768x256 mode, the font sizes of Wi
+-----------------------------------------------------------------
+ID= Z3hp54MBujO1U3soOg1j SCORE=333.78583
+PATH= 20_newsgroups/comp.windows.x/0005932
+TEXT: harden@skate.ics.com (Aub Harden) writes:
+>In arti
+-----------------------------------------------------------------
+ID= Bndp54MBujO1U3soMP6_ SCORE=332.3735
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002925
+TEXT: I am not sure whether I am here in the right area,
+-----------------------------------------------------------------
+ID= DHhp54MBujO1U3soOw9s SCORE=330.91898
+PATH= 20_newsgroups/comp.windows.x/0005292
+TEXT: Hi,
+  Please reply to me direct as I am not a memb
+-----------------------------------------------------------------
+ID= sndp54MBujO1U3soHNvK SCORE=329.05484
+PATH= 20_newsgroups/comp.sys.ibm.pc.hardware/0003431
+TEXT: In article <1993Apr19.144814.17736@aio.jsc.nasa.go
+-----------------------------------------------------------------
+ID= Gnhp54MBujO1U3soOg1j SCORE=328.17966
+PATH= 20_newsgroups/comp.windows.x/0005929
+TEXT: In article <1993May14.191035.19271@vpbuild.vp.com>
+-----------------------------------------------------------------
+ID= aHhp54MBujO1U3soOg1j SCORE=327.29883
+PATH= 20_newsgroups/comp.windows.x/0005842
+TEXT: An application we *must* use requires upper-case i
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 12
+Dictionary for the original query: {'window': 3.8967059253587637, 'x': 3.6667067738648687, 'comput': 1.3333645894235322}
+New query:['window^3.876123137662777', 'x^3.7102783764662335', 'comput^1.3264966871361694']
+-----------------------------------------------------------------
+ID= rXdp54MBujO1U3soIuQK SCORE=387.4069
+PATH= 20_newsgroups/comp.graphics/0001507
+TEXT: Pascal Perret, in article <1993Apr21.125750.263@ei
+-----------------------------------------------------------------
+ID= ZXdp54MBujO1U3soMP2_ SCORE=385.831
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002881
+TEXT: Is there a 768x1024 Trident driver for windows any
+-----------------------------------------------------------------
+ID= B3hp54MBujO1U3soOQxM SCORE=384.5989
+PATH= 20_newsgroups/comp.windows.x/0005821
+TEXT: >markw@pspmf3.gpsemi.com (Mark Wilkinson - Ext 344
+-----------------------------------------------------------------
+ID= G3dp54MBujO1U3soMP2_ SCORE=382.18396
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002229
+TEXT: Hi:
+On the 1024x768x256 mode, the font sizes of Wi
+-----------------------------------------------------------------
+ID= Z3hp54MBujO1U3soOg1j SCORE=370.04083
+PATH= 20_newsgroups/comp.windows.x/0005932
+TEXT: harden@skate.ics.com (Aub Harden) writes:
+>In arti
+-----------------------------------------------------------------
+ID= Bndp54MBujO1U3soMP6_ SCORE=368.46234
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002925
+TEXT: I am not sure whether I am here in the right area,
+-----------------------------------------------------------------
+ID= DHhp54MBujO1U3soOw9s SCORE=367.3883
+PATH= 20_newsgroups/comp.windows.x/0005292
+TEXT: Hi,
+  Please reply to me direct as I am not a memb
+-----------------------------------------------------------------
+ID= sndp54MBujO1U3soHNvK SCORE=365.84042
+PATH= 20_newsgroups/comp.sys.ibm.pc.hardware/0003431
+TEXT: In article <1993Apr19.144814.17736@aio.jsc.nasa.go
+-----------------------------------------------------------------
+ID= Gnhp54MBujO1U3soOg1j SCORE=364.2414
+PATH= 20_newsgroups/comp.windows.x/0005929
+TEXT: In article <1993May14.191035.19271@vpbuild.vp.com>
+-----------------------------------------------------------------
+ID= aHhp54MBujO1U3soOg1j SCORE=362.8203
+PATH= 20_newsgroups/comp.windows.x/0005842
+TEXT: An application we *must* use requires upper-case i
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 13
+Dictionary for the original query: {'window': 3.876123137662777, 'x': 3.7102783764662335, 'comput': 1.3264966871361694}
+New query:['window^3.8637734650451856', 'x^3.736421338027052', 'comput^1.3223759457637516']
+-----------------------------------------------------------------
+ID= rXdp54MBujO1U3soIuQK SCORE=425.4893
+PATH= 20_newsgroups/comp.graphics/0001507
+TEXT: Pascal Perret, in article <1993Apr21.125750.263@ei
+-----------------------------------------------------------------
+ID= ZXdp54MBujO1U3soMP2_ SCORE=423.9063
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002881
+TEXT: Is there a 768x1024 Trident driver for windows any
+-----------------------------------------------------------------
+ID= B3hp54MBujO1U3soOQxM SCORE=423.27856
+PATH= 20_newsgroups/comp.windows.x/0005821
+TEXT: >markw@pspmf3.gpsemi.com (Mark Wilkinson - Ext 344
+-----------------------------------------------------------------
+ID= G3dp54MBujO1U3soMP2_ SCORE=419.63242
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002229
+TEXT: Hi:
+On the 1024x768x256 mode, the font sizes of Wi
+-----------------------------------------------------------------
+ID= Z3hp54MBujO1U3soOg1j SCORE=406.3513
+PATH= 20_newsgroups/comp.windows.x/0005932
+TEXT: harden@skate.ics.com (Aub Harden) writes:
+>In arti
+-----------------------------------------------------------------
+ID= Bndp54MBujO1U3soMP6_ SCORE=404.60242
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002925
+TEXT: I am not sure whether I am here in the right area,
+-----------------------------------------------------------------
+ID= DHhp54MBujO1U3soOw9s SCORE=403.93063
+PATH= 20_newsgroups/comp.windows.x/0005292
+TEXT: Hi,
+  Please reply to me direct as I am not a memb
+-----------------------------------------------------------------
+ID= sndp54MBujO1U3soHNvK SCORE=402.71445
+PATH= 20_newsgroups/comp.sys.ibm.pc.hardware/0003431
+TEXT: In article <1993Apr19.144814.17736@aio.jsc.nasa.go
+-----------------------------------------------------------------
+ID= Gnhp54MBujO1U3soOg1j SCORE=400.37296
+PATH= 20_newsgroups/comp.windows.x/0005929
+TEXT: In article <1993May14.191035.19271@vpbuild.vp.com>
+-----------------------------------------------------------------
+ID= aHhp54MBujO1U3soOg1j SCORE=398.38568
+PATH= 20_newsgroups/comp.windows.x/0005842
+TEXT: An application we *must* use requires upper-case i
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 14
+Dictionary for the original query: {'window': 3.8637734650451856, 'x': 3.736421338027052, 'comput': 1.3223759457637516}
+New query:['window^3.8563636614746306', 'x^3.752107114963543', 'comput^1.3199035009403008']
+-----------------------------------------------------------------
+ID= rXdp54MBujO1U3soIuQK SCORE=463.6185
+PATH= 20_newsgroups/comp.graphics/0001507
+TEXT: Pascal Perret, in article <1993Apr21.125750.263@ei
+-----------------------------------------------------------------
+ID= ZXdp54MBujO1U3soMP2_ SCORE=462.0254
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002881
+TEXT: Is there a 768x1024 Trident driver for windows any
+-----------------------------------------------------------------
+ID= B3hp54MBujO1U3soOQxM SCORE=462.00378
+PATH= 20_newsgroups/comp.windows.x/0005821
+TEXT: >markw@pspmf3.gpsemi.com (Mark Wilkinson - Ext 344
+-----------------------------------------------------------------
+ID= G3dp54MBujO1U3soMP2_ SCORE=457.11307
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002229
+TEXT: Hi:
+On the 1024x768x256 mode, the font sizes of Wi
+-----------------------------------------------------------------
+ID= Z3hp54MBujO1U3soOg1j SCORE=442.69498
+PATH= 20_newsgroups/comp.windows.x/0005932
+TEXT: harden@skate.ics.com (Aub Harden) writes:
+>In arti
+-----------------------------------------------------------------
+ID= Bndp54MBujO1U3soMP6_ SCORE=440.77322
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002925
+TEXT: I am not sure whether I am here in the right area,
+-----------------------------------------------------------------
+ID= DHhp54MBujO1U3soOw9s SCORE=440.51678
+PATH= 20_newsgroups/comp.windows.x/0005292
+TEXT: Hi,
+  Please reply to me direct as I am not a memb
+-----------------------------------------------------------------
+ID= sndp54MBujO1U3soHNvK SCORE=439.64157
+PATH= 20_newsgroups/comp.sys.ibm.pc.hardware/0003431
+TEXT: In article <1993Apr19.144814.17736@aio.jsc.nasa.go
+-----------------------------------------------------------------
+ID= Gnhp54MBujO1U3soOg1j SCORE=436.54648
+PATH= 20_newsgroups/comp.windows.x/0005929
+TEXT: In article <1993May14.191035.19271@vpbuild.vp.com>
+-----------------------------------------------------------------
+ID= aHhp54MBujO1U3soOg1j SCORE=433.97745
+PATH= 20_newsgroups/comp.windows.x/0005842
+TEXT: An application we *must* use requires upper-case i
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 15
+Dictionary for the original query: {'window': 3.8563636614746306, 'x': 3.752107114963543, 'comput': 1.3199035009403008}
+New query:['window^3.8519177793322976', 'x^3.761518581125438', 'comput^1.3184200340462304']
+-----------------------------------------------------------------
+ID= rXdp54MBujO1U3soIuQK SCORE=501.77585
+PATH= 20_newsgroups/comp.graphics/0001507
+TEXT: Pascal Perret, in article <1993Apr21.125750.263@ei
+-----------------------------------------------------------------
+ID= B3hp54MBujO1U3soOQxM SCORE=500.75635
+PATH= 20_newsgroups/comp.windows.x/0005821
+TEXT: >markw@pspmf3.gpsemi.com (Mark Wilkinson - Ext 344
+-----------------------------------------------------------------
+ID= ZXdp54MBujO1U3soMP2_ SCORE=500.17075
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002881
+TEXT: Is there a 768x1024 Trident driver for windows any
+-----------------------------------------------------------------
+ID= G3dp54MBujO1U3soMP2_ SCORE=494.61307
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002229
+TEXT: Hi:
+On the 1024x768x256 mode, the font sizes of Wi
+-----------------------------------------------------------------
+ID= Z3hp54MBujO1U3soOg1j SCORE=479.05865
+PATH= 20_newsgroups/comp.windows.x/0005932
+TEXT: harden@skate.ics.com (Aub Harden) writes:
+>In arti
+-----------------------------------------------------------------
+ID= DHhp54MBujO1U3soOw9s SCORE=477.1293
+PATH= 20_newsgroups/comp.windows.x/0005292
+TEXT: Hi,
+  Please reply to me direct as I am not a memb
+-----------------------------------------------------------------
+ID= Bndp54MBujO1U3soMP6_ SCORE=476.96255
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002925
+TEXT: I am not sure whether I am here in the right area,
+-----------------------------------------------------------------
+ID= sndp54MBujO1U3soHNvK SCORE=476.60062
+PATH= 20_newsgroups/comp.sys.ibm.pc.hardware/0003431
+TEXT: In article <1993Apr19.144814.17736@aio.jsc.nasa.go
+-----------------------------------------------------------------
+ID= Gnhp54MBujO1U3soOg1j SCORE=472.74518
+PATH= 20_newsgroups/comp.windows.x/0005929
+TEXT: In article <1993May14.191035.19271@vpbuild.vp.com>
+-----------------------------------------------------------------
+ID= aHhp54MBujO1U3soOg1j SCORE=469.58505
+PATH= 20_newsgroups/comp.windows.x/0005842
+TEXT: An application we *must* use requires upper-case i
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 16
+Dictionary for the original query: {'window': 3.8519177793322976, 'x': 3.761518581125438, 'comput': 1.3184200340462304}
+New query:['window^3.8492502500468975', 'x^3.767165460822575', 'comput^1.3175299539097882']
+-----------------------------------------------------------------
+ID= rXdp54MBujO1U3soIuQK SCORE=539.95
+PATH= 20_newsgroups/comp.graphics/0001507
+TEXT: Pascal Perret, in article <1993Apr21.125750.263@ei
+-----------------------------------------------------------------
+ID= B3hp54MBujO1U3soOQxM SCORE=539.52527
+PATH= 20_newsgroups/comp.windows.x/0005821
+TEXT: >markw@pspmf3.gpsemi.com (Mark Wilkinson - Ext 344
+-----------------------------------------------------------------
+ID= ZXdp54MBujO1U3soMP2_ SCORE=538.3318
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002881
+TEXT: Is there a 768x1024 Trident driver for windows any
+-----------------------------------------------------------------
+ID= G3dp54MBujO1U3soMP2_ SCORE=532.12463
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002229
+TEXT: Hi:
+On the 1024x768x256 mode, the font sizes of Wi
+-----------------------------------------------------------------
+ID= Z3hp54MBujO1U3soOg1j SCORE=515.43427
+PATH= 20_newsgroups/comp.windows.x/0005932
+TEXT: harden@skate.ics.com (Aub Harden) writes:
+>In arti
+-----------------------------------------------------------------
+ID= DHhp54MBujO1U3soOw9s SCORE=513.7575
+PATH= 20_newsgroups/comp.windows.x/0005292
+TEXT: Hi,
+  Please reply to me direct as I am not a memb
+-----------------------------------------------------------------
+ID= sndp54MBujO1U3soHNvK SCORE=513.57874
+PATH= 20_newsgroups/comp.sys.ibm.pc.hardware/0003431
+TEXT: In article <1993Apr19.144814.17736@aio.jsc.nasa.go
+-----------------------------------------------------------------
+ID= Bndp54MBujO1U3soMP6_ SCORE=513.1629
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002925
+TEXT: I am not sure whether I am here in the right area,
+-----------------------------------------------------------------
+ID= Gnhp54MBujO1U3soOg1j SCORE=508.95892
+PATH= 20_newsgroups/comp.windows.x/0005929
+TEXT: In article <1993May14.191035.19271@vpbuild.vp.com>
+-----------------------------------------------------------------
+ID= aHhp54MBujO1U3soOg1j SCORE=505.20215
+PATH= 20_newsgroups/comp.windows.x/0005842
+TEXT: An application we *must* use requires upper-case i
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 17
+Dictionary for the original query: {'window': 3.8492502500468975, 'x': 3.767165460822575, 'comput': 1.3175299539097882}
+New query:['window^3.8476497324756576', 'x^3.770553588640857', 'comput^1.3169959058279228']
+-----------------------------------------------------------------
+ID= B3hp54MBujO1U3soOQxM SCORE=578.304
+PATH= 20_newsgroups/comp.windows.x/0005821
+TEXT: >markw@pspmf3.gpsemi.com (Mark Wilkinson - Ext 344
+-----------------------------------------------------------------
+ID= rXdp54MBujO1U3soIuQK SCORE=578.13434
+PATH= 20_newsgroups/comp.graphics/0001507
+TEXT: Pascal Perret, in article <1993Apr21.125750.263@ei
+-----------------------------------------------------------------
+ID= ZXdp54MBujO1U3soMP2_ SCORE=576.5023
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002881
+TEXT: Is there a 768x1024 Trident driver for windows any
+-----------------------------------------------------------------
+ID= G3dp54MBujO1U3soMP2_ SCORE=569.6431
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002229
+TEXT: Hi:
+On the 1024x768x256 mode, the font sizes of Wi
+-----------------------------------------------------------------
+ID= Z3hp54MBujO1U3soOg1j SCORE=551.8171
+PATH= 20_newsgroups/comp.windows.x/0005932
+TEXT: harden@skate.ics.com (Aub Harden) writes:
+>In arti
+-----------------------------------------------------------------
+ID= sndp54MBujO1U3soHNvK SCORE=550.5683
+PATH= 20_newsgroups/comp.sys.ibm.pc.hardware/0003431
+TEXT: In article <1993Apr19.144814.17736@aio.jsc.nasa.go
+-----------------------------------------------------------------
+ID= DHhp54MBujO1U3soOw9s SCORE=550.3952
+PATH= 20_newsgroups/comp.windows.x/0005292
+TEXT: Hi,
+  Please reply to me direct as I am not a memb
+-----------------------------------------------------------------
+ID= Bndp54MBujO1U3soMP6_ SCORE=549.36993
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002925
+TEXT: I am not sure whether I am here in the right area,
+-----------------------------------------------------------------
+ID= Gnhp54MBujO1U3soOg1j SCORE=545.18176
+PATH= 20_newsgroups/comp.windows.x/0005929
+TEXT: In article <1993May14.191035.19271@vpbuild.vp.com>
+-----------------------------------------------------------------
+ID= aHhp54MBujO1U3soOg1j SCORE=540.8249
+PATH= 20_newsgroups/comp.windows.x/0005842
+TEXT: An application we *must* use requires upper-case i
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 18
+Dictionary for the original query: {'window': 3.8476497324756576, 'x': 3.770553588640857, 'comput': 1.3169959058279228}
+New query:['window^3.846689421932914', 'x^3.7725864653318264', 'comput^1.3166754769788036']
+-----------------------------------------------------------------
+ID= B3hp54MBujO1U3soOQxM SCORE=617.08875
+PATH= 20_newsgroups/comp.windows.x/0005821
+TEXT: >markw@pspmf3.gpsemi.com (Mark Wilkinson - Ext 344
+-----------------------------------------------------------------
+ID= rXdp54MBujO1U3soIuQK SCORE=616.32465
+PATH= 20_newsgroups/comp.graphics/0001507
+TEXT: Pascal Perret, in article <1993Apr21.125750.263@ei
+-----------------------------------------------------------------
+ID= ZXdp54MBujO1U3soMP2_ SCORE=614.6785
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002881
+TEXT: Is there a 768x1024 Trident driver for windows any
+-----------------------------------------------------------------
+ID= G3dp54MBujO1U3soMP2_ SCORE=607.1659
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002229
+TEXT: Hi:
+On the 1024x768x256 mode, the font sizes of Wi
+-----------------------------------------------------------------
+ID= Z3hp54MBujO1U3soOg1j SCORE=588.2042
+PATH= 20_newsgroups/comp.windows.x/0005932
+TEXT: harden@skate.ics.com (Aub Harden) writes:
+>In arti
+-----------------------------------------------------------------
+ID= sndp54MBujO1U3soHNvK SCORE=587.56476
+PATH= 20_newsgroups/comp.sys.ibm.pc.hardware/0003431
+TEXT: In article <1993Apr19.144814.17736@aio.jsc.nasa.go
+-----------------------------------------------------------------
+ID= DHhp54MBujO1U3soOw9s SCORE=587.03864
+PATH= 20_newsgroups/comp.windows.x/0005292
+TEXT: Hi,
+  Please reply to me direct as I am not a memb
+-----------------------------------------------------------------
+ID= Bndp54MBujO1U3soMP6_ SCORE=585.58093
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002925
+TEXT: I am not sure whether I am here in the right area,
+-----------------------------------------------------------------
+ID= Gnhp54MBujO1U3soOg1j SCORE=581.41003
+PATH= 20_newsgroups/comp.windows.x/0005929
+TEXT: In article <1993May14.191035.19271@vpbuild.vp.com>
+-----------------------------------------------------------------
+ID= aHhp54MBujO1U3soOg1j SCORE=576.4511
+PATH= 20_newsgroups/comp.windows.x/0005842
+TEXT: An application we *must* use requires upper-case i
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 19
+Dictionary for the original query: {'window': 3.846689421932914, 'x': 3.7725864653318264, 'comput': 1.3166754769788036}
+New query:['window^3.846113235607268', 'x^3.773806191346408', 'comput^1.3164832196693321']
+-----------------------------------------------------------------
+ID= B3hp54MBujO1U3soOQxM SCORE=655.87695
+PATH= 20_newsgroups/comp.windows.x/0005821
+TEXT: >markw@pspmf3.gpsemi.com (Mark Wilkinson - Ext 344
+-----------------------------------------------------------------
+ID= rXdp54MBujO1U3soIuQK SCORE=654.5187
+PATH= 20_newsgroups/comp.graphics/0001507
+TEXT: Pascal Perret, in article <1993Apr21.125750.263@ei
+-----------------------------------------------------------------
+ID= ZXdp54MBujO1U3soMP2_ SCORE=652.85815
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002881
+TEXT: Is there a 768x1024 Trident driver for windows any
+-----------------------------------------------------------------
+ID= G3dp54MBujO1U3soMP2_ SCORE=644.6911
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002229
+TEXT: Hi:
+On the 1024x768x256 mode, the font sizes of Wi
+-----------------------------------------------------------------
+ID= Z3hp54MBujO1U3soOg1j SCORE=624.594
+PATH= 20_newsgroups/comp.windows.x/0005932
+TEXT: harden@skate.ics.com (Aub Harden) writes:
+>In arti
+-----------------------------------------------------------------
+ID= sndp54MBujO1U3soHNvK SCORE=624.5654
+PATH= 20_newsgroups/comp.sys.ibm.pc.hardware/0003431
+TEXT: In article <1993Apr19.144814.17736@aio.jsc.nasa.go
+-----------------------------------------------------------------
+ID= DHhp54MBujO1U3soOw9s SCORE=623.6855
+PATH= 20_newsgroups/comp.windows.x/0005292
+TEXT: Hi,
+  Please reply to me direct as I am not a memb
+-----------------------------------------------------------------
+ID= Bndp54MBujO1U3soMP6_ SCORE=621.7943
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002925
+TEXT: I am not sure whether I am here in the right area,
+-----------------------------------------------------------------
+ID= Gnhp54MBujO1U3soOg1j SCORE=617.64154
+PATH= 20_newsgroups/comp.windows.x/0005929
+TEXT: In article <1993May14.191035.19271@vpbuild.vp.com>
+-----------------------------------------------------------------
+ID= aHhp54MBujO1U3soOg1j SCORE=612.07935
+PATH= 20_newsgroups/comp.windows.x/0005842
+TEXT: An application we *must* use requires upper-case i
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 20
+Dictionary for the original query: {'window': 3.846113235607268, 'x': 3.773806191346408, 'comput': 1.3164832196693321}
+New query:['window^3.8457675238118796', 'x^3.774538026955157', 'comput^1.3163678652836492']
+-----------------------------------------------------------------
+ID= B3hp54MBujO1U3soOQxM SCORE=694.6673
+PATH= 20_newsgroups/comp.windows.x/0005821
+TEXT: >markw@pspmf3.gpsemi.com (Mark Wilkinson - Ext 344
+-----------------------------------------------------------------
+ID= rXdp54MBujO1U3soIuQK SCORE=692.7149
+PATH= 20_newsgroups/comp.graphics/0001507
+TEXT: Pascal Perret, in article <1993Apr21.125750.263@ei
+-----------------------------------------------------------------
+ID= ZXdp54MBujO1U3soMP2_ SCORE=691.0398
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002881
+TEXT: Is there a 768x1024 Trident driver for windows any
+-----------------------------------------------------------------
+ID= G3dp54MBujO1U3soMP2_ SCORE=682.21783
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002229
+TEXT: Hi:
+On the 1024x768x256 mode, the font sizes of Wi
+-----------------------------------------------------------------
+ID= sndp54MBujO1U3soHNvK SCORE=661.56854
+PATH= 20_newsgroups/comp.sys.ibm.pc.hardware/0003431
+TEXT: In article <1993Apr19.144814.17736@aio.jsc.nasa.go
+-----------------------------------------------------------------
+ID= Z3hp54MBujO1U3soOg1j SCORE=660.9853
+PATH= 20_newsgroups/comp.windows.x/0005932
+TEXT: harden@skate.ics.com (Aub Harden) writes:
+>In arti
+-----------------------------------------------------------------
+ID= DHhp54MBujO1U3soOw9s SCORE=660.3343
+PATH= 20_newsgroups/comp.windows.x/0005292
+TEXT: Hi,
+  Please reply to me direct as I am not a memb
+-----------------------------------------------------------------
+ID= Bndp54MBujO1U3soMP6_ SCORE=658.00916
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002925
+TEXT: I am not sure whether I am here in the right area,
+-----------------------------------------------------------------
+ID= Gnhp54MBujO1U3soOg1j SCORE=653.875
+PATH= 20_newsgroups/comp.windows.x/0005929
+TEXT: In article <1993May14.191035.19271@vpbuild.vp.com>
+-----------------------------------------------------------------
+ID= aHhp54MBujO1U3soOg1j SCORE=647.70886
+PATH= 20_newsgroups/comp.windows.x/0005842
+TEXT: An application we *must* use requires upper-case i
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 21
+Dictionary for the original query: {'window': 3.8457675238118796, 'x': 3.774538026955157, 'comput': 1.3163678652836492}
+New query:['window^3.845560096734647', 'x^3.774977128320406', 'comput^1.3162986526522396']
+-----------------------------------------------------------------
+ID= B3hp54MBujO1U3soOQxM SCORE=733.45886
+PATH= 20_newsgroups/comp.windows.x/0005821
+TEXT: >markw@pspmf3.gpsemi.com (Mark Wilkinson - Ext 344
+-----------------------------------------------------------------
+ID= rXdp54MBujO1U3soIuQK SCORE=730.91235
+PATH= 20_newsgroups/comp.graphics/0001507
+TEXT: Pascal Perret, in article <1993Apr21.125750.263@ei
+-----------------------------------------------------------------
+ID= ZXdp54MBujO1U3soMP2_ SCORE=729.2226
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002881
+TEXT: Is there a 768x1024 Trident driver for windows any
+-----------------------------------------------------------------
+ID= G3dp54MBujO1U3soMP2_ SCORE=719.7454
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002229
+TEXT: Hi:
+On the 1024x768x256 mode, the font sizes of Wi
+-----------------------------------------------------------------
+ID= sndp54MBujO1U3soHNvK SCORE=698.573
+PATH= 20_newsgroups/comp.sys.ibm.pc.hardware/0003431
+TEXT: In article <1993Apr19.144814.17736@aio.jsc.nasa.go
+-----------------------------------------------------------------
+ID= Z3hp54MBujO1U3soOg1j SCORE=697.37744
+PATH= 20_newsgroups/comp.windows.x/0005932
+TEXT: harden@skate.ics.com (Aub Harden) writes:
+>In arti
+-----------------------------------------------------------------
+ID= DHhp54MBujO1U3soOw9s SCORE=696.9844
+PATH= 20_newsgroups/comp.windows.x/0005292
+TEXT: Hi,
+  Please reply to me direct as I am not a memb
+-----------------------------------------------------------------
+ID= Bndp54MBujO1U3soMP6_ SCORE=694.22473
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002925
+TEXT: I am not sure whether I am here in the right area,
+-----------------------------------------------------------------
+ID= Gnhp54MBujO1U3soOg1j SCORE=690.1096
+PATH= 20_newsgroups/comp.windows.x/0005929
+TEXT: In article <1993May14.191035.19271@vpbuild.vp.com>
+-----------------------------------------------------------------
+ID= aHhp54MBujO1U3soOg1j SCORE=683.339
+PATH= 20_newsgroups/comp.windows.x/0005842
+TEXT: An application we *must* use requires upper-case i
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 22
+Dictionary for the original query: {'window': 3.845560096734647, 'x': 3.774977128320406, 'comput': 1.3162986526522396}
+New query:['window^3.845435640488307', 'x^3.775240589139556', 'comput^1.3162571250733937']
+-----------------------------------------------------------------
+ID= B3hp54MBujO1U3soOQxM SCORE=772.2512
+PATH= 20_newsgroups/comp.windows.x/0005821
+TEXT: >markw@pspmf3.gpsemi.com (Mark Wilkinson - Ext 344
+-----------------------------------------------------------------
+ID= rXdp54MBujO1U3soIuQK SCORE=769.1106
+PATH= 20_newsgroups/comp.graphics/0001507
+TEXT: Pascal Perret, in article <1993Apr21.125750.263@ei
+-----------------------------------------------------------------
+ID= ZXdp54MBujO1U3soMP2_ SCORE=767.4062
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002881
+TEXT: Is there a 768x1024 Trident driver for windows any
+-----------------------------------------------------------------
+ID= G3dp54MBujO1U3soMP2_ SCORE=757.27356
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002229
+TEXT: Hi:
+On the 1024x768x256 mode, the font sizes of Wi
+-----------------------------------------------------------------
+ID= sndp54MBujO1U3soHNvK SCORE=735.5785
+PATH= 20_newsgroups/comp.sys.ibm.pc.hardware/0003431
+TEXT: In article <1993Apr19.144814.17736@aio.jsc.nasa.go
+-----------------------------------------------------------------
+ID= Z3hp54MBujO1U3soOg1j SCORE=733.77014
+PATH= 20_newsgroups/comp.windows.x/0005932
+TEXT: harden@skate.ics.com (Aub Harden) writes:
+>In arti
+-----------------------------------------------------------------
+ID= DHhp54MBujO1U3soOw9s SCORE=733.63513
+PATH= 20_newsgroups/comp.windows.x/0005292
+TEXT: Hi,
+  Please reply to me direct as I am not a memb
+-----------------------------------------------------------------
+ID= Bndp54MBujO1U3soMP6_ SCORE=730.4409
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002925
+TEXT: I am not sure whether I am here in the right area,
+-----------------------------------------------------------------
+ID= Gnhp54MBujO1U3soOg1j SCORE=726.3449
+PATH= 20_newsgroups/comp.windows.x/0005929
+TEXT: In article <1993May14.191035.19271@vpbuild.vp.com>
+-----------------------------------------------------------------
+ID= aHhp54MBujO1U3soOg1j SCORE=718.96967
+PATH= 20_newsgroups/comp.windows.x/0005842
+TEXT: An application we *must* use requires upper-case i
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 23
+Dictionary for the original query: {'window': 3.845435640488307, 'x': 3.775240589139556, 'comput': 1.3162571250733937}
+New query:['window^3.845360966740504', 'x^3.775398665631046', 'comput^1.316232208526086']
+-----------------------------------------------------------------
+ID= B3hp54MBujO1U3soOQxM SCORE=811.04407
+PATH= 20_newsgroups/comp.windows.x/0005821
+TEXT: >markw@pspmf3.gpsemi.com (Mark Wilkinson - Ext 344
+-----------------------------------------------------------------
+ID= rXdp54MBujO1U3soIuQK SCORE=807.3093
+PATH= 20_newsgroups/comp.graphics/0001507
+TEXT: Pascal Perret, in article <1993Apr21.125750.263@ei
+-----------------------------------------------------------------
+ID= ZXdp54MBujO1U3soMP2_ SCORE=805.5902
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002881
+TEXT: Is there a 768x1024 Trident driver for windows any
+-----------------------------------------------------------------
+ID= G3dp54MBujO1U3soMP2_ SCORE=794.80206
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002229
+TEXT: Hi:
+On the 1024x768x256 mode, the font sizes of Wi
+-----------------------------------------------------------------
+ID= sndp54MBujO1U3soHNvK SCORE=772.5845
+PATH= 20_newsgroups/comp.sys.ibm.pc.hardware/0003431
+TEXT: In article <1993Apr19.144814.17736@aio.jsc.nasa.go
+-----------------------------------------------------------------
+ID= DHhp54MBujO1U3soOw9s SCORE=770.2864
+PATH= 20_newsgroups/comp.windows.x/0005292
+TEXT: Hi,
+  Please reply to me direct as I am not a memb
+-----------------------------------------------------------------
+ID= Z3hp54MBujO1U3soOg1j SCORE=770.1632
+PATH= 20_newsgroups/comp.windows.x/0005932
+TEXT: harden@skate.ics.com (Aub Harden) writes:
+>In arti
+-----------------------------------------------------------------
+ID= Bndp54MBujO1U3soMP6_ SCORE=766.6575
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002925
+TEXT: I am not sure whether I am here in the right area,
+-----------------------------------------------------------------
+ID= Gnhp54MBujO1U3soOg1j SCORE=762.5807
+PATH= 20_newsgroups/comp.windows.x/0005929
+TEXT: In article <1993May14.191035.19271@vpbuild.vp.com>
+-----------------------------------------------------------------
+ID= aHhp54MBujO1U3soOg1j SCORE=754.6005
+PATH= 20_newsgroups/comp.windows.x/0005842
+TEXT: An application we *must* use requires upper-case i
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 24
+Dictionary for the original query: {'window': 3.845360966740504, 'x': 3.775398665631046, 'comput': 1.316232208526086}
+New query:['window^3.845316162491822', 'x^3.77549351152594', 'comput^1.3162172585977014']
+-----------------------------------------------------------------
+ID= B3hp54MBujO1U3soOQxM SCORE=849.83716
+PATH= 20_newsgroups/comp.windows.x/0005821
+TEXT: >markw@pspmf3.gpsemi.com (Mark Wilkinson - Ext 344
+-----------------------------------------------------------------
+ID= rXdp54MBujO1U3soIuQK SCORE=845.50836
+PATH= 20_newsgroups/comp.graphics/0001507
+TEXT: Pascal Perret, in article <1993Apr21.125750.263@ei
+-----------------------------------------------------------------
+ID= ZXdp54MBujO1U3soMP2_ SCORE=843.77454
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002881
+TEXT: Is there a 768x1024 Trident driver for windows any
+-----------------------------------------------------------------
+ID= G3dp54MBujO1U3soMP2_ SCORE=832.33075
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002229
+TEXT: Hi:
+On the 1024x768x256 mode, the font sizes of Wi
+-----------------------------------------------------------------
+ID= sndp54MBujO1U3soHNvK SCORE=809.59076
+PATH= 20_newsgroups/comp.sys.ibm.pc.hardware/0003431
+TEXT: In article <1993Apr19.144814.17736@aio.jsc.nasa.go
+-----------------------------------------------------------------
+ID= DHhp54MBujO1U3soOw9s SCORE=806.9379
+PATH= 20_newsgroups/comp.windows.x/0005292
+TEXT: Hi,
+  Please reply to me direct as I am not a memb
+-----------------------------------------------------------------
+ID= Z3hp54MBujO1U3soOg1j SCORE=806.5566
+PATH= 20_newsgroups/comp.windows.x/0005932
+TEXT: harden@skate.ics.com (Aub Harden) writes:
+>In arti
+-----------------------------------------------------------------
+ID= Bndp54MBujO1U3soMP6_ SCORE=802.87415
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002925
+TEXT: I am not sure whether I am here in the right area,
+-----------------------------------------------------------------
+ID= Gnhp54MBujO1U3soOg1j SCORE=798.8167
+PATH= 20_newsgroups/comp.windows.x/0005929
+TEXT: In article <1993May14.191035.19271@vpbuild.vp.com>
+-----------------------------------------------------------------
+ID= aHhp54MBujO1U3soOg1j SCORE=790.2316
+PATH= 20_newsgroups/comp.windows.x/0005842
+TEXT: An application we *must* use requires upper-case i
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 25
+Dictionary for the original query: {'window': 3.845316162491822, 'x': 3.77549351152594, 'comput': 1.3162172585977014}
+New query:['window^3.8452892799426133', 'x^3.775550419062876', 'comput^1.316208288640671']
+-----------------------------------------------------------------
+ID= B3hp54MBujO1U3soOQxM SCORE=888.63043
+PATH= 20_newsgroups/comp.windows.x/0005821
+TEXT: >markw@pspmf3.gpsemi.com (Mark Wilkinson - Ext 344
+-----------------------------------------------------------------
+ID= rXdp54MBujO1U3soIuQK SCORE=883.70764
+PATH= 20_newsgroups/comp.graphics/0001507
+TEXT: Pascal Perret, in article <1993Apr21.125750.263@ei
+-----------------------------------------------------------------
+ID= ZXdp54MBujO1U3soMP2_ SCORE=881.959
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002881
+TEXT: Is there a 768x1024 Trident driver for windows any
+-----------------------------------------------------------------
+ID= G3dp54MBujO1U3soMP2_ SCORE=869.85956
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002229
+TEXT: Hi:
+On the 1024x768x256 mode, the font sizes of Wi
+-----------------------------------------------------------------
+ID= sndp54MBujO1U3soHNvK SCORE=846.59735
+PATH= 20_newsgroups/comp.sys.ibm.pc.hardware/0003431
+TEXT: In article <1993Apr19.144814.17736@aio.jsc.nasa.go
+-----------------------------------------------------------------
+ID= DHhp54MBujO1U3soOw9s SCORE=843.5896
+PATH= 20_newsgroups/comp.windows.x/0005292
+TEXT: Hi,
+  Please reply to me direct as I am not a memb
+-----------------------------------------------------------------
+ID= Z3hp54MBujO1U3soOg1j SCORE=842.94995
+PATH= 20_newsgroups/comp.windows.x/0005932
+TEXT: harden@skate.ics.com (Aub Harden) writes:
+>In arti
+-----------------------------------------------------------------
+ID= Bndp54MBujO1U3soMP6_ SCORE=839.09094
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002925
+TEXT: I am not sure whether I am here in the right area,
+-----------------------------------------------------------------
+ID= Gnhp54MBujO1U3soOg1j SCORE=835.0529
+PATH= 20_newsgroups/comp.windows.x/0005929
+TEXT: In article <1993May14.191035.19271@vpbuild.vp.com>
+-----------------------------------------------------------------
+ID= aHhp54MBujO1U3soOg1j SCORE=825.86285
+PATH= 20_newsgroups/comp.windows.x/0005842
+TEXT: An application we *must* use requires upper-case i
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 26
+Dictionary for the original query: {'window': 3.8452892799426133, 'x': 3.775550419062876, 'comput': 1.316208288640671}
+New query:['window^3.845273150413088', 'x^3.7755845635850376', 'comput^1.3162029066664527']
+-----------------------------------------------------------------
+ID= B3hp54MBujO1U3soOQxM SCORE=927.4238
+PATH= 20_newsgroups/comp.windows.x/0005821
+TEXT: >markw@pspmf3.gpsemi.com (Mark Wilkinson - Ext 344
+-----------------------------------------------------------------
+ID= rXdp54MBujO1U3soIuQK SCORE=921.90686
+PATH= 20_newsgroups/comp.graphics/0001507
+TEXT: Pascal Perret, in article <1993Apr21.125750.263@ei
+-----------------------------------------------------------------
+ID= ZXdp54MBujO1U3soMP2_ SCORE=920.1435
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002881
+TEXT: Is there a 768x1024 Trident driver for windows any
+-----------------------------------------------------------------
+ID= G3dp54MBujO1U3soMP2_ SCORE=907.38837
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002229
+TEXT: Hi:
+On the 1024x768x256 mode, the font sizes of Wi
+-----------------------------------------------------------------
+ID= sndp54MBujO1U3soHNvK SCORE=883.6039
+PATH= 20_newsgroups/comp.sys.ibm.pc.hardware/0003431
+TEXT: In article <1993Apr19.144814.17736@aio.jsc.nasa.go
+-----------------------------------------------------------------
+ID= DHhp54MBujO1U3soOw9s SCORE=880.24133
+PATH= 20_newsgroups/comp.windows.x/0005292
+TEXT: Hi,
+  Please reply to me direct as I am not a memb
+-----------------------------------------------------------------
+ID= Z3hp54MBujO1U3soOg1j SCORE=879.34344
+PATH= 20_newsgroups/comp.windows.x/0005932
+TEXT: harden@skate.ics.com (Aub Harden) writes:
+>In arti
+-----------------------------------------------------------------
+ID= Bndp54MBujO1U3soMP6_ SCORE=875.3078
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002925
+TEXT: I am not sure whether I am here in the right area,
+-----------------------------------------------------------------
+ID= Gnhp54MBujO1U3soOg1j SCORE=871.2892
+PATH= 20_newsgroups/comp.windows.x/0005929
+TEXT: In article <1993May14.191035.19271@vpbuild.vp.com>
+-----------------------------------------------------------------
+ID= aHhp54MBujO1U3soOg1j SCORE=861.494
+PATH= 20_newsgroups/comp.windows.x/0005842
+TEXT: An application we *must* use requires upper-case i
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 27
+Dictionary for the original query: {'window': 3.845273150413088, 'x': 3.7755845635850376, 'comput': 1.3162029066664527}
+New query:['window^3.8452634726953727', 'x^3.7756050502983345', 'comput^1.3161996774819216']
+-----------------------------------------------------------------
+ID= B3hp54MBujO1U3soOQxM SCORE=966.2173
+PATH= 20_newsgroups/comp.windows.x/0005821
+TEXT: >markw@pspmf3.gpsemi.com (Mark Wilkinson - Ext 344
+-----------------------------------------------------------------
+ID= rXdp54MBujO1U3soIuQK SCORE=960.10626
+PATH= 20_newsgroups/comp.graphics/0001507
+TEXT: Pascal Perret, in article <1993Apr21.125750.263@ei
+-----------------------------------------------------------------
+ID= ZXdp54MBujO1U3soMP2_ SCORE=958.3282
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002881
+TEXT: Is there a 768x1024 Trident driver for windows any
+-----------------------------------------------------------------
+ID= G3dp54MBujO1U3soMP2_ SCORE=944.9173
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002229
+TEXT: Hi:
+On the 1024x768x256 mode, the font sizes of Wi
+-----------------------------------------------------------------
+ID= sndp54MBujO1U3soHNvK SCORE=920.61066
+PATH= 20_newsgroups/comp.sys.ibm.pc.hardware/0003431
+TEXT: In article <1993Apr19.144814.17736@aio.jsc.nasa.go
+-----------------------------------------------------------------
+ID= DHhp54MBujO1U3soOw9s SCORE=916.8932
+PATH= 20_newsgroups/comp.windows.x/0005292
+TEXT: Hi,
+  Please reply to me direct as I am not a memb
+-----------------------------------------------------------------
+ID= Z3hp54MBujO1U3soOg1j SCORE=915.73706
+PATH= 20_newsgroups/comp.windows.x/0005932
+TEXT: harden@skate.ics.com (Aub Harden) writes:
+>In arti
+-----------------------------------------------------------------
+ID= Bndp54MBujO1U3soMP6_ SCORE=911.5247
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002925
+TEXT: I am not sure whether I am here in the right area,
+-----------------------------------------------------------------
+ID= Gnhp54MBujO1U3soOg1j SCORE=907.5256
+PATH= 20_newsgroups/comp.windows.x/0005929
+TEXT: In article <1993May14.191035.19271@vpbuild.vp.com>
+-----------------------------------------------------------------
+ID= aHhp54MBujO1U3soOg1j SCORE=897.1253
+PATH= 20_newsgroups/comp.windows.x/0005842
+TEXT: An application we *must* use requires upper-case i
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 28
+Dictionary for the original query: {'window': 3.8452634726953727, 'x': 3.7756050502983345, 'comput': 1.3161996774819216}
+New query:['window^3.845257666064743', 'x^3.819351977791894', 'comput^1.3046285703372453']
+-----------------------------------------------------------------
+ID= B3hp54MBujO1U3soOQxM SCORE=1005.01074
+PATH= 20_newsgroups/comp.windows.x/0005821
+TEXT: >markw@pspmf3.gpsemi.com (Mark Wilkinson - Ext 344
+-----------------------------------------------------------------
+ID= rXdp54MBujO1U3soIuQK SCORE=998.30566
+PATH= 20_newsgroups/comp.graphics/0001507
+TEXT: Pascal Perret, in article <1993Apr21.125750.263@ei
+-----------------------------------------------------------------
+ID= ZXdp54MBujO1U3soMP2_ SCORE=996.51276
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002881
+TEXT: Is there a 768x1024 Trident driver for windows any
+-----------------------------------------------------------------
+ID= G3dp54MBujO1U3soMP2_ SCORE=982.4462
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002229
+TEXT: Hi:
+On the 1024x768x256 mode, the font sizes of Wi
+-----------------------------------------------------------------
+ID= sndp54MBujO1U3soHNvK SCORE=957.6174
+PATH= 20_newsgroups/comp.sys.ibm.pc.hardware/0003431
+TEXT: In article <1993Apr19.144814.17736@aio.jsc.nasa.go
+-----------------------------------------------------------------
+ID= DHhp54MBujO1U3soOw9s SCORE=953.54504
+PATH= 20_newsgroups/comp.windows.x/0005292
+TEXT: Hi,
+  Please reply to me direct as I am not a memb
+-----------------------------------------------------------------
+ID= Z3hp54MBujO1U3soOg1j SCORE=952.13055
+PATH= 20_newsgroups/comp.windows.x/0005932
+TEXT: harden@skate.ics.com (Aub Harden) writes:
+>In arti
+-----------------------------------------------------------------
+ID= Bndp54MBujO1U3soMP6_ SCORE=947.74164
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002925
+TEXT: I am not sure whether I am here in the right area,
+-----------------------------------------------------------------
+ID= Gnhp54MBujO1U3soOg1j SCORE=943.7619
+PATH= 20_newsgroups/comp.windows.x/0005929
+TEXT: In article <1993May14.191035.19271@vpbuild.vp.com>
+-----------------------------------------------------------------
+ID= uHhp54MBujO1U3soOw5s SCORE=932.79565
+PATH= 20_newsgroups/comp.windows.x/0005872
+TEXT: From:  DENNIS L. HART                       Date: 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 29
+Dictionary for the original query: {'window': 3.845257666064743, 'x': 3.819351977791894, 'comput': 1.3046285703372453}
+New query:['x^3.8456001342880297', 'window^3.8452541820863653', 'comput^1.2976859060504395']
+-----------------------------------------------------------------
+ID= B3hp54MBujO1U3soOQxM SCORE=1043.9712
+PATH= 20_newsgroups/comp.windows.x/0005821
+TEXT: >markw@pspmf3.gpsemi.com (Mark Wilkinson - Ext 344
+-----------------------------------------------------------------
+ID= rXdp54MBujO1U3soIuQK SCORE=1036.6511
+PATH= 20_newsgroups/comp.graphics/0001507
+TEXT: Pascal Perret, in article <1993Apr21.125750.263@ei
+-----------------------------------------------------------------
+ID= ZXdp54MBujO1U3soMP2_ SCORE=1034.8451
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002881
+TEXT: Is there a 768x1024 Trident driver for windows any
+-----------------------------------------------------------------
+ID= G3dp54MBujO1U3soMP2_ SCORE=1020.10876
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002229
+TEXT: Hi:
+On the 1024x768x256 mode, the font sizes of Wi
+-----------------------------------------------------------------
+ID= sndp54MBujO1U3soHNvK SCORE=994.79016
+PATH= 20_newsgroups/comp.sys.ibm.pc.hardware/0003431
+TEXT: In article <1993Apr19.144814.17736@aio.jsc.nasa.go
+-----------------------------------------------------------------
+ID= DHhp54MBujO1U3soOw9s SCORE=990.3461
+PATH= 20_newsgroups/comp.windows.x/0005292
+TEXT: Hi,
+  Please reply to me direct as I am not a memb
+-----------------------------------------------------------------
+ID= Z3hp54MBujO1U3soOg1j SCORE=988.65594
+PATH= 20_newsgroups/comp.windows.x/0005932
+TEXT: harden@skate.ics.com (Aub Harden) writes:
+>In arti
+-----------------------------------------------------------------
+ID= Bndp54MBujO1U3soMP6_ SCORE=984.08813
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002925
+TEXT: I am not sure whether I am here in the right area,
+-----------------------------------------------------------------
+ID= Gnhp54MBujO1U3soOg1j SCORE=980.1428
+PATH= 20_newsgroups/comp.windows.x/0005929
+TEXT: In article <1993May14.191035.19271@vpbuild.vp.com>
+-----------------------------------------------------------------
+ID= uHhp54MBujO1U3soOw5s SCORE=968.8678
+PATH= 20_newsgroups/comp.windows.x/0005872
+TEXT: From:  DENNIS L. HART                       Date: 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 30
+Dictionary for the original query: {'x': 3.8456001342880297, 'window': 3.8452541820863653, 'comput': 1.2976859060504395}
+New query:['x^3.8613490281857112', 'window^3.845252091699339', 'comput^1.2935203074783561']
+-----------------------------------------------------------------
+ID= B3hp54MBujO1U3soOQxM SCORE=1083.0321
+PATH= 20_newsgroups/comp.windows.x/0005821
+TEXT: >markw@pspmf3.gpsemi.com (Mark Wilkinson - Ext 344
+-----------------------------------------------------------------
+ID= rXdp54MBujO1U3soIuQK SCORE=1075.0842
+PATH= 20_newsgroups/comp.graphics/0001507
+TEXT: Pascal Perret, in article <1993Apr21.125750.263@ei
+-----------------------------------------------------------------
+ID= ZXdp54MBujO1U3soMP2_ SCORE=1073.2662
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002881
+TEXT: Is there a 768x1024 Trident driver for windows any
+-----------------------------------------------------------------
+ID= G3dp54MBujO1U3soMP2_ SCORE=1057.8516
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002229
+TEXT: Hi:
+On the 1024x768x256 mode, the font sizes of Wi
+-----------------------------------------------------------------
+ID= sndp54MBujO1U3soHNvK SCORE=1032.0627
+PATH= 20_newsgroups/comp.sys.ibm.pc.hardware/0003431
+TEXT: In article <1993Apr19.144814.17736@aio.jsc.nasa.go
+-----------------------------------------------------------------
+ID= DHhp54MBujO1U3soOw9s SCORE=1027.2368
+PATH= 20_newsgroups/comp.windows.x/0005292
+TEXT: Hi,
+  Please reply to me direct as I am not a memb
+-----------------------------------------------------------------
+ID= Z3hp54MBujO1U3soOg1j SCORE=1025.2605
+PATH= 20_newsgroups/comp.windows.x/0005932
+TEXT: harden@skate.ics.com (Aub Harden) writes:
+>In arti
+-----------------------------------------------------------------
+ID= Bndp54MBujO1U3soMP6_ SCORE=1020.5125
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002925
+TEXT: I am not sure whether I am here in the right area,
+-----------------------------------------------------------------
+ID= Gnhp54MBujO1U3soOg1j SCORE=1016.61066
+PATH= 20_newsgroups/comp.windows.x/0005929
+TEXT: In article <1993May14.191035.19271@vpbuild.vp.com>
+-----------------------------------------------------------------
+ID= uHhp54MBujO1U3soOw5s SCORE=1005.0292
+PATH= 20_newsgroups/comp.windows.x/0005872
+TEXT: From:  DENNIS L. HART                       Date: 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 31
+Dictionary for the original query: {'x': 3.8613490281857112, 'window': 3.845252091699339, 'comput': 1.2935203074783561}
+New query:['x^3.87079836452432', 'window^3.8452508374671233', 'comput^1.291020948335106']
+-----------------------------------------------------------------
+ID= B3hp54MBujO1U3soOQxM SCORE=1122.153
+PATH= 20_newsgroups/comp.windows.x/0005821
+TEXT: >markw@pspmf3.gpsemi.com (Mark Wilkinson - Ext 344
+-----------------------------------------------------------------
+ID= rXdp54MBujO1U3soIuQK SCORE=1113.5698
+PATH= 20_newsgroups/comp.graphics/0001507
+TEXT: Pascal Perret, in article <1993Apr21.125750.263@ei
+-----------------------------------------------------------------
+ID= ZXdp54MBujO1U3soMP2_ SCORE=1111.7405
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002881
+TEXT: Is there a 768x1024 Trident driver for windows any
+-----------------------------------------------------------------
+ID= G3dp54MBujO1U3soMP2_ SCORE=1095.6425
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002229
+TEXT: Hi:
+On the 1024x768x256 mode, the font sizes of Wi
+-----------------------------------------------------------------
+ID= sndp54MBujO1U3soHNvK SCORE=1069.3951
+PATH= 20_newsgroups/comp.sys.ibm.pc.hardware/0003431
+TEXT: In article <1993Apr19.144814.17736@aio.jsc.nasa.go
+-----------------------------------------------------------------
+ID= DHhp54MBujO1U3soOw9s SCORE=1064.1813
+PATH= 20_newsgroups/comp.windows.x/0005292
+TEXT: Hi,
+  Please reply to me direct as I am not a memb
+-----------------------------------------------------------------
+ID= Z3hp54MBujO1U3soOg1j SCORE=1061.9124
+PATH= 20_newsgroups/comp.windows.x/0005932
+TEXT: harden@skate.ics.com (Aub Harden) writes:
+>In arti
+-----------------------------------------------------------------
+ID= Bndp54MBujO1U3soMP6_ SCORE=1056.9835
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002925
+TEXT: I am not sure whether I am here in the right area,
+-----------------------------------------------------------------
+ID= Gnhp54MBujO1U3soOg1j SCORE=1053.1306
+PATH= 20_newsgroups/comp.windows.x/0005929
+TEXT: In article <1993May14.191035.19271@vpbuild.vp.com>
+-----------------------------------------------------------------
+ID= uHhp54MBujO1U3soOw5s SCORE=1041.2441
+PATH= 20_newsgroups/comp.windows.x/0005872
+TEXT: From:  DENNIS L. HART                       Date: 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 32
+Dictionary for the original query: {'x': 3.87079836452432, 'window': 3.8452508374671233, 'comput': 1.291020948335106}
+New query:['x^3.8764679663274846', 'window^3.8452500849277937', 'comput^1.289521332849156']
+-----------------------------------------------------------------
+ID= B3hp54MBujO1U3soOQxM SCORE=1161.31
+PATH= 20_newsgroups/comp.windows.x/0005821
+TEXT: >markw@pspmf3.gpsemi.com (Mark Wilkinson - Ext 344
+-----------------------------------------------------------------
+ID= rXdp54MBujO1U3soIuQK SCORE=1152.087
+PATH= 20_newsgroups/comp.graphics/0001507
+TEXT: Pascal Perret, in article <1993Apr21.125750.263@ei
+-----------------------------------------------------------------
+ID= ZXdp54MBujO1U3soMP2_ SCORE=1150.2467
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002881
+TEXT: Is there a 768x1024 Trident driver for windows any
+-----------------------------------------------------------------
+ID= G3dp54MBujO1U3soMP2_ SCORE=1133.4623
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002229
+TEXT: Hi:
+On the 1024x768x256 mode, the font sizes of Wi
+-----------------------------------------------------------------
+ID= sndp54MBujO1U3soHNvK SCORE=1106.7633
+PATH= 20_newsgroups/comp.sys.ibm.pc.hardware/0003431
+TEXT: In article <1993Apr19.144814.17736@aio.jsc.nasa.go
+-----------------------------------------------------------------
+ID= DHhp54MBujO1U3soOw9s SCORE=1101.158
+PATH= 20_newsgroups/comp.windows.x/0005292
+TEXT: Hi,
+  Please reply to me direct as I am not a memb
+-----------------------------------------------------------------
+ID= Z3hp54MBujO1U3soOg1j SCORE=1098.5929
+PATH= 20_newsgroups/comp.windows.x/0005932
+TEXT: harden@skate.ics.com (Aub Harden) writes:
+>In arti
+-----------------------------------------------------------------
+ID= Bndp54MBujO1U3soMP6_ SCORE=1093.4827
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002925
+TEXT: I am not sure whether I am here in the right area,
+-----------------------------------------------------------------
+ID= Gnhp54MBujO1U3soOg1j SCORE=1089.6816
+PATH= 20_newsgroups/comp.windows.x/0005929
+TEXT: In article <1993May14.191035.19271@vpbuild.vp.com>
+-----------------------------------------------------------------
+ID= uHhp54MBujO1U3soOw5s SCORE=1077.4912
+PATH= 20_newsgroups/comp.windows.x/0005872
+TEXT: From:  DENNIS L. HART                       Date: 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 33
+Dictionary for the original query: {'x': 3.8764679663274846, 'window': 3.8452500849277937, 'comput': 1.289521332849156}
+New query:['x^3.8798697274093836', 'window^3.8452496334041957', 'comput^1.288621563557586']
+-----------------------------------------------------------------
+ID= B3hp54MBujO1U3soOQxM SCORE=1200.4888
+PATH= 20_newsgroups/comp.windows.x/0005821
+TEXT: >markw@pspmf3.gpsemi.com (Mark Wilkinson - Ext 344
+-----------------------------------------------------------------
+ID= rXdp54MBujO1U3soIuQK SCORE=1190.623
+PATH= 20_newsgroups/comp.graphics/0001507
+TEXT: Pascal Perret, in article <1993Apr21.125750.263@ei
+-----------------------------------------------------------------
+ID= ZXdp54MBujO1U3soMP2_ SCORE=1188.772
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002881
+TEXT: Is there a 768x1024 Trident driver for windows any
+-----------------------------------------------------------------
+ID= G3dp54MBujO1U3soMP2_ SCORE=1171.2993
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002229
+TEXT: Hi:
+On the 1024x768x256 mode, the font sizes of Wi
+-----------------------------------------------------------------
+ID= sndp54MBujO1U3soHNvK SCORE=1144.153
+PATH= 20_newsgroups/comp.sys.ibm.pc.hardware/0003431
+TEXT: In article <1993Apr19.144814.17736@aio.jsc.nasa.go
+-----------------------------------------------------------------
+ID= DHhp54MBujO1U3soOw9s SCORE=1138.1539
+PATH= 20_newsgroups/comp.windows.x/0005292
+TEXT: Hi,
+  Please reply to me direct as I am not a memb
+-----------------------------------------------------------------
+ID= Z3hp54MBujO1U3soOg1j SCORE=1135.2903
+PATH= 20_newsgroups/comp.windows.x/0005932
+TEXT: harden@skate.ics.com (Aub Harden) writes:
+>In arti
+-----------------------------------------------------------------
+ID= Bndp54MBujO1U3soMP6_ SCORE=1129.9984
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002925
+TEXT: I am not sure whether I am here in the right area,
+-----------------------------------------------------------------
+ID= Gnhp54MBujO1U3soOg1j SCORE=1126.2515
+PATH= 20_newsgroups/comp.windows.x/0005929
+TEXT: In article <1993May14.191035.19271@vpbuild.vp.com>
+-----------------------------------------------------------------
+ID= uHhp54MBujO1U3soOw5s SCORE=1113.7576
+PATH= 20_newsgroups/comp.windows.x/0005872
+TEXT: From:  DENNIS L. HART                       Date: 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 34
+Dictionary for the original query: {'x': 3.8798697274093836, 'window': 3.8452496334041957, 'comput': 1.288621563557586}
+New query:['x^3.8819107840585234', 'window^3.845249362490037', 'comput^1.288081701982644']
+-----------------------------------------------------------------
+ID= B3hp54MBujO1U3soOQxM SCORE=1239.6804
+PATH= 20_newsgroups/comp.windows.x/0005821
+TEXT: >markw@pspmf3.gpsemi.com (Mark Wilkinson - Ext 344
+-----------------------------------------------------------------
+ID= rXdp54MBujO1U3soIuQK SCORE=1229.1707
+PATH= 20_newsgroups/comp.graphics/0001507
+TEXT: Pascal Perret, in article <1993Apr21.125750.263@ei
+-----------------------------------------------------------------
+ID= ZXdp54MBujO1U3soMP2_ SCORE=1227.3088
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002881
+TEXT: Is there a 768x1024 Trident driver for windows any
+-----------------------------------------------------------------
+ID= G3dp54MBujO1U3soMP2_ SCORE=1209.1469
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002229
+TEXT: Hi:
+On the 1024x768x256 mode, the font sizes of Wi
+-----------------------------------------------------------------
+ID= sndp54MBujO1U3soHNvK SCORE=1181.5558
+PATH= 20_newsgroups/comp.sys.ibm.pc.hardware/0003431
+TEXT: In article <1993Apr19.144814.17736@aio.jsc.nasa.go
+-----------------------------------------------------------------
+ID= DHhp54MBujO1U3soOw9s SCORE=1175.1615
+PATH= 20_newsgroups/comp.windows.x/0005292
+TEXT: Hi,
+  Please reply to me direct as I am not a memb
+-----------------------------------------------------------------
+ID= Z3hp54MBujO1U3soOg1j SCORE=1171.9982
+PATH= 20_newsgroups/comp.windows.x/0005932
+TEXT: harden@skate.ics.com (Aub Harden) writes:
+>In arti
+-----------------------------------------------------------------
+ID= Bndp54MBujO1U3soMP6_ SCORE=1166.5244
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002925
+TEXT: I am not sure whether I am here in the right area,
+-----------------------------------------------------------------
+ID= Gnhp54MBujO1U3soOg1j SCORE=1162.8328
+PATH= 20_newsgroups/comp.windows.x/0005929
+TEXT: In article <1993May14.191035.19271@vpbuild.vp.com>
+-----------------------------------------------------------------
+ID= uHhp54MBujO1U3soOw5s SCORE=1150.0355
+PATH= 20_newsgroups/comp.windows.x/0005872
+TEXT: From:  DENNIS L. HART                       Date: 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 35
+Dictionary for the original query: {'x': 3.8819107840585234, 'window': 3.845249362490037, 'comput': 1.288081701982644}
+New query:['x^3.883135418048007', 'window^3.8452491999415415', 'comput^1.287757785037679']
+-----------------------------------------------------------------
+ID= B3hp54MBujO1U3soOQxM SCORE=1278.8796
+PATH= 20_newsgroups/comp.windows.x/0005821
+TEXT: >markw@pspmf3.gpsemi.com (Mark Wilkinson - Ext 344
+-----------------------------------------------------------------
+ID= rXdp54MBujO1U3soIuQK SCORE=1267.7249
+PATH= 20_newsgroups/comp.graphics/0001507
+TEXT: Pascal Perret, in article <1993Apr21.125750.263@ei
+-----------------------------------------------------------------
+ID= ZXdp54MBujO1U3soMP2_ SCORE=1265.8524
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002881
+TEXT: Is there a 768x1024 Trident driver for windows any
+-----------------------------------------------------------------
+ID= G3dp54MBujO1U3soMP2_ SCORE=1247.0005
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002229
+TEXT: Hi:
+On the 1024x768x256 mode, the font sizes of Wi
+-----------------------------------------------------------------
+ID= sndp54MBujO1U3soHNvK SCORE=1218.9661
+PATH= 20_newsgroups/comp.sys.ibm.pc.hardware/0003431
+TEXT: In article <1993Apr19.144814.17736@aio.jsc.nasa.go
+-----------------------------------------------------------------
+ID= DHhp54MBujO1U3soOw9s SCORE=1212.1759
+PATH= 20_newsgroups/comp.windows.x/0005292
+TEXT: Hi,
+  Please reply to me direct as I am not a memb
+-----------------------------------------------------------------
+ID= Z3hp54MBujO1U3soOg1j SCORE=1208.7119
+PATH= 20_newsgroups/comp.windows.x/0005932
+TEXT: harden@skate.ics.com (Aub Harden) writes:
+>In arti
+-----------------------------------------------------------------
+ID= Bndp54MBujO1U3soMP6_ SCORE=1203.0562
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002925
+TEXT: I am not sure whether I am here in the right area,
+-----------------------------------------------------------------
+ID= Gnhp54MBujO1U3soOg1j SCORE=1199.4204
+PATH= 20_newsgroups/comp.windows.x/0005929
+TEXT: In article <1993May14.191035.19271@vpbuild.vp.com>
+-----------------------------------------------------------------
+ID= uHhp54MBujO1U3soOw5s SCORE=1186.3203
+PATH= 20_newsgroups/comp.windows.x/0005872
+TEXT: From:  DENNIS L. HART                       Date: 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 36
+Dictionary for the original query: {'x': 3.883135418048007, 'window': 3.8452491999415415, 'comput': 1.287757785037679}
+New query:['x^3.8838701984416977', 'window^3.8452491024124447', 'comput^1.2875634348706997']
+-----------------------------------------------------------------
+ID= B3hp54MBujO1U3soOQxM SCORE=1318.0839
+PATH= 20_newsgroups/comp.windows.x/0005821
+TEXT: >markw@pspmf3.gpsemi.com (Mark Wilkinson - Ext 344
+-----------------------------------------------------------------
+ID= rXdp54MBujO1U3soIuQK SCORE=1306.2832
+PATH= 20_newsgroups/comp.graphics/0001507
+TEXT: Pascal Perret, in article <1993Apr21.125750.263@ei
+-----------------------------------------------------------------
+ID= ZXdp54MBujO1U3soMP2_ SCORE=1304.4004
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002881
+TEXT: Is there a 768x1024 Trident driver for windows any
+-----------------------------------------------------------------
+ID= G3dp54MBujO1U3soMP2_ SCORE=1284.8579
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002229
+TEXT: Hi:
+On the 1024x768x256 mode, the font sizes of Wi
+-----------------------------------------------------------------
+ID= sndp54MBujO1U3soHNvK SCORE=1256.3811
+PATH= 20_newsgroups/comp.sys.ibm.pc.hardware/0003431
+TEXT: In article <1993Apr19.144814.17736@aio.jsc.nasa.go
+-----------------------------------------------------------------
+ID= DHhp54MBujO1U3soOw9s SCORE=1249.1947
+PATH= 20_newsgroups/comp.windows.x/0005292
+TEXT: Hi,
+  Please reply to me direct as I am not a memb
+-----------------------------------------------------------------
+ID= Z3hp54MBujO1U3soOg1j SCORE=1245.4296
+PATH= 20_newsgroups/comp.windows.x/0005932
+TEXT: harden@skate.ics.com (Aub Harden) writes:
+>In arti
+-----------------------------------------------------------------
+ID= Bndp54MBujO1U3soMP6_ SCORE=1239.5918
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002925
+TEXT: I am not sure whether I am here in the right area,
+-----------------------------------------------------------------
+ID= Gnhp54MBujO1U3soOg1j SCORE=1236.0123
+PATH= 20_newsgroups/comp.windows.x/0005929
+TEXT: In article <1993May14.191035.19271@vpbuild.vp.com>
+-----------------------------------------------------------------
+ID= uHhp54MBujO1U3soOw5s SCORE=1222.6094
+PATH= 20_newsgroups/comp.windows.x/0005872
+TEXT: From:  DENNIS L. HART                       Date: 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 37
+Dictionary for the original query: {'x': 3.8838701984416977, 'window': 3.8452491024124447, 'comput': 1.2875634348706997}
+New query:['x^3.8843110666779115', 'window^3.8452490438949862', 'comput^1.2874468247705122']
+-----------------------------------------------------------------
+ID= B3hp54MBujO1U3soOQxM SCORE=1357.2909
+PATH= 20_newsgroups/comp.windows.x/0005821
+TEXT: >markw@pspmf3.gpsemi.com (Mark Wilkinson - Ext 344
+-----------------------------------------------------------------
+ID= rXdp54MBujO1U3soIuQK SCORE=1344.844
+PATH= 20_newsgroups/comp.graphics/0001507
+TEXT: Pascal Perret, in article <1993Apr21.125750.263@ei
+-----------------------------------------------------------------
+ID= ZXdp54MBujO1U3soMP2_ SCORE=1342.9506
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002881
+TEXT: Is there a 768x1024 Trident driver for windows any
+-----------------------------------------------------------------
+ID= G3dp54MBujO1U3soMP2_ SCORE=1322.7177
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002229
+TEXT: Hi:
+On the 1024x768x256 mode, the font sizes of Wi
+-----------------------------------------------------------------
+ID= sndp54MBujO1U3soHNvK SCORE=1293.799
+PATH= 20_newsgroups/comp.sys.ibm.pc.hardware/0003431
+TEXT: In article <1993Apr19.144814.17736@aio.jsc.nasa.go
+-----------------------------------------------------------------
+ID= DHhp54MBujO1U3soOw9s SCORE=1286.216
+PATH= 20_newsgroups/comp.windows.x/0005292
+TEXT: Hi,
+  Please reply to me direct as I am not a memb
+-----------------------------------------------------------------
+ID= Z3hp54MBujO1U3soOg1j SCORE=1282.1494
+PATH= 20_newsgroups/comp.windows.x/0005932
+TEXT: harden@skate.ics.com (Aub Harden) writes:
+>In arti
+-----------------------------------------------------------------
+ID= Bndp54MBujO1U3soMP6_ SCORE=1276.1295
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002925
+TEXT: I am not sure whether I am here in the right area,
+-----------------------------------------------------------------
+ID= Gnhp54MBujO1U3soOg1j SCORE=1272.6067
+PATH= 20_newsgroups/comp.windows.x/0005929
+TEXT: In article <1993May14.191035.19271@vpbuild.vp.com>
+-----------------------------------------------------------------
+ID= uHhp54MBujO1U3soOw5s SCORE=1258.9009
+PATH= 20_newsgroups/comp.windows.x/0005872
+TEXT: From:  DENNIS L. HART                       Date: 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 38
+Dictionary for the original query: {'x': 3.8843110666779115, 'window': 3.8452490438949862, 'comput': 1.2874468247705122}
+New query:['x^3.88457558761964', 'window^3.8452490087845117', 'comput^1.2873768587103998']
+-----------------------------------------------------------------
+ID= B3hp54MBujO1U3soOQxM SCORE=1396.4996
+PATH= 20_newsgroups/comp.windows.x/0005821
+TEXT: >markw@pspmf3.gpsemi.com (Mark Wilkinson - Ext 344
+-----------------------------------------------------------------
+ID= rXdp54MBujO1U3soIuQK SCORE=1383.4065
+PATH= 20_newsgroups/comp.graphics/0001507
+TEXT: Pascal Perret, in article <1993Apr21.125750.263@ei
+-----------------------------------------------------------------
+ID= ZXdp54MBujO1U3soMP2_ SCORE=1381.5024
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002881
+TEXT: Is there a 768x1024 Trident driver for windows any
+-----------------------------------------------------------------
+ID= G3dp54MBujO1U3soMP2_ SCORE=1360.5787
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002229
+TEXT: Hi:
+On the 1024x768x256 mode, the font sizes of Wi
+-----------------------------------------------------------------
+ID= sndp54MBujO1U3soHNvK SCORE=1331.2186
+PATH= 20_newsgroups/comp.sys.ibm.pc.hardware/0003431
+TEXT: In article <1993Apr19.144814.17736@aio.jsc.nasa.go
+-----------------------------------------------------------------
+ID= DHhp54MBujO1U3soOw9s SCORE=1323.2389
+PATH= 20_newsgroups/comp.windows.x/0005292
+TEXT: Hi,
+  Please reply to me direct as I am not a memb
+-----------------------------------------------------------------
+ID= Z3hp54MBujO1U3soOg1j SCORE=1318.8706
+PATH= 20_newsgroups/comp.windows.x/0005932
+TEXT: harden@skate.ics.com (Aub Harden) writes:
+>In arti
+-----------------------------------------------------------------
+ID= Bndp54MBujO1U3soMP6_ SCORE=1312.6687
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002925
+TEXT: I am not sure whether I am here in the right area,
+-----------------------------------------------------------------
+ID= Gnhp54MBujO1U3soOg1j SCORE=1309.2026
+PATH= 20_newsgroups/comp.windows.x/0005929
+TEXT: In article <1993May14.191035.19271@vpbuild.vp.com>
+-----------------------------------------------------------------
+ID= uHhp54MBujO1U3soOw5s SCORE=1295.194
+PATH= 20_newsgroups/comp.windows.x/0005872
+TEXT: From:  DENNIS L. HART                       Date: 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 39
+Dictionary for the original query: {'x': 3.88457558761964, 'window': 3.8452490087845117, 'comput': 1.2873768587103998}
+New query:['x^3.884734300184677', 'window^3.845248987718227', 'comput^1.2873348790743322']
+-----------------------------------------------------------------
+ID= B3hp54MBujO1U3soOQxM SCORE=1435.7092
+PATH= 20_newsgroups/comp.windows.x/0005821
+TEXT: >markw@pspmf3.gpsemi.com (Mark Wilkinson - Ext 344
+-----------------------------------------------------------------
+ID= rXdp54MBujO1U3soIuQK SCORE=1421.9696
+PATH= 20_newsgroups/comp.graphics/0001507
+TEXT: Pascal Perret, in article <1993Apr21.125750.263@ei
+-----------------------------------------------------------------
+ID= ZXdp54MBujO1U3soMP2_ SCORE=1420.0552
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002881
+TEXT: Is there a 768x1024 Trident driver for windows any
+-----------------------------------------------------------------
+ID= G3dp54MBujO1U3soMP2_ SCORE=1398.4406
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002229
+TEXT: Hi:
+On the 1024x768x256 mode, the font sizes of Wi
+-----------------------------------------------------------------
+ID= sndp54MBujO1U3soHNvK SCORE=1368.639
+PATH= 20_newsgroups/comp.sys.ibm.pc.hardware/0003431
+TEXT: In article <1993Apr19.144814.17736@aio.jsc.nasa.go
+-----------------------------------------------------------------
+ID= DHhp54MBujO1U3soOw9s SCORE=1360.2623
+PATH= 20_newsgroups/comp.windows.x/0005292
+TEXT: Hi,
+  Please reply to me direct as I am not a memb
+-----------------------------------------------------------------
+ID= Z3hp54MBujO1U3soOg1j SCORE=1355.5925
+PATH= 20_newsgroups/comp.windows.x/0005932
+TEXT: harden@skate.ics.com (Aub Harden) writes:
+>In arti
+-----------------------------------------------------------------
+ID= Bndp54MBujO1U3soMP6_ SCORE=1349.2085
+PATH= 20_newsgroups/comp.os.ms-windows.misc/0002925
+TEXT: I am not sure whether I am here in the right area,
+-----------------------------------------------------------------
+ID= Gnhp54MBujO1U3soOg1j SCORE=1345.7993
+PATH= 20_newsgroups/comp.windows.x/0005929
+TEXT: In article <1993May14.191035.19271@vpbuild.vp.com>
+-----------------------------------------------------------------
+ID= uHhp54MBujO1U3soOw5s SCORE=1331.4878
+PATH= 20_newsgroups/comp.windows.x/0005872
+TEXT: From:  DENNIS L. HART                       Date: 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+131 Documents

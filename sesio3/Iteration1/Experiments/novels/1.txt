@@ -1,0 +1,128 @@
+Original query: ['computer', 'windows']
+Iteration: 0
+Dictionary for the original query: {'computer': 1.0, 'windows': 1.0}
+New query:['computer^0.6', 'windows^0.6', 'scroog^0.2268473061230382']
+-----------------------------------------------------------------
+ID= rHkQ6IMBujO1U3so2AHs SCORE=0.40840617
+PATH= novels/WellsWarofTheWorlds.txt
+TEXT: ï»¿The Project Gutenberg EBook of The War of the W
+-----------------------------------------------------------------
+ID= tXkQ6IMBujO1U3so2AHs SCORE=0.40641662
+PATH= novels/DickensAChristmasCarol.txt
+TEXT: ï»¿The Project Gutenberg EBook of A Christmas Caro
+-----------------------------------------------------------------
+ID= xXkQ6IMBujO1U3so2AHs SCORE=0.40273643
+PATH= novels/pg1410.txt
+TEXT: ï»¿The Project Gutenberg EBook of The Commission i
+-----------------------------------------------------------------
+ID= ynkQ6IMBujO1U3so2AHs SCORE=0.40216875
+PATH= novels/PoeWorksVol1.txt
+TEXT: ï»¿Project Gutenberg's The Works of Edgar Allan Po
+-----------------------------------------------------------------
+ID= tHkQ6IMBujO1U3so2AHs SCORE=0.4020906
+PATH= novels/DickensGreatExpectations.txt
+TEXT: ï»¿The Project Gutenberg EBook of Great Expectatio
+-----------------------------------------------------------------
+ID= wXkQ6IMBujO1U3so2AHs SCORE=0.4014861
+PATH= novels/RiceBurroughsAprincessofMars.txt
+TEXT: ï»¿The Project Gutenberg EBook of A Princess of Ma
+-----------------------------------------------------------------
+ID= r3kQ6IMBujO1U3so2AHs SCORE=0.39962894
+PATH= novels/PoeWorksVol2.txt
+TEXT: ï»¿Project Gutenberg's The Works of Edgar Allan Po
+-----------------------------------------------------------------
+ID= q3kQ6IMBujO1U3so2AHs SCORE=0.39921182
+PATH= novels/pg13314.txt
+TEXT: The Project Gutenberg EBook of Barford Abbey, by S
+-----------------------------------------------------------------
+ID= t3kQ6IMBujO1U3so2AHs SCORE=0.3978711
+PATH= novels/pg37766.txt
+TEXT: ï»¿Project Gutenberg's Strange Stories from the Lo
+-----------------------------------------------------------------
+ID= x3kQ6IMBujO1U3so2AHs SCORE=0.3969384
+PATH= novels/DickensThePickwickPapers.txt
+TEXT: ï»¿The Project Gutenberg EBook of The Pickwick Pap
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 1
+Dictionary for the original query: {'computer': 0.6, 'windows': 0.6, 'scroog': 0.2268473061230382}
+New query:['scroog^2.404581444904205', 'cratchit^0.36103019542128095', 'computer^0.36']
+-----------------------------------------------------------------
+ID= tXkQ6IMBujO1U3so2AHs SCORE=2.2053504
+PATH= novels/DickensAChristmasCarol.txt
+TEXT: ï»¿The Project Gutenberg EBook of A Christmas Caro
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 2
+Dictionary for the original query: {'scroog': 2.404581444904205, 'cratchit': 0.36103019542128095, 'computer': 0.36}
+New query:['scroog^3.711221928172905', 'cratchit^0.5776483126740495', 'marley^0.23466962702383265']
+-----------------------------------------------------------------
+ID= tXkQ6IMBujO1U3so2AHs SCORE=21.154053
+PATH= novels/DickensAChristmasCarol.txt
+TEXT: ï»¿The Project Gutenberg EBook of A Christmas Caro
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 3
+Dictionary for the original query: {'scroog': 3.711221928172905, 'cratchit': 0.5776483126740495, 'marley': 0.23466962702383265}
+New query:['scroog^4.495206218134125', 'cratchit^0.7076191830257106', 'marley^0.3754714032381322']
+-----------------------------------------------------------------
+ID= tXkQ6IMBujO1U3so2AHs SCORE=52.1097
+PATH= novels/DickensAChristmasCarol.txt
+TEXT: ï»¿The Project Gutenberg EBook of A Christmas Caro
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 4
+Dictionary for the original query: {'scroog': 4.495206218134125, 'cratchit': 0.7076191830257106, 'marley': 0.3754714032381322}
+New query:['scroog^4.965596792110857', 'cratchit^0.7856017052367072', 'marley^0.45995246896671194']
+-----------------------------------------------------------------
+ID= tXkQ6IMBujO1U3so2AHs SCORE=90.27565
+PATH= novels/DickensAChristmasCarol.txt
+TEXT: ï»¿The Project Gutenberg EBook of A Christmas Caro
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 5
+Dictionary for the original query: {'scroog': 4.965596792110857, 'cratchit': 0.7856017052367072, 'marley': 0.45995246896671194}
+New query:['scroog^5.247831136496895', 'cratchit^0.8323912185633053', 'marley^0.5106411084038598']
+-----------------------------------------------------------------
+ID= tXkQ6IMBujO1U3so2AHs SCORE=132.76778
+PATH= novels/DickensAChristmasCarol.txt
+TEXT: ï»¿The Project Gutenberg EBook of A Christmas Caro
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 6
+Dictionary for the original query: {'scroog': 5.247831136496895, 'cratchit': 0.8323912185633053, 'marley': 0.5106411084038598}
+New query:['scroog^5.4171717431285185', 'cratchit^0.8604649265592641', 'marley^0.5410542920661485']
+-----------------------------------------------------------------
+ID= tXkQ6IMBujO1U3so2AHs SCORE=177.85562
+PATH= novels/DickensAChristmasCarol.txt
+TEXT: ï»¿The Project Gutenberg EBook of A Christmas Caro
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 7
+Dictionary for the original query: {'scroog': 5.4171717431285185, 'cratchit': 0.8604649265592641, 'marley': 0.5410542920661485}
+New query:['scroog^5.5187761071074934', 'cratchit^0.8773091513568394', 'marley^0.5593022022635217']
+-----------------------------------------------------------------
+ID= tXkQ6IMBujO1U3so2AHs SCORE=224.50089
+PATH= novels/DickensAChristmasCarol.txt
+TEXT: ï»¿The Project Gutenberg EBook of A Christmas Caro
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 8
+Dictionary for the original query: {'scroog': 5.5187761071074934, 'cratchit': 0.8773091513568394, 'marley': 0.5593022022635217}
+New query:['scroog^5.579738725494877', 'cratchit^0.8874156862353846', 'marley^0.5702509483819456']
+-----------------------------------------------------------------
+ID= tXkQ6IMBujO1U3so2AHs SCORE=272.0806
+PATH= novels/DickensAChristmasCarol.txt
+TEXT: ï»¿The Project Gutenberg EBook of A Christmas Caro
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Iteration: 9
+Dictionary for the original query: {'scroog': 5.579738725494877, 'cratchit': 0.8874156862353846, 'marley': 0.5702509483819456}
+New query:['scroog^5.616316296527309', 'cratchit^0.8934796071625117', 'marley^0.576820196053']
+-----------------------------------------------------------------
+ID= tXkQ6IMBujO1U3so2AHs SCORE=320.221
+PATH= novels/DickensAChristmasCarol.txt
+TEXT: ï»¿The Project Gutenberg EBook of A Christmas Caro
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+1 Documents
