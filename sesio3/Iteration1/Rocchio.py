@@ -34,9 +34,9 @@ import numpy as np
 __author__ = 'bejar'
 
 N_ROUNDS = 5
-ALPHA = 0.1
-BETA = 0.1
-R = 10
+ALPHA = 1.0
+BETA = 0.7
+R = 6
 
 def document_term_vector(client, index, id):
     """
@@ -126,7 +126,7 @@ if __name__ == '__main__':
 
     index = args.index
     query = args.query
-    print(query)
+    print("Original query: " + str(query))
     nhits = args.nhits
 
     try:
@@ -135,6 +135,7 @@ if __name__ == '__main__':
 
         if query is not None:
             for i in range(0, N_ROUNDS):
+                print("Iteration: " + str(i))
                 q = Q('query_string', query=query[0])
                 for i in range(1, len(query)):
                     q &= Q('query_string', query=query[i])
@@ -153,7 +154,7 @@ if __name__ == '__main__':
                         value = 1.0
                     dictionary[key] = value
 
-
+                print("Dictionary for the original query: " + str(dictionary))		
                 sum_documents = 0
                 # For every document compute TF-IDF
                 tfidf_docs = {}
@@ -164,43 +165,37 @@ if __name__ == '__main__':
                             tfidf_docs[tfidf[e][0]] = tfidf[e][1]
                         else:
                             tfidf_docs[tfidf[e][0]] += tfidf[e][1]
-
-                    print(f'ID= {r.meta.id} SCORE={r.meta.score}')
-                    print(f'PATH= {r.path}')
-                    print(f'TEXT: {r.text[:50]}')
-                    print('-----------------------------------------------------------------')
-                # print(tfidf_docs)
+            
                 for elem in tfidf_docs:
                     tfidf_docs[elem] = BETA * tfidf_docs[elem] / len(response)
-                print()
-                # print("DICTIONARY" + str(dictionary))
-                print()
                 for elem in dictionary:
-                    # print("DICT ELEM: " + str(dictionary[elem]))
-                    # print("TFIDF: " + str(tfidf_docs[elem]))
                     if elem not in tfidf_docs:
                         tfidf_docs[elem] = ALPHA * dictionary[elem]
                     else:
                         tfidf_docs[elem] += ALPHA * dictionary[elem]
                 # Create new query
                 sorted_keys = sorted(tfidf_docs, key=tfidf_docs.get, reverse=True)
-                # print(sorted_keys)
                 k_docs = {}
                 for i in range(R):
                     k_docs[sorted_keys[i]] = tfidf_docs[sorted_keys[i]]
-                # print(k_docs)
-                # new_dictionary = dictionary
-                # second_part = BETA * sum_documents / nhits
-                # print("DICTIONARY" + str(dictionary))
-                # for e in dictionary:
-                #     new_dictionary[e] = ALPHA * new_dictionary[e]
-
+  
                 query = []
                 for element in k_docs:
                     query.append(element + '^' + str(k_docs[element]))
 
-                print(query)
+				
+                print("New query:" + str(query))
 
+                for r in response:  # only returns a specific number of results
+                    print('-----------------------------------------------------------------')
+                    print(f'ID= {r.meta.id} SCORE={r.meta.score}')
+                    print(f'PATH= {r.path}')
+                    print(f'TEXT: {r.text[:50]}')
+                
+                print('+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++')
+                print()
+
+              
         else:
             print('No query parameters passed')
 
