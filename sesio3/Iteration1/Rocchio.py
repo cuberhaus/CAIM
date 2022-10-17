@@ -34,9 +34,9 @@ import numpy as np
 __author__ = 'bejar'
 
 N_ROUNDS = 5
-ALPHA = 1.0
+ALPHA = 0.5
 BETA = 0.7
-R = 6
+R = 2
 
 def document_term_vector(client, index, id):
     """
@@ -166,8 +166,10 @@ if __name__ == '__main__':
                         else:
                             tfidf_docs[tfidf[e][0]] += tfidf[e][1]
             
+            # We use len(response) because it is easier to calculate the tfidf documents without checking the size of the tfidf_docs.
+                K = len(response)
                 for elem in tfidf_docs:
-                    tfidf_docs[elem] = BETA * tfidf_docs[elem] / len(response)
+                    tfidf_docs[elem] = BETA * tfidf_docs[elem] / K
                 for elem in dictionary:
                     if elem not in tfidf_docs:
                         tfidf_docs[elem] = ALPHA * dictionary[elem]
