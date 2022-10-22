@@ -6,8 +6,8 @@ import sys
 
 class Edge:
     def __init__ (self, origin=None):
-        self.origin = ... # write appropriate value
-        self.weight = ... # write appropriate value
+        self.origin = origin # write appropriate value
+        self.weight = 1.0 # write appropriate value
 
     def __repr__(self):
         return "edge: {0} {1}".format(self.origin, self.weight)
@@ -20,7 +20,15 @@ class Airport:
         self.name = name
         self.routes = []
         self.routeHash = dict()
-        self.outweight =    # write appropriate value
+        self.outweight = 0.0   # write appropriate value
+        
+    def addInEdge(self, inAirport):
+        if inAirport in self.routeHash:
+            edge = self.routeHash[inAirport]
+            edge.weight += 1.0
+        else:
+            edge = Edge(inAirport)
+            self.routeHash[inAirport] = edge
 
     def __repr__(self):
         return f"{self.code}\t{self.pageIndex}\t{self.name}"
@@ -29,6 +37,7 @@ edgeList = [] # list of Edge
 edgeHash = dict() # hash of edge to ease the match
 airportList = [] # list of Airport
 airportHash = dict() # hash key IATA code -> Airport
+pageRank = [] # list of page rank
 
 def readAirports(fd):
     print("Reading Airport file from {0}".format(fd))
@@ -53,15 +62,92 @@ def readAirports(fd):
 
 
 def readRoutes(fd):
-    print("Reading Routes file from {fd}")
+    print("Reading Routes file from {0}".format(fd))
     # write your code
+    routesTxt = open(fd, "r");
+    cont = 0
+    for line in routesTxt.readlines():
+        try:
+            temp = line.split(',')
+            if len(temp[2]) != 3 or len(temp[4]) != 3:
+                raise Exception('not an IATA code')
+            origin = temp[2]
+            destination = temp[4]
+            if not(origin in airportHash) or not(destination in airportHash):
+            	raise Exception('The airport does not exist')
+            airportHash[destination].addInEdge(origin)		
+            airportHash[origin].outweight += 1.0 		
+        except Exception as inst:
+            pass
+        else:
+            cont += 1
+    routesTxt.close()
+    print(f"There were {cont} Edges with IATA code")
 
 def computePageRanks():
     # write your code
+    n = len(airportHash)
+    P = [1/n]*n 
+    L = 0.9
+    stop = False
+    aux1 = (1.0 - L)/n
+    aux2 = 1/n 
+    
+    # Calculating the disconnected nodes in the page rank (In pagerank.pdf, Important points number 3)
+    listDisconected = []
+    for element in airportList:
+    	if element.outweight == 0.0:
+    	   listDisconected.append(element)
+    	   
+    
+    disconectedNodes = len(listDisconected)
+    totalDisconected = L/float(n)*disconectedNodes
+    
+    iteration = 0;
+    while not stop:
+        Q = [0.0]*n
+        for i in range(n):
+            airport = airportList[i]
+            suma = 0
+            for edge in airport.routes:
+                weight = edge.weight #w(j,i)
+                out = airportList[edge.index].outweight #out(j)
+                suma += P[edge.index] * weight / out  #sum { P[j] * w(j,i) / out(j) : there is an edge (j,i) in G }
+            Q[i] = L * suma + aux1 + totalDisconected*aux2
+            
+        aux2 = aux1 + aux2*totalDisconected
+        # We create tuples of (first element of P, first element of Q), (second element of P, second element of Q) and we substract them
+        # to check if it complies with the stopping condition
+        for x, y in zip(P,Q):
+        	if (abs(x-y) <= 10**(-14)):
+        		stop = True
+        	else: stop = False	
+        	
+        P = Q
+        # Does P sums 1 ?
+        print("SUM:" + str(sum(P)))
+        iteration += 1	
+    
+    global pageRank
+    pageRank = P   
+    return iteration;    
 
 def outputPageRanks():
-    # write your code
-
+    # List where we will save the tuple (airport_name, page_rank)
+    mylist = []
+    j = 0
+    for i in airportHash:
+        element = (airportHash[i].name, pageRank[j])
+        mylist.append(element)
+        j += 1
+    # Sort by decreasing page rank    
+    mylist.sort(key = lambda x: x[1], reverse = True)
+    
+    print (" ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ ( Page rank, Airport name) ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ ")
+	
+    for air, pageR in mylist:
+        print ('(' + str(pageR) + ", " + str(air) + ')')
+		
 def main(argv=None):
     readAirports("airports.txt")
     readRoutes("routes.txt")
