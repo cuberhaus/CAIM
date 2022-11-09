@@ -76,7 +76,7 @@ def readRoutes(fd):
             if not(origin in airportHash) or not(destination in airportHash):
             	raise Exception('The airport does not exist')
             airportHash[destination].addInEdge(origin)		
-            airportHash[origin].outweight += 1.0 		
+#            airportHash[origin].outweight += 1.0 		
         except Exception as inst:
             pass
         else:
