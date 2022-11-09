@@ -8,19 +8,19 @@ class Edge:
     def __init__ (self, origin=None):
         self.origin = origin # write appropriate value
         self.weight = 1.0 # write appropriate value
-
     def __repr__(self):
         return "edge: {0} {1}".format(self.origin, self.weight)
         
     ## write rest of code that you need for this class
 
 class Airport:
-    def __init__ (self, iden=None, name=None):
+    def __init__ (self, iden=None, name=None, indx=None):
         self.code = iden
         self.name = name
         self.routes = []
         self.routeHash = dict()
         self.outweight = 0.0   # write appropriate value
+        self.indx = indx
         
     def addInEdge(self, inAirport):
         if inAirport in self.routeHash:
@@ -29,6 +29,7 @@ class Airport:
         else:
             edge = Edge(inAirport)
             self.routeHash[inAirport] = edge
+            self.routes.append(edge)
 
     def __repr__(self):
         return f"{self.code}\t{self.pageIndex}\t{self.name}"
@@ -51,6 +52,8 @@ def readAirports(fd):
                 raise Exception('not an IATA code')
             a.name=temp[1][1:-1] + ", " + temp[3][1:-1]
             a.code=temp[4][1:-1]
+            a.indx = cont
+#            print("CONT=====================" + str(cont))
         except Exception as inst:
             pass
         else:
@@ -76,7 +79,7 @@ def readRoutes(fd):
             if not(origin in airportHash) or not(destination in airportHash):
             	raise Exception('The airport does not exist')
             airportHash[destination].addInEdge(origin)		
-#            airportHash[origin].outweight += 1.0 		
+            airportHash[origin].outweight += 1.0 		
         except Exception as inst:
             pass
         else:
@@ -109,10 +112,14 @@ def computePageRanks():
         for i in range(n):
             airport = airportList[i]
             suma = 0
-            for edge in airport.routes:
+#            print("KKKKKKKKKKKKKKKK===========" + str(airport.routes))
+            for air,edge in airport.routeHash.items():
+#                print("EEEEEEEEEEE===========" + str(air))
+#                print("WWWWWWWWWWW===========" + str(edge))
+#                print("CODE+++++++++=========" + str(airportHash[air].code))
                 weight = edge.weight #w(j,i)
-                out = airportList[edge.index].outweight #out(j)
-                suma += P[edge.index] * weight / out  #sum { P[j] * w(j,i) / out(j) : there is an edge (j,i) in G }
+                out = airportHash[air].outweight #out(j)
+                suma += P[airportHash[air].indx] * weight / out  #sum { P[j] * w(j,i) / out(j) : there is an edge (j,i) in G }
             Q[i] = L * suma + aux1 + totalDisconected*aux2
             
         aux2 = aux1 + aux2*totalDisconected
@@ -123,6 +130,8 @@ def computePageRanks():
         		stop = True
         	else: stop = False	
         	
+
+#        if iteration == 100: stop = True
         P = Q
         # Does P sums 1 ?
         print("SUM:" + str(sum(P)))
