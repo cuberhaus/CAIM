@@ -96,7 +96,7 @@ def computePageRanks():
     # write your code
     n = len(airportHash)
     P = [1 / n] * n
-    L = 0.9
+    L = 0.1
     stop = False
     aux1 = (1.0 - L) / n
     aux2 = 1 / n
