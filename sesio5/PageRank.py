@@ -138,7 +138,7 @@ def computePageRanks():
 
         #        if iteration == 100: stop = True
         P = Q
-        # Does P sums 1 ?
+        # Does P sum 1 ?
         print("SUM:" + str(sum(P)))
         iteration += 1
 
