@@ -2,7 +2,7 @@
 
 import sys
 import time
-
+from math import sqrt
 
 class Edge:
     def __init__(self, origin=None):
@@ -16,13 +16,13 @@ class Edge:
 
 
 class Airport:
-    def __init__(self, iden=None, name=None, indx=None):
+    def __init__(self, iden=None, name=None):
         self.code = iden
         self.name = name
         self.routes = []
         self.routeHash = dict()
         self.outweight = 0.0  # write appropriate value
-        self.indx = indx
+        self.indx = 0
 
     def addInEdge(self, inAirport):
         if inAirport in self.routeHash:
@@ -91,11 +91,27 @@ def readRoutes(fd):
     print(f"There were {cont} Edges with IATA code")
 
 
+def init_P(how, n):
+	if how == "one":
+	  P = [0]*n
+	  P[0] = 1
+	elif how == "nth":
+	  P = [1.0 / n] * n
+	elif how == "square":
+	  sqr = int(sqrt(n))
+	  P = [0]*n
+	  counter = 1;
+	  for counter in range(0,sqr):
+	  	P[counter] = 1.0/sqr
+	return P
+
 def computePageRanks():
-    L = 0.85
-    condition = 10**(-12)
+    L = 0.8
+    condition = 10**(-12) #error
     n = len(airportHash)
-    P = [1 / n] * n
+    P = init_P("one", n)
+#   init_P(P, "nth")	
+#	init_P(P, "square")
     stop = False
     aux1 = (1.0 - L) / n
     aux2 = 1 / n
@@ -124,7 +140,7 @@ def computePageRanks():
         aux2 = aux1 + aux2 * totalDisconected
       
         stop = checkCondition(P, Q, condition)
-#        if iteration == 100: stop = True
+#       if iteration == 100: stop = True
         P = Q
         # Does P sum 1 ?
         print("SUM:" + str(sum(P)))
