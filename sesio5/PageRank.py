@@ -57,7 +57,6 @@ def readAirports(fd):
             a.name = temp[1][1:-1] + ", " + temp[3][1:-1]
             a.code = temp[4][1:-1]
             a.indx = cont
-        #            print("CONT=====================" + str(cont))
         except Exception as inst:
             pass
         else:
@@ -93,10 +92,10 @@ def readRoutes(fd):
 
 
 def computePageRanks():
-    # write your code
+    L = 0.85
+    condition = 10**(-12)
     n = len(airportHash)
     P = [1 / n] * n
-    L = 0.1
     stop = False
     aux1 = (1.0 - L) / n
     aux2 = 1 / n
@@ -116,27 +115,16 @@ def computePageRanks():
         for i in range(n):
             airport = airportList[i]
             suma = 0
-            #            print("KKKKKKKKKKKKKKKK===========" + str(airport.routes))
             for air, edge in airport.routeHash.items():
-                #                print("EEEEEEEEEEE===========" + str(air))
-                #                print("WWWWWWWWWWW===========" + str(edge))
-                #                print("CODE+++++++++=========" + str(airportHash[air].code))
                 weight = edge.weight  # w(j,i)
                 out = airportHash[air].outweight  # out(j)
-                suma += P[airportHash[
-                    air].indx] * weight / out  # sum { P[j] * w(j,i) / out(j) : there is an edge (j,i) in G }
+                suma += P[airportHash[air].indx] * weight / out  # sum { P[j] * w(j,i) / out(j) : there is an edge (j,i) in G }
             Q[i] = L * suma + aux1 + totalDisconected * aux2
 
         aux2 = aux1 + aux2 * totalDisconected
-        # We create tuples of (first element of P, first element of Q), (second element of P, second element of Q)
-        # and we substract them to check if it complies with the stopping condition
-        for x, y in zip(P, Q):
-            if abs(x - y) <= 10 ** (-14):
-                stop = True
-            else:
-                stop = False
-
-        #        if iteration == 100: stop = True
+      
+        stop = checkCondition(P, Q, condition)
+#        if iteration == 100: stop = True
         P = Q
         # Does P sum 1 ?
         print("SUM:" + str(sum(P)))
@@ -146,6 +134,14 @@ def computePageRanks():
     pageRank = P
     return iteration
 
+
+def checkCondition(P, Q, cond):
+# We create tuples of (first element of P, first element of Q), (second element of P, second element of Q)
+# and we substract them to check if it complies with the stopping condition
+    for x, y in zip(P,Q):
+        if (abs(x-y) > cond):
+            return False
+    return True
 
 def outputPageRanks():
     # List where we will save the tuple (airport_name, page_rank)
