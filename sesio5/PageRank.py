@@ -121,6 +121,7 @@ def computePageRanks():
     condition = 10 ** (-12)  # error
     n = len(airportHash)
     P = init_P("one", n)
+    # Alternative initializations:
     # P = init_P("nth", n)
     # P = init_P("square", n)
     stop = False
@@ -167,7 +168,7 @@ def computePageRanks():
 def checkCondition(P, Q, cond):
     """Checks the condition to stop the iterations"""
     # We create tuples of (first element of P, first element of Q), (second element of P, second element of Q)
-    # and we substract them to check if it complies with the stopping condition
+    # and we subtract them to check if it complies with the stopping condition
     for x, y in zip(P, Q):
         if abs(x - y) > cond:
             return False
