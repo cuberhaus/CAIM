@@ -4,7 +4,10 @@ import sys
 import time
 from math import sqrt
 
+
 class Edge:
+    """Class that represents an edge in the graph, containing the attributes of each route"""
+
     def __init__(self, origin=None):
         self.origin = origin  # write appropriate value
         self.weight = 1.0  # write appropriate value
@@ -16,6 +19,8 @@ class Edge:
 
 
 class Airport:
+    """Class that represents an airport in the graph, containing the attributes of each airport"""
+
     def __init__(self, iden=None, name=None):
         self.code = iden
         self.name = name
@@ -45,6 +50,7 @@ pageRank = []  # list of page rank
 
 
 def readAirports(fd):
+    """Reads the airports file and creates the airportList and airportHash"""
     print("Reading Airport file from {0}".format(fd))
     airportsTxt = open(fd, "r")
     cont = 0
@@ -57,7 +63,7 @@ def readAirports(fd):
             a.name = temp[1][1:-1] + ", " + temp[3][1:-1]
             a.code = temp[4][1:-1]
             a.indx = cont
-        except Exception as inst:
+        except Exception:
             pass
         else:
             cont += 1
@@ -68,6 +74,7 @@ def readAirports(fd):
 
 
 def readRoutes(fd):
+    """Reads the routes file and creates the edgeList and edgeHash"""
     print("Reading Routes file from {0}".format(fd))
     # write your code
     routesTxt = open(fd, "r")
@@ -83,7 +90,7 @@ def readRoutes(fd):
                 raise Exception('The airport does not exist')
             airportHash[destination].addInEdge(origin)
             airportHash[origin].outweight += 1.0
-        except Exception as inst:
+        except Exception:
             pass
         else:
             cont += 1
@@ -92,26 +99,30 @@ def readRoutes(fd):
 
 
 def init_P(how, n):
-	if how == "one":
-	  P = [0]*n
-	  P[0] = 1
-	elif how == "nth":
-	  P = [1.0 / n] * n
-	elif how == "square":
-	  sqr = int(sqrt(n))
-	  P = [0]*n
-	  counter = 1;
-	  for counter in range(0,sqr):
-	  	P[counter] = 1.0/sqr
-	return P
+    """Initializes the page rank vector"""
+    if how == "one":
+        P = [0] * n
+        P[0] = 1
+    elif how == "nth":
+        P = [1.0 / n] * n
+    elif how == "square":
+        sqr = int(sqrt(n))
+        P = [0] * n
+        for counter in range(0, sqr):
+            P[counter] = 1.0 / sqr
+    else:
+        raise Exception('Not a valid option')
+    return P
+
 
 def computePageRanks():
+    """Computes the page ranks of the airports"""
     L = 0.8
-    condition = 10**(-12) #error
+    condition = 10 ** (-12)  # error
     n = len(airportHash)
     P = init_P("one", n)
-#   init_P(P, "nth")	
-#	init_P(P, "square")
+    # P = nit_P(P, "nth")
+    # P = init_P(P, "square")
     stop = False
     aux1 = (1.0 - L) / n
     aux2 = 1 / n
@@ -134,13 +145,15 @@ def computePageRanks():
             for air, edge in airport.routeHash.items():
                 weight = edge.weight  # w(j,i)
                 out = airportHash[air].outweight  # out(j)
-                suma += P[airportHash[air].indx] * weight / out  # sum { P[j] * w(j,i) / out(j) : there is an edge (j,i) in G }
+                suma += P[airportHash[
+                    air].indx] * weight / out  # sum { P[j] * w(j,i) / out(j) : there is an edge (j,i) in G }
             Q[i] = L * suma + aux1 + totalDisconected * aux2
 
         aux2 = aux1 + aux2 * totalDisconected
-      
+
         stop = checkCondition(P, Q, condition)
-#       if iteration == 100: stop = True
+        # Alternative way to check the condition with iterations:
+        # if iteration == 100: stop = True
         P = Q
         # Does P sum 1 ?
         print("SUM:" + str(sum(P)))
@@ -152,14 +165,17 @@ def computePageRanks():
 
 
 def checkCondition(P, Q, cond):
-# We create tuples of (first element of P, first element of Q), (second element of P, second element of Q)
-# and we substract them to check if it complies with the stopping condition
-    for x, y in zip(P,Q):
-        if (abs(x-y) > cond):
+    """Checks the condition to stop the iterations"""
+    # We create tuples of (first element of P, first element of Q), (second element of P, second element of Q)
+    # and we substract them to check if it complies with the stopping condition
+    for x, y in zip(P, Q):
+        if abs(x - y) > cond:
             return False
     return True
 
+
 def outputPageRanks():
+    """Outputs the page ranks of the airports"""
     # List where we will save the tuple (airport_name, page_rank)
     mylist = []
     j = 0
@@ -176,7 +192,8 @@ def outputPageRanks():
         print('(' + str(pageR) + ", " + str(air) + ')')
 
 
-def main(argv=None):
+def main():
+    """Main function"""
     readAirports("airports.txt")
     readRoutes("routes.txt")
     time1 = time.time()
