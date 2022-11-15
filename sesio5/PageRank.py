@@ -120,9 +120,9 @@ def computePageRanks():
     L = 0.8
     condition = 10 ** (-12)  # error
     n = len(airportHash)
-    P = init_P("one", n)
+    P = init_P("nth", n)
     # Alternative initializations:
-    # P = init_P("nth", n)
+    # P = init_P("one", n)
     # P = init_P("square", n)
     stop = False
     aux1 = (1.0 - L) / n
