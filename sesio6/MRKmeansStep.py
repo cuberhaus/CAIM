@@ -35,7 +35,33 @@ class MRKmeansStep(MRJob):
 
         The result should be always a value in the range [0,1]
         """
-        return 1
+        
+        i = 0
+        j = 0
+        summ = 0
+        
+        # We compute the norm(doc1)^2
+        norm1 = 0
+        for i in range(len(prot)):
+            norm1 += prot[i][1]**2
+        
+        # We compute the norm(doc2)^2, in this case is just the sum of the elements 
+        # because 1^2 = 1, and all the elements on the lis doc are 1.
+        norm2 = len(doc)
+        
+        # We compute the product doc1 · doc2        
+        while (i < len(prot) and j < len(doc)):
+            if prot[i][0] == doc[j]:
+                summ += 1
+                i = i + 1
+                j = j + 1
+            elif prot[i][0] < doc[j]:
+                i = i + 1
+            else:
+                j = j + 1
+        
+        
+        return float(summ)/float(norm1 + norm2 - summ)
 
     def configure_args(self):
         """
@@ -75,12 +101,19 @@ class MRKmeansStep(MRJob):
         doc, words = line.split(':')
         lwords = words.split()
 
-        #
-        # Compute map here
-        #
+        # In the first iteration the distance is the closest possible, lets say -1
+        distance = -1
+        assigned = 'none'
+        for key in self.prototypes:
+            # We compute the jaccard distance
+            aux_distance = self.jaccard(self.prototypes[key],lwords)
+            # We save the nearest one  
+            if(distance == -1 or aux_distance < distance):
+                distance = aux
+                assigned = key       
 
         # Return pair key, value
-        yield None, None
+        yield assigned, (doc,lwords)
 
     def aggregate_prototype(self, key, values):
         """
