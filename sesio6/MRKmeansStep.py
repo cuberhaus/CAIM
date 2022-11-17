@@ -132,8 +132,32 @@ class MRKmeansStep(MRJob):
         :param values:
         :return:
         """
+        # Dictionary to store word, frequency
+        frequencies = {}
+        documents = []
+        # Counter to count the number of documents assigned to the cluster key
+        counter = 0
+        for doc in values:
+            # For each word in the document, we see how many times appears in that document
+            for word in doc[1]:
+                if word in frequencies:
+                    frequencies[word] += 1
+                else:
+                # First appearance
+                    frequencies[word] = 1
+            counter += 1
+            documents.append(doc[0])        
+        
+        # We create the list of prototypes, word, frequency/number_documents
+        prototype = []
+        for word in frequencies:
+            prototype.append((word,float(frequencies[word])/float(counter)))
 
-        yield None, None
+        # We sort each list        
+        final_documents = documents.sort()
+        final_prototype = prototype.sort()
+
+        yield key, (final_documents, final_prototype)
 
     def steps(self):
         return [MRStep(mapper_init=self.load_data, mapper=self.assign_prototype,
