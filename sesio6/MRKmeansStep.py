@@ -52,7 +52,7 @@ class MRKmeansStep(MRJob):
         # We compute the product doc1 · doc2        
         while (i < len(prot) and j < len(doc)):
             if prot[i][0] == doc[j]:
-                summ += 1
+                summ += prot[i][1]
                 i = i + 1
                 j = j + 1
             elif prot[i][0] < doc[j]:
@@ -109,7 +109,7 @@ class MRKmeansStep(MRJob):
             aux_distance = self.jaccard(self.prototypes[key],lwords)
             # We save the nearest one  
             if(distance == -1 or aux_distance < distance):
-                distance = aux
+                distance = aux_distance
                 assigned = key       
 
         # Return pair key, value
@@ -154,8 +154,8 @@ class MRKmeansStep(MRJob):
             prototype.append((word,float(frequencies[word])/float(counter)))
 
         # We sort each list        
-        final_documents = documents.sort()
-        final_prototype = prototype.sort()
+        final_documents = sorted(documents)
+        final_prototype = sorted(prototype)
 
         yield key, (final_documents, final_prototype)
 
