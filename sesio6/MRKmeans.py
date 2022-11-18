@@ -61,12 +61,37 @@ if __name__ == '__main__':
             # Process the results of the script iterating the (key,value) pairs
             for key, value in mr_job1.parse_output(runner1.cat_output()):
                 # You should store things here probably in a datastructure
+                new_assign[key] = value[0]
+                new_proto[key] = value[1]
 
             # If your scripts returns the new assignments you could write them in a file here
-
+            for key,values in new_assign.items():
+                assignment = key + ":"
+                for doc in values:
+                    assignment += doc + " "
+                assignment += "\n"
+            assignmentFile = open(cwd + '/assignments%d.txt' %(i+1), 'w')
+            assignmentFile.write(assignment)
+            assignmentFile.close()
+            
             # You should store the new prototypes here for the next iteration
+           
+            prototype = "/prototypes%d.txt"%(i+1)
+            if (i+1 == args.iter or assign == new_assign):
+                prototype = "/next-prototypes.txt"
+            
+            for k,v in new_proto.items():
+                prototype += k + ":"
+                for term in v:
+                    prototype += term[0] + "+" + str(term[1]) + " "
+                prototype += "\n"
+            prototypeFile = open(cwd + prototype %(i+1), 'w')
+            prototypeFile.write(assignment)
+            prototypeFile.close()
 
             # If you have saved the assignments, you can check if they have changed from the previous iteration
+            assign = new_assign
+            
 
         print(f"Time= {(time.time() - tinit)} seconds" % )
 
