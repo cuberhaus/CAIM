@@ -65,25 +65,25 @@ if __name__ == '__main__':
                 new_proto[key] = value[1]
 
             # If your scripts returns the new assignments you could write them in a file here
-            for key,values in new_assign.items():
+            for key, values in new_assign.items():
                 assignment = key + ":"
                 for doc in values:
                     assignment += doc + " "
                 assignment += "\n"
-            assignmentFile = open(cwd + '/assignments%d.txt' %(i+1), 'w')
+            assignmentFile = open(cwd + '/assignments%d.txt' % (i + 1), 'w')
             assignmentFile.write(assignment)
             assignmentFile.close()
-            
+
             # You should store the new prototypes here for the next iteration
-           
-            if new_assign==assign:
+
+            if new_assign == assign:
                 nomove = True
-           
-            prototypeName = "/prototypes%d.txt"%(i+1)
-            if (i+1 == args.iter or assign == new_assign):
+
+            prototypeName = "/prototypes%d.txt" % (i + 1)
+            if i + 1 == args.iter or assign == new_assign:
                 prototypeName = "/next-prototypes.txt"
-            
-            for k,v in new_proto.items():
+
+            for k, v in new_proto.items():
                 prototype = k + ":"
                 for term in v:
                     prototype += term[0] + "+" + str(term[1]) + " "
@@ -94,9 +94,8 @@ if __name__ == '__main__':
 
             # If you have saved the assignments, you can check if they have changed from the previous iteration
             assign = new_assign
-            
 
-        print(f"Time= {(time.time() - tinit)} seconds" )
+        print(f"Time= {(time.time() - tinit)} seconds")
 
         if nomove:  # If there is no changes in two consecutive iteration we can stop
             print("Algorithm converged")

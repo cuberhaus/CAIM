@@ -31,26 +31,26 @@ class MRKmeansStep(MRJob):
         Compute here the Jaccard similarity between  a prototype and a document
         prot should be a list of pairs (word, probability)
         doc should be a list of words
-        Words must be alphabeticaly ordered
+        Words must be alphabetically ordered
 
         The result should be always a value in the range [0,1]
         """
-        
+
         i = 0
         j = 0
         summ = 0
-        
+
         # We compute the norm(doc1)^2
         norm1 = 0
         for i in range(len(prot)):
-            norm1 += prot[i][1]**2
-        
+            norm1 += prot[i][1] ** 2
+
         # We compute the norm(doc2)^2, in this case is just the sum of the elements 
         # because 1^2 = 1, and all the elements on the lis doc are 1.
         norm2 = len(doc)
-        
+
         # We compute the product doc1 · doc2        
-        while (i < len(prot) and j < len(doc)):
+        while i < len(prot) and j < len(doc):
             if prot[i][0] == doc[j]:
                 summ += prot[i][1]
                 i = i + 1
@@ -59,9 +59,8 @@ class MRKmeansStep(MRJob):
                 i = i + 1
             else:
                 j = j + 1
-        
-        
-        return float(summ)/float(norm1 + norm2 - summ)
+
+        return float(summ) / float(norm1 + norm2 - summ)
 
     def configure_args(self):
         """
@@ -106,14 +105,14 @@ class MRKmeansStep(MRJob):
         assigned = 'none'
         for key in self.prototypes:
             # We compute the jaccard distance
-            aux_distance = self.jaccard(self.prototypes[key],lwords)
+            aux_distance = self.jaccard(self.prototypes[key], lwords)
             # We save the nearest one  
-            if(distance == -1 or aux_distance < distance):
+            if distance == -1 or aux_distance < distance:
                 distance = aux_distance
-                assigned = key       
+                assigned = key
 
-        # Return pair key, value
-        yield assigned, (doc,lwords)
+                # Return pair key, value
+        yield assigned, (doc, lwords)
 
     def aggregate_prototype(self, key, values):
         """
@@ -143,15 +142,15 @@ class MRKmeansStep(MRJob):
                 if word in frequencies:
                     frequencies[word] += 1
                 else:
-                # First appearance
+                    # First appearance
                     frequencies[word] = 1
             counter += 1
-            documents.append(doc[0])        
-        
-        # We create the list of prototypes, word, frequency/number_documents
+            documents.append(doc[0])
+
+            # We create the list of prototypes, word, frequency/number_documents
         prototype = []
         for word in frequencies:
-            prototype.append((word,float(frequencies[word])/float(counter)))
+            prototype.append((word, float(frequencies[word]) / float(counter)))
 
         # We sort each list        
         final_documents = sorted(documents)
@@ -162,7 +161,7 @@ class MRKmeansStep(MRJob):
     def steps(self):
         return [MRStep(mapper_init=self.load_data, mapper=self.assign_prototype,
                        reducer=self.aggregate_prototype)
-            ]
+                ]
 
 
 if __name__ == '__main__':
