@@ -24,26 +24,26 @@ __author__ = 'bejar'
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--data', default='documents.txt',  help='Data with the examples')
+    parser.add_argument('--data', default='documents.txt', help='Data with the examples')
     parser.add_argument('--nclust', default=2, type=int, help='Number of clusters')
 
     args = parser.parse_args()
 
     f = open(args.data, 'r')
+    name = args.data[9:]
 
     ldocs = []
     for line in f:
         doc, words = line.split(':')
         ldocs.append(words)
 
-   # Generate nclust prototypes with nclust random documents
+    # Generate nclust prototypes with nclust random documents
     doc = choice(range(len(ldocs)), args.nclust)
-    f = open('prototypes.txt', 'w')
+    f = open('prototypes' + name + '.txt', 'w')
     for i, d in enumerate(doc):
         docvec = ''
         for v in ldocs[d].split():
-            docvec += (v+'+1.0 ')
-        f.write('CLASS'+str(i) + ':' + docvec.encode('ascii','replace').decode() + '\n')
+            docvec += (v + '+1.0 ')
+        f.write('CLASS' + str(i) + ':' + docvec.encode('ascii', 'replace').decode() + '\n')
     f.flush()
     f.close()
-
