@@ -29,8 +29,10 @@ if __name__ == '__main__':
 
     args = parser.parse_args()
 
+    name = args.data[9:]
+    name = name.split('.')[0]
+    print(name)
     f = open(args.data, 'r')
-    name = args.data[9:10]
     # print(name)
     ldocs = []
     for line in f:
@@ -39,7 +41,7 @@ if __name__ == '__main__':
 
     # Generate nclust prototypes with nclust random documents
     doc = choice(range(len(ldocs)), args.nclust)
-    f = open('prototypes' + name + '.txt', 'w')
+    f = open('prototype' + name + ' ' + args.nclust + '.txt', 'w')
     for i, d in enumerate(doc):
         docvec = ''
         for v in ldocs[d].split():
