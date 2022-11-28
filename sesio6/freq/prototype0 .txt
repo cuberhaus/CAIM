@@ -1,0 +1,2 @@
+CLASS0:him+1.0 last+1.0 least+1.0 ll+1.0 mean+1.0 reason+1.0 said+1.0 seem+1.0 show+1.0 sure+1.0 
+CLASS1:bit+1.0 comput+1.0 give+1.0 line+1.0 two+1.0 

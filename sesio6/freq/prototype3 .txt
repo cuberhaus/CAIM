@@ -1,0 +1,2 @@
+CLASS0:ani+1.0 could+1.0 know+1.0 like+1.0 same+1.0 thank+1.0 time+1.0 who+1.0 would+1.0 
+CLASS1:about+1.0 ani+1.0 articl+1.0 back+1.0 edu+1.0 enough+1.0 even+1.0 from+1.0 get+1.0 had+1.0 has+1.0 like+1.0 more+1.0 most+1.0 my+1.0 probabl+1.0 should+1.0 someon+1.0 than+1.0 use+1.0 were+1.0 what+1.0 while+1.0 who+1.0 your+1.0 
