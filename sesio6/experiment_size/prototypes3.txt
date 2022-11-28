@@ -1,0 +1,2 @@
+CLASS0:back+1.0 bad+1.0 better+1.0 certain+1.0 fact+1.0 few+1.0 great+1.0 help+1.0 here+1.0 him+1.0 howev+1.0 isn+1.0 ll+1.0 mayb+1.0 much+1.0 opinion+1.0 over+1.0 probabl+1.0 rather+1.0 right+1.0 same+1.0 seem+1.0 still+1.0 sure+1.0 take+1.0 though+1.0 year+1.0 yes+1.0 
+CLASS1:anoth+1.0 anyon+1.0 back+1.0 come+1.0 didn+1.0 done+1.0 drive+1.0 first+1.0 found+1.0 got+1.0 great+1.0 happen+1.0 hard+1.0 it+1.0 need+1.0 own+1.0 possibl+1.0 problem+1.0 program+1.0 run+1.0 seen+1.0 show+1.0 though+1.0 two+1.0 where+1.0 

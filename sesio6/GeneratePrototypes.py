@@ -30,8 +30,8 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     f = open(args.data, 'r')
-    name = args.data[9:]
-
+    name = args.data[9:10]
+    # print(name)
     ldocs = []
     for line in f:
         doc, words = line.split(':')
