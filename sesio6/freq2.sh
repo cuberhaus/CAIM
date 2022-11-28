@@ -4,7 +4,7 @@ n=${#sizes[@]}
 for i in ${m_freq[@]} ; do IFS=","; set $i;
     # freq=${m_freq[$i]}
     echo "python ExtractData.py --index news --minfreq $1 --maxfreq $2 --numwords 200 --name $i &"
-    # python ExtractData.py --index news --minfreq $1 --maxfreq $2 --numwords 200 --name $i &
+    python ExtractData.py --index news --minfreq $1 --maxfreq $2 --numwords 200 --name $i &
 done
 
 wait # This will wait for all child tasks to finish
