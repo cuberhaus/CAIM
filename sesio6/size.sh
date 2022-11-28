@@ -13,3 +13,5 @@ for ((i=0; i < $n; i++)); do
     python GeneratePrototypes.py --data documents$i.txt &
 done
 
+wait
+echo "Program ended successfully"
