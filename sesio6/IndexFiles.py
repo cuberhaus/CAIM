@@ -31,15 +31,16 @@ import os
 import codecs
 from elasticsearch_dsl import Index, analyzer, tokenizer
 
+
 def generate_files_list(path):
     """
     Generates a list of all the files inside a path
     :param path:
     :return:
     """
-    if path[-1] =='/':
+    if path[-1] == '/':
         path = path[:-1]
-    
+
     lfiles = []
 
     for lf in os.walk(path):
@@ -92,12 +93,12 @@ if __name__ == '__main__':
     ind.close()  # index must be closed for configuring analyzer
 
     # configure the path field so it is not tokenized and we can do exact match search
-    client.indices.put_mapping(doc_type='document', index=index, include_type_name=True, body= {
-            "properties": {
-                "path": {
-                    "type": "keyword",
-                }
+    client.indices.put_mapping(doc_type='document', index=index, include_type_name=True, body={
+        "properties": {
+            "path": {
+                "type": "keyword",
             }
+        }
     })
 
     # Configure index analyzer, limit tokens length to range [2-10]
@@ -128,4 +129,3 @@ if __name__ == '__main__':
     # Bulk execution of elastic search operations (faster than executing all one by one)
     print('Indexing ...')
     bulk(client, ldocs)
-

@@ -6,6 +6,7 @@ import re
 
 WORD_RE = re.compile(r"[a-z]+")
 
+
 class MRWordFrequencyCount(MRJob):
 
     def mapper(self, _, line):
