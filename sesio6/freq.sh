@@ -1,5 +1,5 @@
 m_freq=(0.3 0.5 0.7 0.9 1)
-n=${#sizes[@]}
+n=${#m_freq[@]}
 for ((i = 0; i < $n; i++)); do
     freq=${m_freq[$i]}
     echo "python ExtractData.py --index news --minfreq 0.1 --maxfreq 0.3 --numwords 200 --name $i &"
