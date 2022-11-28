@@ -3,10 +3,10 @@ n=${#clusters[@]}
 
 python ExtractData.py --index news --minfreq 0.1 --maxfreq 0.3 --numwords 200 --name 0 &
 wait
-for ((i = 0; i < $n; i++)); do
+for ((i = 0; i < n; i++)); do
     c_size=${clusters[$i]}
     echo "python GeneratePrototypes.py --data documents0.txt --nclust $c_size &"
-    python GeneratePrototypes.py --data documents0.txt --nclust $c_size &
+    python GeneratePrototypes.py --data documents0.txt --nclust "$c_size" &
 done
 
 wait
