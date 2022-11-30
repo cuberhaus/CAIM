@@ -10,7 +10,7 @@ for ((i = 0; i < n; i++)); do
     echo "python3 ../MRKmeans.py  --prot ../experiments/$exp/$proto --docs ../experiments/$exp/$docu &"
     mkdir Kmeans_"$i"
     cd Kmeans_"$i"
-    python3 ../MRKmeans.py  --prot ../experiments/$exp/$proto --docs ../experiments/$exp/$docu &
+    python3 ../MRKmeans.py  --prot ../experiments/$exp/"$proto" --docs ../experiments/$exp/"$docu" &
     cd ../
 done
 
