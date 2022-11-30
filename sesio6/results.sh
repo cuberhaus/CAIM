@@ -1,16 +1,22 @@
-expf="Kmeanssize"
-folders=($(ls $expf/ | cat | grep -i "kmeans.*"))
+exp=("Kmeanssize" "Kmeansclusters" "Kmeansfreq" "Kmeansfreq2")
+n_exp=${#exp[@]}
 
-n=${#folders[@]}
-for ((i = 0; i < n; i++)); do
-    folder=${folders[$i]}
-    protos=($(ls $expf/$folder | cat | grep -i "^prototypes.*.txt" ))
+for ((j = 0; j < n_exp; j++)); do
+    expf=${exp[$j]}
+    folders=($(ls $expf/ | cat | grep -i "kmeans.*"))
 
-    m=${#protos[@]}
-    k=$((m-1))
-    proto=${protos[$k]}
+    n=${#folders[@]}
+    for ((i = 0; i < n; i++)); do
+        folder=${folders[$i]}
+        protos=($(ls $expf/$folder | cat | grep -i "^prototypes.*.txt" ))
 
-    echo "python3 ProcessResults.py --prot $expf/$folder/$proto & > $expf/$folder/ProcessResults.txt"
-    python3 ProcessResults.py --prot $expf/$folder/$proto & > $expf/$folder/ProcessResults.txt
+        m=${#protos[@]}
+        k=$((m-1))
+        proto=${protos[$k]}
+
+        echo "(python3 processresults.py --prot $expf/$folder/$proto) > $expf/$folder/processresults.txt &"
+        (python3 processresults.py --prot $expf/$folder/$proto) > $expf/$folder/processresults.txt &
+    done
 done
+
 wait
