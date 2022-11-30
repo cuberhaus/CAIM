@@ -1,8 +1,0 @@
-CLASS0:all+1.0 also+1.0 between+1.0 effect+1.0 it+1.0 present+1.0 where+1.0 
-CLASS1:all+1.0 also+1.0 base+1.0 first+1.0 has+1.0 have+1.0 larg+1.0 observ+1.0 perform+1.0 present+1.0 propos+1.0 
-CLASS2:has+1.0 one+1.0 paper+1.0 provid+1.0 two+1.0 where+1.0 
-CLASS3:between+1.0 first+1.0 have+1.0 it+1.0 one+1.0 present+1.0 where+1.0 
-CLASS4:all+1.0 between+1.0 both+1.0 data+1.0 have+1.0 high+1.0 it+1.0 one+1.0 studi+1.0 system+1.0 than+1.0 two+1.0 
-CLASS5:all+1.0 base+1.0 data+1.0 has+1.0 have+1.0 high+1.0 one+1.0 perform+1.0 propos+1.0 time+1.0 where+1.0 
-CLASS6:base+1.0 data+1.0 has+1.0 have+1.0 it+1.0 more+1.0 one+1.0 propos+1.0 system+1.0 time+1.0 
-CLASS7:differ+1.0 have+1.0 larg+1.0 observ+1.0 one+1.0 present+1.0 where+1.0 

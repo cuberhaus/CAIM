@@ -1,5 +1,5 @@
 # This command lines cannot be executed in parallel, because they are dependent on each other.
-./scripts/cluster.sh
+./scripts/clusters.sh
 ./scripts/freq.sh
 ./scripts/freq2.sh
 ./scripts/size.sh

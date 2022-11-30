@@ -51,13 +51,11 @@ docus=($(ls experiments/$exp/ | cat | grep -i "documents.*txt"))
 
 
 for ((i = 0; i < n; i++)); do
-    # echo "python generateprototypes.py --data documents$i.txt &"
     proto=${protos[$i]}
     docu=${docus[$i]}
-    echo "python3 ../MRKmeans.py  --prot ../experiments/$exp/$proto --docs ../experiments/$exp/$docu &"
     mkdir Kmeans_"$i"
     cd Kmeans_"$i"
-    python3 ../MRKmeans.py  --prot ../experiments/"$exp"/"$proto" --docs ../experiments/"$exp"/"$docu" &
+    (set -x; python3 ../MRKmeans.py  --prot ../experiments/"$exp"/"$proto" --docs ../experiments/"$exp"/"$docu" &)
     cd ../
 done
 
@@ -66,4 +64,6 @@ wait
 mkdir Kmeans"$exp"/
 mv Kmeans_* Kmeans"$exp"/
 mv Kmeans"$exp"/ experiments/Kmeans"$exp"/
+
+wait
 echo "Program ended successfully"
