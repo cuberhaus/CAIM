@@ -13,12 +13,12 @@ Exemple:
 ```
 
 ## Scripts kmeans
-Cal comentar i descomentar dins el codi dues línies per a executar els diferents experiments
 ```
-./scripts/kmeans.sh
+./scripts/kmeans.sh -n freq
+./scripts/kmeans.sh -n size
+./scripts/kmeans.sh -n freq2
 ```
 
-Només cal executar
 ```
 ./scripts/kmeans_cluster.sh
 ```
@@ -28,6 +28,10 @@ Processarà tots els resultats dels experiments
 ```
 ./scripts/results.sh
 ```
-
+## Executar tots els kmeans alhora
+```
+./scripts/kmeans_all.sh
+```
 # Resultats experiments
 Els resultats dels experiments es troben en les carpetes KmeansClusters, Kmeansfreq, Kmeansfreq2, Kmeanssize
+
