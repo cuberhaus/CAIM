@@ -1,0 +1,8 @@
+CLASS0:can+1.0 our+1.0 
+CLASS1:can+1.0 result+1.0 show+1.0 
+CLASS2:model+1.0 our+1.0 
+CLASS3:show+1.0 
+CLASS4:can+1.0 show+1.0 
+CLASS5:model+1.0 result+1.0 show+1.0 
+CLASS6:can+1.0 
+CLASS7:show+1.0 
