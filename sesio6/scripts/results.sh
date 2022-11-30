@@ -22,3 +22,5 @@ for ((j = 0; j < n_exp; j++)); do
 done
 
 wait
+me=$(basename "$0")
+echo "${me} ended successfully"

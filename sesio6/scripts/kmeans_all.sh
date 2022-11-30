@@ -13,3 +13,5 @@
 ./scripts/kmeans.sh -n freq2
 ./scripts/kmeans_cluster.sh
 ./scripts/results.sh
+me=$(basename "$0")
+echo "${me} ended successfully"

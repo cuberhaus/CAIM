@@ -66,4 +66,5 @@ mv Kmeans_* Kmeans"$exp"/
 mv Kmeans"$exp"/ experiments/Kmeans"$exp"/
 
 wait
-echo "Program ended successfully"
+me=$(basename "$0")
+echo "${me} ended successfully"

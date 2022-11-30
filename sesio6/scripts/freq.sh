@@ -17,4 +17,5 @@ mkdir -p experiments/freq
 mv *.txt experiments/freq/
 
 wait
-echo "Program ended successfully"
+me=$(basename "$0")
+echo "${me} ended successfully"
