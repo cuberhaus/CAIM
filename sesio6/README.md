@@ -18,12 +18,13 @@ Cal comentar i descomentar dins el codi dues línies per a executar els diferent
 ./kmeans.sh 
 ```
 
+Només cal executar
 ```
 ./kmeans_cluster.sh
 ```
 
 ## Script processar results
-
+Processarà tots els resultats dels experiments
 ```
 ./results.sh
 ```

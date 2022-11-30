@@ -1,3 +1,4 @@
+# Per executar un experiment diferent descomentar les dues línies exp,n i comentar les anteriors
 exp="size"
 n=6
 
