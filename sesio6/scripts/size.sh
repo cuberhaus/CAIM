@@ -1,4 +1,3 @@
-#processes=()
 trap 'trap " " SIGTERM; kill 0; wait; cleanup' SIGINT SIGTERM
 
 sizes=(10 50 100 200 1000 10000)
