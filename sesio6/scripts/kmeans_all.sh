@@ -1,19 +1,11 @@
+# This command lines cannot be executed in parallel, because they are dependent on each other.
 ./scripts/cluster.sh
-wait
 ./scripts/freq.sh
-wait
 ./scripts/freq2.sh
-wait
 ./scripts/size.sh
-wait
 
 ./scripts/kmeans.sh -n size
-wait
 ./scripts/kmeans.sh -n freq
-wait
 ./scripts/kmeans.sh -n freq2
-wait
 ./scripts/kmeans_cluster.sh
-wait
 ./scripts/results.sh
-wait
