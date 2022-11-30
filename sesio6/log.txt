@@ -1,0 +1,651 @@
+++ python3 ExtractData.py --index abs --minfreq 0.1 --maxfreq 0.3 --numwords 200 --name 0
+Querying all documents ...
+Generating vocabulary frequencies ...
+/Users/pol/Library/Python/3.10/lib/python/site-packages/elasticsearch/connection/base.py:200: ElasticsearchWarning: Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.17/security-minimal-setup.html to enable security.
+  warnings.warn(message, category=ElasticsearchWarning)
+/Users/pol/Library/Python/3.10/lib/python/site-packages/elasticsearch/connection/base.py:200: ElasticsearchWarning: [types removal] Specifying types in term vector requests is deprecated.
+  warnings.warn(message, category=ElasticsearchWarning)
+Computing binary term vectors ...
+Saving data ...
+++ python3 GeneratePrototypes.py --data documents0.txt --nclust 2
+++ python3 GeneratePrototypes.py --data documents0.txt --nclust 4
+++ python3 GeneratePrototypes.py --data documents0.txt --nclust 8
+++ python3 GeneratePrototypes.py --data documents0.txt --nclust 16
+++ python3 GeneratePrototypes.py --data documents0.txt --nclust 64
+++ python3 GeneratePrototypes.py --data documents0.txt --nclust 32
+++ python3 GeneratePrototypes.py --data documents0.txt --nclust 128
+
+clusters.sh ended successfully
+
+++ python3 ExtractData.py --index abs --minfreq 0.1 --maxfreq 0.3 --numwords 200 --name 0
+++ python3 ExtractData.py --index abs --minfreq 0.1 --maxfreq 0.5 --numwords 200 --name 1
+++ python3 ExtractData.py --index abs --minfreq 0.1 --maxfreq 0.7 --numwords 200 --name 2
+++ python3 ExtractData.py --index abs --minfreq 0.1 --maxfreq 1 --numwords 200 --name 4
+++ python3 ExtractData.py --index abs --minfreq 0.1 --maxfreq 0.9 --numwords 200 --name 3
+Querying all documents ...
+Generating vocabulary frequencies ...
+Querying all documents ...
+Generating vocabulary frequencies ...
+/Users/pol/Library/Python/3.10/lib/python/site-packages/elasticsearch/connection/base.py:200: ElasticsearchWarning: Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.17/security-minimal-setup.html to enable security.
+  warnings.warn(message, category=ElasticsearchWarning)
+/Users/pol/Library/Python/3.10/lib/python/site-packages/elasticsearch/connection/base.py:200: ElasticsearchWarning: Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.17/security-minimal-setup.html to enable security.
+  warnings.warn(message, category=ElasticsearchWarning)
+Querying all documents ...
+Generating vocabulary frequencies ...
+Querying all documents ...
+Generating vocabulary frequencies ...
+/Users/pol/Library/Python/3.10/lib/python/site-packages/elasticsearch/connection/base.py:200: ElasticsearchWarning: Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.17/security-minimal-setup.html to enable security.
+  warnings.warn(message, category=ElasticsearchWarning)
+Querying all documents ...
+Generating vocabulary frequencies ...
+/Users/pol/Library/Python/3.10/lib/python/site-packages/elasticsearch/connection/base.py:200: ElasticsearchWarning: Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.17/security-minimal-setup.html to enable security.
+  warnings.warn(message, category=ElasticsearchWarning)
+/Users/pol/Library/Python/3.10/lib/python/site-packages/elasticsearch/connection/base.py:200: ElasticsearchWarning: Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.17/security-minimal-setup.html to enable security.
+  warnings.warn(message, category=ElasticsearchWarning)
+/Users/pol/Library/Python/3.10/lib/python/site-packages/elasticsearch/connection/base.py:200: ElasticsearchWarning: [types removal] Specifying types in term vector requests is deprecated.
+  warnings.warn(message, category=ElasticsearchWarning)
+/Users/pol/Library/Python/3.10/lib/python/site-packages/elasticsearch/connection/base.py:200: ElasticsearchWarning: [types removal] Specifying types in term vector requests is deprecated.
+  warnings.warn(message, category=ElasticsearchWarning)
+/Users/pol/Library/Python/3.10/lib/python/site-packages/elasticsearch/connection/base.py:200: ElasticsearchWarning: [types removal] Specifying types in term vector requests is deprecated.
+  warnings.warn(message, category=ElasticsearchWarning)
+/Users/pol/Library/Python/3.10/lib/python/site-packages/elasticsearch/connection/base.py:200: ElasticsearchWarning: [types removal] Specifying types in term vector requests is deprecated.
+  warnings.warn(message, category=ElasticsearchWarning)
+/Users/pol/Library/Python/3.10/lib/python/site-packages/elasticsearch/connection/base.py:200: ElasticsearchWarning: [types removal] Specifying types in term vector requests is deprecated.
+  warnings.warn(message, category=ElasticsearchWarning)
+Computing binary term vectors ...
+Computing binary term vectors ...
+Computing binary term vectors ...
+Saving data ...
+Saving data ...
+Saving data ...
+Computing binary term vectors ...
+Computing binary term vectors ...
+Saving data ...
+Saving data ...
+++ python3 GeneratePrototypes.py --data documents0.txt --nclust 8
+++ python3 GeneratePrototypes.py --data documents1.txt --nclust 8
+++ python3 GeneratePrototypes.py --data documents2.txt --nclust 8
+++ python3 GeneratePrototypes.py --data documents3.txt --nclust 8
+./scripts/freq.sh: line 20: syntax error near unexpected token `('
+./scripts/freq.sh: line 20: `r ((i = 0; i < n; i++)); do'
+++ python3 GeneratePrototypes.py --data documents4.txt --nclust 8
+++ python3 ExtractData.py --index abs --minfreq 0.1 --maxfreq 0.3 --numwords 200 --name 0
+++ python3 ExtractData.py --index abs --minfreq 0.3 --maxfreq 0.5 --numwords 200 --name 1
+++ python3 ExtractData.py --index abs --minfreq 0.5 --maxfreq 0.7 --numwords 200 --name 2
+++ python3 ExtractData.py --index abs --minfreq 0.7 --maxfreq 0.9 --numwords 200 --name 3
+Querying all documents ...
+Generating vocabulary frequencies ...
+/Users/pol/Library/Python/3.10/lib/python/site-packages/elasticsearch/connection/base.py:200: ElasticsearchWarning: Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.17/security-minimal-setup.html to enable security.
+  warnings.warn(message, category=ElasticsearchWarning)
+/Users/pol/Library/Python/3.10/lib/python/site-packages/elasticsearch/connection/base.py:200: ElasticsearchWarning: [types removal] Specifying types in term vector requests is deprecated.
+  warnings.warn(message, category=ElasticsearchWarning)
+Querying all documents ...
+Generating vocabulary frequencies ...
+/Users/pol/Library/Python/3.10/lib/python/site-packages/elasticsearch/connection/base.py:200: ElasticsearchWarning: Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.17/security-minimal-setup.html to enable security.
+  warnings.warn(message, category=ElasticsearchWarning)
+Querying all documents ...
+Generating vocabulary frequencies ...
+Querying all documents ...
+Generating vocabulary frequencies ...
+/Users/pol/Library/Python/3.10/lib/python/site-packages/elasticsearch/connection/base.py:200: ElasticsearchWarning: Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.17/security-minimal-setup.html to enable security.
+  warnings.warn(message, category=ElasticsearchWarning)
+/Users/pol/Library/Python/3.10/lib/python/site-packages/elasticsearch/connection/base.py:200: ElasticsearchWarning: [types removal] Specifying types in term vector requests is deprecated.
+  warnings.warn(message, category=ElasticsearchWarning)
+/Users/pol/Library/Python/3.10/lib/python/site-packages/elasticsearch/connection/base.py:200: ElasticsearchWarning: Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.17/security-minimal-setup.html to enable security.
+  warnings.warn(message, category=ElasticsearchWarning)
+/Users/pol/Library/Python/3.10/lib/python/site-packages/elasticsearch/connection/base.py:200: ElasticsearchWarning: [types removal] Specifying types in term vector requests is deprecated.
+  warnings.warn(message, category=ElasticsearchWarning)
+/Users/pol/Library/Python/3.10/lib/python/site-packages/elasticsearch/connection/base.py:200: ElasticsearchWarning: [types removal] Specifying types in term vector requests is deprecated.
+  warnings.warn(message, category=ElasticsearchWarning)
+Computing binary term vectors ...
+Computing binary term vectors ...
+Saving data ...
+Computing binary term vectors ...
+Saving data ...
+Computing binary term vectors ...
+Saving data ...
+Saving data ...
+++ python3 GeneratePrototypes.py --data documents0.txt --nclust 8
+++ python3 GeneratePrototypes.py --data documents1.txt --nclust 8
+++ python3 GeneratePrototypes.py --data documents2.txt --nclust 8
+++ python3 GeneratePrototypes.py --data documents3.txt --nclust 8
+
+freq2.sh ended successfully
+
+++ python3 ExtractData.py --index abs --minfreq 0.1 --maxfreq 0.3 --numwords 10 --name 0
+++ python3 ExtractData.py --index abs --minfreq 0.1 --maxfreq 0.3 --numwords 50 --name 1
+++ python3 ExtractData.py --index abs --minfreq 0.1 --maxfreq 0.3 --numwords 100 --name 2
+++ python3 ExtractData.py --index abs --minfreq 0.1 --maxfreq 0.3 --numwords 200 --name 3
+++ python3 ExtractData.py --index abs --minfreq 0.1 --maxfreq 0.3 --numwords 1000 --name 4
+++ python3 ExtractData.py --index abs --minfreq 0.1 --maxfreq 0.3 --numwords 10000 --name 5
+Querying all documents ...
+Generating vocabulary frequencies ...
+Querying all documents ...
+Generating vocabulary frequencies ...
+Querying all documents ...
+Generating vocabulary frequencies ...
+Querying all documents ...
+Generating vocabulary frequencies ...
+/Users/pol/Library/Python/3.10/lib/python/site-packages/elasticsearch/connection/base.py:200: ElasticsearchWarning: Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.17/security-minimal-setup.html to enable security.
+  warnings.warn(message, category=ElasticsearchWarning)
+/Users/pol/Library/Python/3.10/lib/python/site-packages/elasticsearch/connection/base.py:200: ElasticsearchWarning: Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.17/security-minimal-setup.html to enable security.
+  warnings.warn(message, category=ElasticsearchWarning)
+/Users/pol/Library/Python/3.10/lib/python/site-packages/elasticsearch/connection/base.py:200: ElasticsearchWarning: Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.17/security-minimal-setup.html to enable security.
+  warnings.warn(message, category=ElasticsearchWarning)
+/Users/pol/Library/Python/3.10/lib/python/site-packages/elasticsearch/connection/base.py:200: ElasticsearchWarning: Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.17/security-minimal-setup.html to enable security.
+  warnings.warn(message, category=ElasticsearchWarning)
+Querying all documents ...
+Generating vocabulary frequencies ...
+Querying all documents ...
+Generating vocabulary frequencies ...
+/Users/pol/Library/Python/3.10/lib/python/site-packages/elasticsearch/connection/base.py:200: ElasticsearchWarning: Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.17/security-minimal-setup.html to enable security.
+  warnings.warn(message, category=ElasticsearchWarning)
+/Users/pol/Library/Python/3.10/lib/python/site-packages/elasticsearch/connection/base.py:200: ElasticsearchWarning: Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.17/security-minimal-setup.html to enable security.
+  warnings.warn(message, category=ElasticsearchWarning)
+/Users/pol/Library/Python/3.10/lib/python/site-packages/elasticsearch/connection/base.py:200: ElasticsearchWarning: [types removal] Specifying types in term vector requests is deprecated.
+  warnings.warn(message, category=ElasticsearchWarning)
+/Users/pol/Library/Python/3.10/lib/python/site-packages/elasticsearch/connection/base.py:200: ElasticsearchWarning: [types removal] Specifying types in term vector requests is deprecated.
+  warnings.warn(message, category=ElasticsearchWarning)
+/Users/pol/Library/Python/3.10/lib/python/site-packages/elasticsearch/connection/base.py:200: ElasticsearchWarning: [types removal] Specifying types in term vector requests is deprecated.
+  warnings.warn(message, category=ElasticsearchWarning)
+/Users/pol/Library/Python/3.10/lib/python/site-packages/elasticsearch/connection/base.py:200: ElasticsearchWarning: [types removal] Specifying types in term vector requests is deprecated.
+  warnings.warn(message, category=ElasticsearchWarning)
+/Users/pol/Library/Python/3.10/lib/python/site-packages/elasticsearch/connection/base.py:200: ElasticsearchWarning: [types removal] Specifying types in term vector requests is deprecated.
+  warnings.warn(message, category=ElasticsearchWarning)
+/Users/pol/Library/Python/3.10/lib/python/site-packages/elasticsearch/connection/base.py:200: ElasticsearchWarning: [types removal] Specifying types in term vector requests is deprecated.
+  warnings.warn(message, category=ElasticsearchWarning)
+Computing binary term vectors ...
+Computing binary term vectors ...
+Saving data ...
+Saving data ...
+Computing binary term vectors ...
+Computing binary term vectors ...
+Saving data ...
+Saving data ...
+Computing binary term vectors ...
+Computing binary term vectors ...
+Saving data ...
+Saving data ...
+++ python3 GeneratePrototypes.py --data documents0.txt --nclust 8
+++ python3 GeneratePrototypes.py --data documents1.txt --nclust 8
+++ python3 GeneratePrototypes.py --data documents2.txt --nclust 8
+++ python3 GeneratePrototypes.py --data documents3.txt --nclust 8
+++ python3 GeneratePrototypes.py --data documents4.txt --nclust 8
+++ python3 GeneratePrototypes.py --data documents5.txt --nclust 8
+
+Program ended successfully
+
+++ python3 ../MRKmeans.py --prot ../experiments/size/prototype0_8.txt --docs ../experiments/size/documents0.txt
+++ python3 ../MRKmeans.py --prot ../experiments/size/prototype1_8.txt --docs ../experiments/size/documents1.txt
+++ python3 ../MRKmeans.py --prot ../experiments/size/prototype2_8.txt --docs ../experiments/size/documents2.txt
+++ python3 ../MRKmeans.py --prot ../experiments/size/prototype3_8.txt --docs ../experiments/size/documents3.txt
+++ python3 ../MRKmeans.py --prot ../experiments/size/prototype4_8.txt --docs ../experiments/size/documents4.txt
+++ python3 ../MRKmeans.py --prot ../experiments/size/prototype5_8.txt --docs ../experiments/size/documents5.txt
+Iteration 1 ...
+Iteration 1 ...
+Iteration 1 ...
+Iteration 1 ...
+Iteration 1 ...
+Iteration 1 ...
+No configs specified for local runner
+No configs specified for local runner
+Traceback (most recent call last):
+  File "/Users/pol/CAIM/sesio6/Kmeans_1/../MRKmeans.py", line 57, in <module>
+    runner1.run()
+  File "/opt/homebrew/lib/python3.10/site-packages/mrjob/runner.py", line 503, in run
+No configs specified for local runner
+    self._run()
+  File "/opt/homebrew/lib/python3.10/site-packages/mrjob/sim.py", line 146, in _run
+    self._output_dir = join(self._get_local_tmp_dir(), 'output')
+  File "/opt/homebrew/lib/python3.10/site-packages/mrjob/runner.py", line 735, in _get_local_tmp_dir
+    os.makedirs(path)
+  File "/opt/homebrew/Cellar/python@3.10/3.10.8/Frameworks/Python.framework/Versions/3.10/lib/python3.10/os.py", line 225, in makedirs
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: '/var/folders/gs/lcl0qv_d00v1t7b3r7ywshtr0000gn/T/MRKmeansStep.pol.20221130.162648.344624'
+No configs specified for local runner
+No configs specified for local runner
+No configs specified for local runner
+Time= 3.7031090259552 seconds
+Iteration 2 ...
+No configs specified for local runner
+Time= 6.092681884765625 seconds
+Iteration 2 ...
+No configs specified for local runner
+Time= 3.532402992248535 seconds
+Iteration 3 ...
+No configs specified for local runner
+Time= 8.020822048187256 seconds
+Iteration 2 ...
+No configs specified for local runner
+Time= 8.282429218292236 seconds
+Iteration 2 ...
+No configs specified for local runner
+Time= 8.980402946472168 seconds
+Iteration 2 ...
+No configs specified for local runner
+Time= 3.0050742626190186 seconds
+Iteration 4 ...
+No configs specified for local runner
+Time= 7.021694898605347 seconds
+Iteration 3 ...
+No configs specified for local runner
+Time= 2.9577417373657227 seconds
+Iteration 5 ...
+No configs specified for local runner
+Time= 3.243514060974121 seconds
+Time= 5.091484069824219 seconds
+Iteration 4 ...
+No configs specified for local runner
+Time= 11.718853235244751 seconds
+Iteration 3 ...
+No configs specified for local runner
+Time= 10.762845277786255 seconds
+Iteration 3 ...
+No configs specified for local runner
+Time= 13.404495000839233 seconds
+Iteration 3 ...
+No configs specified for local runner
+Time= 4.244105100631714 seconds
+Iteration 5 ...
+No configs specified for local runner
+Time= 5.463094711303711 seconds
+Iteration 4 ...
+No configs specified for local runner
+Time= 6.231734037399292 seconds
+Iteration 4 ...
+No configs specified for local runner
+Time= 4.303526878356934 seconds
+Time= 6.961410045623779 seconds
+Iteration 4 ...
+No configs specified for local runner
+Time= 4.762429237365723 seconds
+Iteration 5 ...
+No configs specified for local runner
+Time= 5.213792085647583 seconds
+Iteration 5 ...
+No configs specified for local runner
+Time= 5.210025787353516 seconds
+Iteration 5 ...
+No configs specified for local runner
+Time= 4.61925482749939 seconds
+Time= 4.760234832763672 seconds
+Time= 3.973633050918579 seconds
+
+kmeans.sh ended successfully
+
+++ python3 ../MRKmeans.py --prot ../experiments/freq/ --docs ../experiments/freq/
+++ python3 ../MRKmeans.py --prot ../experiments/freq/ --docs ../experiments/freq/
+++ python3 ../MRKmeans.py --prot ../experiments/freq/ --docs ../experiments/freq/
+++ python3 ../MRKmeans.py --prot ../experiments/freq/ --docs ../experiments/freq/
+++ python3 ../MRKmeans.py --prot ../experiments/freq/ --docs ../experiments/freq/
+Traceback (most recent call last):
+  File "/Users/pol/CAIM/sesio6/Kmeans_3/../MRKmeans.py", line 41, in <module>
+    shutil.copy(args.prot, cwd + '/prototypes0.txt')
+  File "/opt/homebrew/Cellar/python@3.10/3.10.8/Frameworks/Python.framework/Versions/3.10/lib/python3.10/shutil.py", line 417, in copy
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "/opt/homebrew/Cellar/python@3.10/3.10.8/Frameworks/Python.framework/Versions/3.10/lib/python3.10/shutil.py", line 254, in copyfile
+    with open(src, 'rb') as fsrc:
+IsADirectoryError: [Errno 21] Is a directory: '../experiments/freq/'
+Traceback (most recent call last):
+  File "/Users/pol/CAIM/sesio6/Kmeans_0/../MRKmeans.py", line 41, in <module>
+    shutil.copy(args.prot, cwd + '/prototypes0.txt')
+  File "/opt/homebrew/Cellar/python@3.10/3.10.8/Frameworks/Python.framework/Versions/3.10/lib/python3.10/shutil.py", line 417, in copy
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "/opt/homebrew/Cellar/python@3.10/3.10.8/Frameworks/Python.framework/Versions/3.10/lib/python3.10/shutil.py", line 254, in copyfile
+    with open(src, 'rb') as fsrc:
+IsADirectoryError: [Errno 21] Is a directory: '../experiments/freq/'
+Traceback (most recent call last):
+  File "/Users/pol/CAIM/sesio6/Kmeans_1/../MRKmeans.py", line 41, in <module>
+    shutil.copy(args.prot, cwd + '/prototypes0.txt')
+  File "/opt/homebrew/Cellar/python@3.10/3.10.8/Frameworks/Python.framework/Versions/3.10/lib/python3.10/shutil.py", line 417, in copy
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "/opt/homebrew/Cellar/python@3.10/3.10.8/Frameworks/Python.framework/Versions/3.10/lib/python3.10/shutil.py", line 254, in copyfile
+    with open(src, 'rb') as fsrc:
+IsADirectoryError: [Errno 21] Is a directory: '../experiments/freq/'
+Traceback (most recent call last):
+  File "/Users/pol/CAIM/sesio6/Kmeans_4/../MRKmeans.py", line 41, in <module>
+    shutil.copy(args.prot, cwd + '/prototypes0.txt')
+  File "/opt/homebrew/Cellar/python@3.10/3.10.8/Frameworks/Python.framework/Versions/3.10/lib/python3.10/shutil.py", line 417, in copy
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "/opt/homebrew/Cellar/python@3.10/3.10.8/Frameworks/Python.framework/Versions/3.10/lib/python3.10/shutil.py", line 254, in copyfile
+    with open(src, 'rb') as fsrc:
+IsADirectoryError: [Errno 21] Is a directory: '../experiments/freq/'
+Traceback (most recent call last):
+  File "/Users/pol/CAIM/sesio6/Kmeans_2/../MRKmeans.py", line 41, in <module>
+    shutil.copy(args.prot, cwd + '/prototypes0.txt')
+  File "/opt/homebrew/Cellar/python@3.10/3.10.8/Frameworks/Python.framework/Versions/3.10/lib/python3.10/shutil.py", line 417, in copy
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "/opt/homebrew/Cellar/python@3.10/3.10.8/Frameworks/Python.framework/Versions/3.10/lib/python3.10/shutil.py", line 254, in copyfile
+    with open(src, 'rb') as fsrc:
+IsADirectoryError: [Errno 21] Is a directory: '../experiments/freq/'
+
+kmeans.sh ended successfully
+
+++ python3 ../MRKmeans.py --prot ../experiments/freq2/prototype0_8.txt --docs ../experiments/freq2/documents0.txt
+++ python3 ../MRKmeans.py --prot ../experiments/freq2/prototype1_8.txt --docs ../experiments/freq2/documents1.txt
+++ python3 ../MRKmeans.py --prot ../experiments/freq2/prototype2_8.txt --docs ../experiments/freq2/documents2.txt
+++ python3 ../MRKmeans.py --prot ../experiments/freq2/prototype3_8.txt --docs ../experiments/freq2/documents3.txt
+Iteration 1 ...
+Iteration 1 ...
+Iteration 1 ...
+Iteration 1 ...
+No configs specified for local runner
+No configs specified for local runner
+No configs specified for local runner
+No configs specified for local runner
+Time= 2.985558032989502 seconds
+Iteration 2 ...
+No configs specified for local runner
+Time= 3.4942219257354736 seconds
+Iteration 2 ...
+No configs specified for local runner
+Time= 4.226550817489624 seconds
+Iteration 2 ...
+No configs specified for local runner
+Time= 2.8290271759033203 seconds
+Iteration 3 ...
+No configs specified for local runner
+Time= 5.960329055786133 seconds
+Iteration 2 ...
+No configs specified for local runner
+Time= 3.019350051879883 seconds
+Iteration 3 ...
+No configs specified for local runner
+Time= 4.067718982696533 seconds
+Iteration 3 ...
+No configs specified for local runner
+Time= 2.836351156234741 seconds
+Iteration 4 ...
+No configs specified for local runner
+Time= 2.966942310333252 seconds
+Iteration 4 ...
+No configs specified for local runner
+Time= 2.9908668994903564 seconds
+Iteration 5 ...
+No configs specified for local runner
+Time= 3.5892391204833984 seconds
+Iteration 4 ...
+No configs specified for local runner
+Time= 3.024179220199585 seconds
+Iteration 5 ...
+No configs specified for local runner
+Time= 2.9384729862213135 seconds
+Time= 3.199882984161377 seconds
+Iteration 5 ...
+No configs specified for local runner
+Time= 2.6552369594573975 seconds
+Time= 9.261540174484253 seconds
+Iteration 3 ...
+No configs specified for local runner
+Time= 2.2589192390441895 seconds
+Time= 3.3586220741271973 seconds
+Iteration 4 ...
+No configs specified for local runner
+Time= 3.1010689735412598 seconds
+Iteration 5 ...
+No configs specified for local runner
+Time= 2.96370005607605 seconds
+
+kmeans.sh ended successfully
+
+python3 ../MRKmeans.py  --prot ../experiments/clusters/prototype0_128.txt --docs ../experiments/clusters/documents0.txt &
+python3 ../MRKmeans.py  --prot ../experiments/clusters/prototype0_16.txt --docs ../experiments/clusters/documents0.txt &
+python3 ../MRKmeans.py  --prot ../experiments/clusters/prototype0_2.txt --docs ../experiments/clusters/documents0.txt &
+python3 ../MRKmeans.py  --prot ../experiments/clusters/prototype0_32.txt --docs ../experiments/clusters/documents0.txt &
+python3 ../MRKmeans.py  --prot ../experiments/clusters/prototype0_4.txt --docs ../experiments/clusters/documents0.txt &
+python3 ../MRKmeans.py  --prot ../experiments/clusters/prototype0_64.txt --docs ../experiments/clusters/documents0.txt &
+python3 ../MRKmeans.py  --prot ../experiments/clusters/prototype0_8.txt --docs ../experiments/clusters/documents0.txt &
+Iteration 1 ...
+Iteration 1 ...
+Iteration 1 ...
+No configs specified for local runner
+No configs specified for local runner
+No configs specified for local runner
+Iteration 1 ...
+Iteration 1 ...
+No configs specified for local runner
+Iteration 1 ...
+No configs specified for local runner
+Iteration 1 ...
+No configs specified for local runner
+No configs specified for local runner
+Time= 6.456770896911621 seconds
+Iteration 2 ...
+No configs specified for local runner
+Time= 7.5332911014556885 seconds
+Iteration 2 ...
+No configs specified for local runner
+Time= 10.01149582862854 seconds
+Iteration 2 ...
+No configs specified for local runner
+Time= 8.5402250289917 seconds
+Iteration 3 ...
+Time= 15.06982684135437 seconds
+Iteration 2 ...
+No configs specified for local runner
+No configs specified for local runner
+Time= 10.46511197090149 seconds
+Iteration 3 ...
+No configs specified for local runner
+Time= 8.83437705039978 seconds
+Iteration 4 ...
+No configs specified for local runner
+Time= 7.095428943634033 seconds
+Algorithm converged
+Time= 25.37169909477234 seconds
+Iteration 2 ...
+No configs specified for local runner
+Time= 15.618735074996948 seconds
+Iteration 3 ...
+No configs specified for local runner
+Time= 15.249428987503052 seconds
+Iteration 3 ...
+No configs specified for local runner
+Time= 7.340512037277222 seconds
+Iteration 5 ...
+No configs specified for local runner
+Time= 7.748578071594238 seconds
+Iteration 4 ...
+No configs specified for local runner
+Time= 7.56138801574707 seconds
+Iteration 4 ...
+No configs specified for local runner
+Time= 7.45045804977417 seconds
+Time= 14.861567974090576 seconds
+Iteration 3 ...
+No configs specified for local runner
+Time= 7.233803987503052 seconds
+Iteration 5 ...
+No configs specified for local runner
+Time= 42.87659478187561 seconds
+Iteration 2 ...
+No configs specified for local runner
+Time= 7.106220722198486 seconds
+Iteration 5 ...
+No configs specified for local runner
+Time= 7.024466037750244 seconds
+Iteration 4 ...
+Time= 6.675226926803589 seconds
+No configs specified for local runner
+Time= 6.071741104125977 seconds
+Time= 5.3481972217559814 seconds
+Iteration 5 ...
+No configs specified for local runner
+Time= 9.873114109039307 seconds
+Iteration 3 ...
+No configs specified for local runner
+Time= 4.828374147415161 seconds
+Time= 5.412811040878296 seconds
+Iteration 4 ...
+No configs specified for local runner
+Time= 3.7559640407562256 seconds
+Iteration 5 ...
+No configs specified for local runner
+Time= 62.22835087776184 seconds
+Iteration 2 ...
+No configs specified for local runner
+Time= 3.689863920211792 seconds
+Time= 6.4620521068573 seconds
+Iteration 3 ...
+No configs specified for local runner
+Time= 2.9500768184661865 seconds
+Iteration 4 ...
+No configs specified for local runner
+Time= 2.930788040161133 seconds
+Iteration 5 ...
+No configs specified for local runner
+Time= 2.900944948196411 seconds
+./scripts/results.sh: line 18: protos: bad array subscript
+++ python3 processresults.py --prot experiments/Kmeanssize/Kmeans_0/
+./scripts/results.sh: line 18: protos: bad array subscript
+++ python3 processresults.py --prot experiments/Kmeanssize/Kmeans_1/
+./scripts/results.sh: line 18: protos: bad array subscript
+++ python3 processresults.py --prot experiments/Kmeanssize/Kmeans_2/
+./scripts/results.sh: line 18: protos: bad array subscript
+++ python3 processresults.py --prot experiments/Kmeanssize/Kmeans_3/
+./scripts/results.sh: line 18: protos: bad array subscript
+++ python3 processresults.py --prot experiments/Kmeanssize/Kmeans_4/
+./scripts/results.sh: line 18: protos: bad array subscript
+++ python3 processresults.py --prot experiments/Kmeanssize/Kmeans_5/
+Traceback (most recent call last):
+  File "/Users/pol/CAIM/sesio6/processresults.py", line 33, in <module>
+    f = open(args.prot, 'r')
+IsADirectoryError: [Errno 21] Is a directory: 'experiments/Kmeanssize/Kmeans_0/'
+./scripts/results.sh: line 18: protos: bad array subscript
+++ python3 processresults.py --prot experiments/Kmeanssize/Kmeanssize/
+Traceback (most recent call last):
+  File "/Users/pol/CAIM/sesio6/processresults.py", line 33, in <module>
+    f = open(args.prot, 'r')
+IsADirectoryError: [Errno 21] Is a directory: 'experiments/Kmeanssize/Kmeans_1/'
+Traceback (most recent call last):
+  File "/Users/pol/CAIM/sesio6/processresults.py", line 33, in <module>
+    f = open(args.prot, 'r')
+IsADirectoryError: [Errno 21] Is a directory: 'experiments/Kmeanssize/Kmeans_2/'
+./scripts/results.sh: line 18: protos: bad array subscript
+Traceback (most recent call last):
+  File "/Users/pol/CAIM/sesio6/processresults.py", line 33, in <module>
+    f = open(args.prot, 'r')
+IsADirectoryError: [Errno 21] Is a directory: 'experiments/Kmeanssize/Kmeans_4/'
+Traceback (most recent call last):
+  File "/Users/pol/CAIM/sesio6/processresults.py", line 33, in <module>
+    f = open(args.prot, 'r')
+IsADirectoryError: [Errno 21] Is a directory: 'experiments/Kmeanssize/Kmeans_5/'
+++ python3 processresults.py --prot experiments/Kmeansclusters/Kmeans_0/
+Traceback (most recent call last):
+  File "/Users/pol/CAIM/sesio6/processresults.py", line 33, in <module>
+    f = open(args.prot, 'r')
+IsADirectoryError: [Errno 21] Is a directory: 'experiments/Kmeanssize/Kmeans_3/'
+./scripts/results.sh: line 18: protos: bad array subscript
+++ python3 processresults.py --prot experiments/Kmeansclusters/Kmeans_1/
+./scripts/results.sh: line 18: protos: bad array subscript
+++ python3 processresults.py --prot experiments/Kmeansclusters/Kmeans_2/
+./scripts/results.sh: line 18: protos: bad array subscript
+++ python3 processresults.py --prot experiments/Kmeansclusters/Kmeans_3/
+Traceback (most recent call last):
+  File "/Users/pol/CAIM/sesio6/processresults.py", line 33, in <module>
+    f = open(args.prot, 'r')
+IsADirectoryError: [Errno 21] Is a directory: 'experiments/Kmeanssize/Kmeanssize/'
+./scripts/results.sh: line 18: protos: bad array subscript
+++ python3 processresults.py --prot experiments/Kmeansclusters/Kmeans_4/
+Traceback (most recent call last):
+  File "/Users/pol/CAIM/sesio6/processresults.py", line 33, in <module>
+    f = open(args.prot, 'r')
+IsADirectoryError: [Errno 21] Is a directory: 'experiments/Kmeansclusters/Kmeans_0/'
+./scripts/results.sh: line 18: protos: bad array subscript
+++ python3 processresults.py --prot experiments/Kmeansclusters/Kmeans_5/
+Traceback (most recent call last):
+  File "/Users/pol/CAIM/sesio6/processresults.py", line 33, in <module>
+    f = open(args.prot, 'r')
+IsADirectoryError: [Errno 21] Is a directory: 'experiments/Kmeansclusters/Kmeans_1/'
+./scripts/results.sh: line 18: protos: bad array subscript
+++ python3 processresults.py --prot experiments/Kmeansclusters/Kmeans_6/
+Traceback (most recent call last):
+  File "/Users/pol/CAIM/sesio6/processresults.py", line 33, in <module>
+    f = open(args.prot, 'r')
+IsADirectoryError: [Errno 21] Is a directory: 'experiments/Kmeansclusters/Kmeans_2/'
+Traceback (most recent call last):
+  File "/Users/pol/CAIM/sesio6/processresults.py", line 33, in <module>
+    f = open(args.prot, 'r')
+IsADirectoryError: [Errno 21] Is a directory: 'experiments/Kmeansclusters/Kmeans_3/'
+./scripts/results.sh: line 18: protos: bad array subscript
+++ python3 processresults.py --prot experiments/Kmeansfreq/Kmeans_0/
+Traceback (most recent call last):
+  File "/Users/pol/CAIM/sesio6/processresults.py", line 33, in <module>
+    f = open(args.prot, 'r')
+IsADirectoryError: [Errno 21] Is a directory: 'experiments/Kmeansclusters/Kmeans_4/'
+./scripts/results.sh: line 18: protos: bad array subscript
+++ python3 processresults.py --prot experiments/Kmeansfreq/Kmeans_1/
+./scripts/results.sh: line 18: protos: bad array subscript
+Traceback (most recent call last):
+  File "/Users/pol/CAIM/sesio6/processresults.py", line 33, in <module>
+    f = open(args.prot, 'r')
+IsADirectoryError: [Errno 21] Is a directory: 'experiments/Kmeansclusters/Kmeans_5/'
+++ python3 processresults.py --prot experiments/Kmeansfreq/Kmeans_2/
+./scripts/results.sh: line 18: protos: bad array subscript
+Traceback (most recent call last):
+  File "/Users/pol/CAIM/sesio6/processresults.py", line 33, in <module>
+    f = open(args.prot, 'r')
+IsADirectoryError: [Errno 21] Is a directory: 'experiments/Kmeansclusters/Kmeans_6/'
+++ python3 processresults.py --prot experiments/Kmeansfreq/Kmeans_3/
+./scripts/results.sh: line 18: protos: bad array subscript
+++ python3 processresults.py --prot experiments/Kmeansfreq/Kmeans_4/
+./scripts/results.sh: line 18: protos: bad array subscript
+++ python3 processresults.py --prot experiments/Kmeansfreq/Kmeansfreq/
+Traceback (most recent call last):
+  File "/Users/pol/CAIM/sesio6/processresults.py", line 33, in <module>
+    f = open(args.prot, 'r')
+IsADirectoryError: [Errno 21] Is a directory: 'experiments/Kmeansfreq/Kmeans_0/'
+Traceback (most recent call last):
+  File "/Users/pol/CAIM/sesio6/processresults.py", line 33, in <module>
+    f = open(args.prot, 'r')
+IsADirectoryError: [Errno 21] Is a directory: 'experiments/Kmeansfreq/Kmeans_2/'
+Traceback (most recent call last):
+  File "/Users/pol/CAIM/sesio6/processresults.py", line 33, in <module>
+    f = open(args.prot, 'r')
+IsADirectoryError: [Errno 21] Is a directory: 'experiments/Kmeansfreq/Kmeans_1/'
+./scripts/results.sh: line 18: protos: bad array subscript
+++ python3 processresults.py --prot experiments/Kmeansfreq2/Kmeans_0/
+Traceback (most recent call last):
+  File "/Users/pol/CAIM/sesio6/processresults.py", line 33, in <module>
+    f = open(args.prot, 'r')
+IsADirectoryError: [Errno 21] Is a directory: 'experiments/Kmeansfreq/Kmeans_3/'
+./scripts/results.sh: line 18: protos: bad array subscript
+Traceback (most recent call last):
+  File "/Users/pol/CAIM/sesio6/processresults.py", line 33, in <module>
+    f = open(args.prot, 'r')
+IsADirectoryError: [Errno 21] Is a directory: 'experiments/Kmeansfreq/Kmeans_4/'
+++ python3 processresults.py --prot experiments/Kmeansfreq2/Kmeans_1/
+./scripts/results.sh: line 18: protos: bad array subscript
+++ python3 processresults.py --prot experiments/Kmeansfreq2/Kmeans_2/
+./scripts/results.sh: line 18: protos: bad array subscript
+Traceback (most recent call last):
+  File "/Users/pol/CAIM/sesio6/processresults.py", line 33, in <module>
+    f = open(args.prot, 'r')
+IsADirectoryError: [Errno 21] Is a directory: 'experiments/Kmeansfreq/Kmeansfreq/'
+++ python3 processresults.py --prot experiments/Kmeansfreq2/Kmeans_3/
+./scripts/results.sh: line 18: protos: bad array subscript
+++ python3 processresults.py --prot experiments/Kmeansfreq2/Kmeansfreq2/
+Traceback (most recent call last):
+  File "/Users/pol/CAIM/sesio6/processresults.py", line 33, in <module>
+    f = open(args.prot, 'r')
+IsADirectoryError: [Errno 21] Is a directory: 'experiments/Kmeansfreq2/Kmeans_0/'
+Traceback (most recent call last):
+  File "/Users/pol/CAIM/sesio6/processresults.py", line 33, in <module>
+    f = open(args.prot, 'r')
+IsADirectoryError: [Errno 21] Is a directory: 'experiments/Kmeansfreq2/Kmeans_1/'
+Traceback (most recent call last):
+  File "/Users/pol/CAIM/sesio6/processresults.py", line 33, in <module>
+    f = open(args.prot, 'r')
+IsADirectoryError: [Errno 21] Is a directory: 'experiments/Kmeansfreq2/Kmeans_2/'
+Traceback (most recent call last):
+  File "/Users/pol/CAIM/sesio6/processresults.py", line 33, in <module>
+    f = open(args.prot, 'r')
+IsADirectoryError: [Errno 21] Is a directory: 'experiments/Kmeansfreq2/Kmeans_3/'
+Traceback (most recent call last):
+  File "/Users/pol/CAIM/sesio6/processresults.py", line 33, in <module>
+    f = open(args.prot, 'r')
+IsADirectoryError: [Errno 21] Is a directory: 'experiments/Kmeansfreq2/Kmeansfreq2/'
+
+results.sh ended successfully
+
+kmeans_all.sh ended successfully
