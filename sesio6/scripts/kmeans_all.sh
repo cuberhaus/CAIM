@@ -15,3 +15,5 @@ wait
 wait
 ./scripts/kmeans_cluster.sh
 wait
+./scripts/results.sh
+wait

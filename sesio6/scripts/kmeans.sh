@@ -65,4 +65,5 @@ wait
 
 mkdir Kmeans"$exp"/
 mv Kmeans_* Kmeans"$exp"/
+mv Kmeans"$exp"/ experiments/Kmeans"$exp"/
 echo "Program ended successfully"

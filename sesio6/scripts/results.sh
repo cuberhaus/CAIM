@@ -1,4 +1,5 @@
-exp=("Kmeanssize" "Kmeansclusters" "Kmeansfreq" "Kmeansfreq2")
+f="experiments/"
+exp=("${f}Kmeanssize" "${f}Kmeansclusters" "${f}Kmeansfreq" "${f}Kmeansfreq2")
 n_exp=${#exp[@]}
 
 for ((j = 0; j < n_exp; j++)); do
