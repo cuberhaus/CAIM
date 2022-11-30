@@ -38,7 +38,7 @@ if __name__ == '__main__':
 
     # Copies the initial prototypes
     cwd = os.getcwd()
-    shutil.copy(cwd + '/' + args.prot, cwd + '/prototypes0.txt')
+    shutil.copy(args.prot, cwd + '/prototypes0.txt')
 
     nomove = False  # Stores if there has been changes in the current iteration
     for i in range(args.iter):
@@ -52,7 +52,6 @@ if __name__ == '__main__':
                                      '--file', cwd + '/prototypes%d.txt' % i,
                                      '--prot', cwd + '/prototypes%d.txt' % i,
                                      '--num-cores', str(args.ncores)])
-
         # Runs the script
         with mr_job1.make_runner() as runner1:
             runner1.run()
