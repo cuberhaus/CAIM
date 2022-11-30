@@ -14,6 +14,7 @@ for ((j = 0; j < n_exp; j++)); do
         k=$((m-1))
         proto=${protos[$k]}
 
+        # without the parenthesis the output was not being redirected to the corresponding file
         echo "(python3 processresults.py --prot $expf/$folder/$proto) > $expf/$folder/processresults.txt &"
         (python3 processresults.py --prot $expf/$folder/$proto) > $expf/$folder/processresults.txt &
     done
