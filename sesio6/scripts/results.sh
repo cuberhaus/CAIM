@@ -23,7 +23,8 @@ for ((j = 0; j < n_exp; j++)); do
         processes+=($pid)
     done
 done
-trap 'kill ${processes[@]}' SIGINT
+#trap 'kill ${processes[@]}' SIGINT
+trap 'trap " " SIGTERM; kill 0; wait; cleanup' SIGINT SIGTERM
 wait
 
 me=$(basename "$0")

@@ -8,7 +8,8 @@ for ((i = 0; i < n; i++)); do
     pid=$!
     processes+=($pid)
 done
-trap 'kill ${processes[@]}' SIGINT
+#https://linuxconfig.org/how-to-propagate-a-signal-to-child-processes-from-a-bash-script
+trap 'trap " " SIGTERM; kill 0; wait; cleanup' SIGINT SIGTERM
 wait # This will wait for all child tasks to finish
 
 for ((i = 0; i < n; i++)); do
@@ -16,7 +17,8 @@ for ((i = 0; i < n; i++)); do
     pid=$!
     processes+=($pid)
 done
-trap 'kill ${processes[@]}' SIGINT
+trap 'trap " " SIGTERM; kill 0; wait; cleanup' SIGINT SIGTERM
+#trap 'kill ${processes[@]}' SIGINT
 wait
 
 mkdir -p experiments/size

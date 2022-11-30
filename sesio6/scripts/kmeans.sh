@@ -58,7 +58,7 @@ for ((i = 0; i < n; i++)); do
     processes+=($pid)
     cd ../
 done
-trap 'kill ${processes[@]}' SIGINT
+trap 'trap " " SIGTERM; kill 0; wait; cleanup' SIGINT SIGTERM
 wait
 
 mkdir Kmeans"$exp"/

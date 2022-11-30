@@ -10,7 +10,8 @@ for i in ${m_freq[@]}; do
     processes+=($pid)
     count=$((count+1))
 done
-trap 'kill ${processes[@]}' SIGINT
+#trap 'kill ${processes[@]}' SIGINT
+trap 'trap " " SIGTERM; kill 0; wait; cleanup' SIGINT SIGTERM
 wait # This will wait for all child tasks to finish
 # clusters=(2 4 8 16 32)
 for ((i = 0; i < n; i++)); do
@@ -18,7 +19,8 @@ for ((i = 0; i < n; i++)); do
     pid=$!
     processes+=($pid)
 done
-trap 'kill ${processes[@]}' SIGINT
+#trap 'kill ${processes[@]}' SIGINT
+trap 'trap " " SIGTERM; kill 0; wait; cleanup' SIGINT SIGTERM
 wait
 
 mkdir -p experiments/freq2
