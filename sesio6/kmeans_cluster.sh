@@ -7,15 +7,15 @@ for ((i = 0; i < n; i++)); do
     # echo "python generateprototypes.py --data documents$i.txt &"
     proto=${protos[$i]}
     docu=${docus[0]}
-    echo "python3 ../MRKmeans.py  --prot ../experiments/size/$proto --docs ../experiments/size/$docu &"
+    echo "python3 ../MRKmeans.py  --prot ../experiments/$exp/$proto --docs ../experiments/$exp/$docu &"
     mkdir Kmeans_"$i"
     cd Kmeans_"$i"
-    python3 ../MRKmeans.py  --prot ../experiments/size/$proto --docs ../experiments/size/$docu &
+    python3 ../MRKmeans.py  --prot ../experiments/$exp/$proto --docs ../experiments/$exp/$docu &
     cd ../
 done
 
 wait
 
-mkdir KmeansSize/
-mv Kmeans_* KmeansSize/
+mkdir Kmeans$exp/
+mv Kmeans_* Kmeans$exp/
 echo "Program ended successfully"
