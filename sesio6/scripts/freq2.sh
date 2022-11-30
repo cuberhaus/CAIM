@@ -6,18 +6,18 @@ trap 'trap " " SIGTERM; kill 0; wait; cleanup' SIGINT SIGTERM
 for i in ${m_freq[@]}; do
     IFS=","
     set $i
-    (set -x; python3 ExtractData.py --index abs --minfreq "$1" --maxfreq "$2" --numwords 200 --name $count &)
-    pid=$!
-    processes+=($pid)
+    (set -x; python3 ExtractData.py --index abs --minfreq "$1" --maxfreq "$2" --numwords 200 --name $count) &
+#    pid=$!
+#    processes+=($pid)
     count=$((count+1))
 done
 #trap 'kill ${processes[@]}' SIGINT
 wait # This will wait for all child tasks to finish
 # clusters=(2 4 8 16 32)
 for ((i = 0; i < n; i++)); do
-    (set -x; python3 GeneratePrototypes.py --data documents"$i".txt --nclust 8 &)
-    pid=$!
-    processes+=($pid)
+    (set -x; python3 GeneratePrototypes.py --data documents"$i".txt --nclust 8) &
+#    pid=$!
+#    processes+=($pid)
 done
 #trap 'kill ${processes[@]}' SIGINT
 #trap 'trap " " SIGTERM; kill 0; wait; cleanup' SIGINT SIGTERM

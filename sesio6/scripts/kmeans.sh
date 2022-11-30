@@ -54,9 +54,9 @@ for ((i = 0; i < n; i++)); do
     docu=${docus[$i]}
     mkdir Kmeans_"$i"
     cd Kmeans_"$i"
-    (set -x; python3 ../MRKmeans.py  --prot ../experiments/"$exp"/"$proto" --docs ../experiments/"$exp"/"$docu" &)
-    pid=$!
-    processes+=($pid)
+    (set -x; python3 ../MRKmeans.py  --prot ../experiments/"$exp"/"$proto" --docs ../experiments/"$exp"/"$docu") &
+#    pid=$!
+#    processes+=($pid)
     cd ../
 done
 wait

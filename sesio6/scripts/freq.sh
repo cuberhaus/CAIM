@@ -4,18 +4,20 @@ n=${#m_freq[@]}
 trap 'trap " " SIGTERM; kill 0; wait; cleanup' SIGINT SIGTERM
 for ((i = 0; i < n; i++)); do
     freq=${m_freq[$i]}
-    (set -x; python3 ExtractData.py --index abs --minfreq 0.1 --maxfreq "$freq" --numwords 200 --name "$i" &)
-    pid=$!
-    processes+=($pid)
+    # The & has to be put outside the subshell otherwise the wait won't work properly because it is not directly
+    # created by the current shell
+    (set -x; python3 ExtractData.py --index abs --minfreq 0.1 --maxfreq "$freq" --numwords 200 --name "$i") &
+#    pid=$!
+#    processes+=($pid)
 done
 #trap 'kill ${processes[@]}' SIGINT
 #trap 'trap " " SIGTERM; kill 0; wait; cleanup' SIGINT SIGTERM
 wait # This will wait for all child tasks to finish
 
 for ((i = 0; i < n; i++)); do
-    (set -x; python3 GeneratePrototypes.py --data documents"$i".txt --nclust 8 &)
-    pid=$!
-    processes+=($pid)
+    (set -x; python3 GeneratePrototypes.py --data documents"$i".txt --nclust 8) &
+#    pid=$!
+#    processes+=($pid)
 done
 #trap 'kill ${processes[@]}' SIGINT
 wait
