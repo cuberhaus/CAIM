@@ -15,17 +15,17 @@ Exemple:
 ## Scripts kmeans
 Cal comentar i descomentar dins el codi dues línies per a executar els diferents experiments
 ```
-./kmeans.sh 
+./scripts/kmeans.sh 
 ```
 
 Només cal executar
 ```
-./kmeans_cluster.sh
+./scripts/kmeans_cluster.sh
 ```
 
 ## Script processar results
 Processarà tots els resultats dels experiments
 ```
-./results.sh
+./scripts/results.sh
 ```
 
