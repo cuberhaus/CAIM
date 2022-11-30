@@ -1,6 +1,7 @@
 processes=()
 m_freq=(0.3 0.5 0.7 0.9 1)
 n=${#m_freq[@]}
+trap 'trap " " SIGTERM; kill 0; wait; cleanup' SIGINT SIGTERM
 for ((i = 0; i < n; i++)); do
     freq=${m_freq[$i]}
     (set -x; python3 ExtractData.py --index abs --minfreq 0.1 --maxfreq "$freq" --numwords 200 --name "$i" &)
@@ -8,7 +9,7 @@ for ((i = 0; i < n; i++)); do
     processes+=($pid)
 done
 #trap 'kill ${processes[@]}' SIGINT
-trap 'trap " " SIGTERM; kill 0; wait; cleanup' SIGINT SIGTERM
+#trap 'trap " " SIGTERM; kill 0; wait; cleanup' SIGINT SIGTERM
 wait # This will wait for all child tasks to finish
 
 for ((i = 0; i < n; i++)); do
@@ -17,7 +18,6 @@ for ((i = 0; i < n; i++)); do
     processes+=($pid)
 done
 #trap 'kill ${processes[@]}' SIGINT
-trap 'trap " " SIGTERM; kill 0; wait; cleanup' SIGINT SIGTERM
 wait
 
 mkdir -p experiments/freq

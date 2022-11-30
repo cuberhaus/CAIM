@@ -2,6 +2,7 @@ processes=()
 f="experiments/"
 exp=("${f}Kmeanssize" "${f}Kmeansclusters" "${f}Kmeansfreq" "${f}Kmeansfreq2")
 n_exp=${#exp[@]}
+trap 'trap " " SIGTERM; kill 0; wait; cleanup' SIGINT SIGTERM
 
 for ((j = 0; j < n_exp; j++)); do
     expf=${exp[$j]}
@@ -24,7 +25,6 @@ for ((j = 0; j < n_exp; j++)); do
     done
 done
 #trap 'kill ${processes[@]}' SIGINT
-trap 'trap " " SIGTERM; kill 0; wait; cleanup' SIGINT SIGTERM
 wait
 
 me=$(basename "$0")

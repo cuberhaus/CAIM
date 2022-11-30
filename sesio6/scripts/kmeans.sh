@@ -1,7 +1,8 @@
 processes=()
 exp=""
 TIMES=1                                  
-usage() {                                 
+trap 'trap " " SIGTERM; kill 0; wait; cleanup' SIGINT SIGTERM
+usage() {
     echo "Usage: $0 [ -n EXPERIMENT_NAME ]" 1>&2
 }
 exit_abnormal() {                         # Function: Exit with error.
@@ -58,7 +59,6 @@ for ((i = 0; i < n; i++)); do
     processes+=($pid)
     cd ../
 done
-trap 'trap " " SIGTERM; kill 0; wait; cleanup' SIGINT SIGTERM
 wait
 
 mkdir Kmeans"$exp"/
