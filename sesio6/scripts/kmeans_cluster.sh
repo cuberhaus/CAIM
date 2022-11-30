@@ -8,7 +8,10 @@ for ((i = 0; i < n; i++)); do
     docu=${docus[0]}
     mkdir Kmeans_"$i"
     cd Kmeans_"$i"
-    (set -x; python3 ../MRKmeans.py  --prot ../experiments/$exp/"$proto" --docs ../experiments/$exp/"$docu") &
+    (
+        set -x
+        python3 ../MRKmeans.py --prot ../experiments/$exp/"$proto" --docs ../experiments/$exp/"$docu"
+    ) &
     cd ../
 done
 

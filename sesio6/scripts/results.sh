@@ -11,20 +11,20 @@ for ((j = 0; j < n_exp; j++)); do
     n=${#folders[@]}
     for ((i = 0; i < n; i++)); do
         folder=${folders[$i]}
-        protos=($(ls $expf/$folder | cat | grep -i "^prototypes.*.txt" ))
+        protos=($(ls $expf/$folder | cat | grep -i "^prototypes.*.txt"))
 
         m=${#protos[@]}
-        k=$((m-1))
+        k=$((m - 1))
         proto=${protos[$k]}
 
         # without the parenthesis the output was not being redirected to the corresponding file
         # (set-x;) uses a sub-shell where every command is printed to the output
-        (set -x; (python3 processresults.py --prot "$expf"/"$folder"/"$proto") > "$expf"/"$folder"/processresults.txt) &
-#        pid=$!
-#        processes+=($pid)
+        (
+            set -x
+            (python3 processresults.py --prot "$expf"/"$folder"/"$proto") >"$expf"/"$folder"/processresults.txt
+        ) &
     done
 done
-#trap 'kill ${processes[@]}' SIGINT
 wait
 
 me=$(basename "$0")
