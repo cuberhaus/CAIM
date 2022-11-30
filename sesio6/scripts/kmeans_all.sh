@@ -3,6 +3,9 @@
 # docker run -p 127.0.0.1:9200:9200 -p 127.0.0.1:9300:9300 -e "discovery.type=single-node" docker.elastic.co/elasticsearch/elasticsearch:7.17.7
 # Index the data:
 # python3 IndexFiles.py --index abs --path arxiv_abs
+
+# Would this line work without the traps in the other programs?
+trap 'trap " " SIGTERM; kill 0; wait; cleanup' SIGINT SIGTERM
 ./scripts/clusters.sh
 #wait
 ./scripts/freq.sh
