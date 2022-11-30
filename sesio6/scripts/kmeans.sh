@@ -1,12 +1,12 @@
 # Per executar un experiment diferent descomentar les dues línies exp,n i comentar les anteriors
-exp="size"
-n=6
+# exp="size"
+# n=6
 
 # exp="freq"
 # n=5
 
-# exp="freq2"
-# n=4
+exp="freq2"
+n=4
 
 protos=($(ls experiments/$exp/ | cat | grep -i "prototype.*txt"))
 docus=($(ls experiments/$exp/ | cat | grep -i "documents.*txt"))

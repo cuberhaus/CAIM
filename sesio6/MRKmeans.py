@@ -64,8 +64,9 @@ if __name__ == '__main__':
                 new_proto[key] = value[1]
 
             # If your scripts returns the new assignments you could write them in a file here
+            assignment = ""
             for key, values in new_assign.items():
-                assignment = key + ":"
+                assignment += key + ":"
                 for doc in values:
                     assignment += doc + " "
                 assignment += "\n"
@@ -82,8 +83,9 @@ if __name__ == '__main__':
             if i + 1 == args.iter or assign == new_assign:
                 prototypeName = "/next-prototypes.txt"
 
+            prototype = ""
             for k, v in new_proto.items():
-                prototype = k + ":"
+                prototype += k + ":"
                 for term in v:
                     prototype += term[0] + "+" + str(term[1]) + " "
                 prototype += "\n"
