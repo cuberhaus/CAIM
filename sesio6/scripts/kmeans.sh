@@ -1,7 +1,5 @@
-# Per executar un experiment diferent descomentar les dues línies exp,n i comentar les anteriors
-# list of arguments expected in the input
-
-exp=""                                   
+processes=()
+exp=""
 TIMES=1                                  
 usage() {                                 
     echo "Usage: $0 [ -n EXPERIMENT_NAME ]" 1>&2
@@ -56,9 +54,11 @@ for ((i = 0; i < n; i++)); do
     mkdir Kmeans_"$i"
     cd Kmeans_"$i"
     (set -x; python3 ../MRKmeans.py  --prot ../experiments/"$exp"/"$proto" --docs ../experiments/"$exp"/"$docu" &)
+    pid=$!
+    processes+=($pid)
     cd ../
 done
-
+trap 'kill ${processes[@]}' EXIT
 wait
 
 mkdir Kmeans"$exp"/
@@ -67,4 +67,5 @@ mv Kmeans"$exp"/ experiments/Kmeans"$exp"/
 
 wait
 me=$(basename "$0")
+#me="${me} $1"
 echo "${me} ended successfully"

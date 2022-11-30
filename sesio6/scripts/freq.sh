@@ -1,16 +1,21 @@
+processes=()
 m_freq=(0.3 0.5 0.7 0.9 1)
 n=${#m_freq[@]}
 for ((i = 0; i < n; i++)); do
     freq=${m_freq[$i]}
     (set -x; python3 ExtractData.py --index abs --minfreq 0.1 --maxfreq "$freq" --numwords 200 --name "$i" &)
+    pid=$!
+    processes+=($pid)
 done
-
+trap 'kill ${processes[@]}' EXIT
 wait # This will wait for all child tasks to finish
-# clusters=(2 4 8 16 32)
+
 for ((i = 0; i < n; i++)); do
     (set -x; python3 GeneratePrototypes.py --data documents"$i".txt --nclust 8 &)
+    pid=$!
+    processes+=($pid)
 done
-
+trap 'kill ${processes[@]}' EXIT
 wait
 
 mkdir -p experiments/freq

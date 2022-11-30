@@ -1,3 +1,4 @@
+processes=()
 f="experiments/"
 exp=("${f}Kmeanssize" "${f}Kmeansclusters" "${f}Kmeansfreq" "${f}Kmeansfreq2")
 n_exp=${#exp[@]}
@@ -18,9 +19,12 @@ for ((j = 0; j < n_exp; j++)); do
         # without the parenthesis the output was not being redirected to the corresponding file
         # (set-x;) uses a sub-shell where every command is printed to the output
         (set -x; (python3 processresults.py --prot "$expf"/"$folder"/"$proto") > "$expf"/"$folder"/processresults.txt &)
+        pid=$!
+        processes+=($pid)
     done
 done
-
+trap 'kill ${processes[@]}' EXIT
 wait
+
 me=$(basename "$0")
 echo "${me} ended successfully"
