@@ -12,4 +12,7 @@ for ((i = 0; i < n; i++)); do
     python3 GeneratePrototypes.py --data documents"$i".txt --nclust 8 &
 done
 wait
+
+mkdir -p experiments/size
+mv *.txt experiments/size/
 echo "Program ended successfully"

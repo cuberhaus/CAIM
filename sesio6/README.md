@@ -28,7 +28,7 @@ Processarà tots els resultats dels experiments
 ```
 ./scripts/results.sh
 ```
-## Executar tots els kmeans alhora
+## Executar tots els experiments alhora
 ```
 ./scripts/kmeans_all.sh
 ```

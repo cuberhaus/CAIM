@@ -10,4 +10,6 @@ for ((i = 0; i < n; i++)); do
 done
 
 wait
+mkdir -p experiments/clusters
+mv *.txt experiments/clusters/
 echo "Program ended successfully"

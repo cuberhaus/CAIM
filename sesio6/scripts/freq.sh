@@ -14,4 +14,7 @@ for ((i = 0; i < n; i++)); do
 done
 
 wait
+
+mkdir -p experiments/freq
+mv *.txt experiments/freq/
 echo "Program ended successfully"
