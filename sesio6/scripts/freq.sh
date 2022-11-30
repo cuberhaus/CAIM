@@ -1,4 +1,4 @@
-processes=()
+#processes=()
 m_freq=(0.3 0.5 0.7 0.9 1)
 n=${#m_freq[@]}
 trap 'trap " " SIGTERM; kill 0; wait; cleanup' SIGINT SIGTERM

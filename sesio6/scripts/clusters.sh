@@ -1,4 +1,4 @@
-processes=()
+#processes=()
 clusters=(2 4 8 16 32 64 128)
 n=${#clusters[@]}
 trap 'trap " " SIGTERM; kill 0; wait; cleanup' SIGINT SIGTERM

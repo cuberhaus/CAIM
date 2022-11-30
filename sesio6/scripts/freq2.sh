@@ -1,4 +1,4 @@
-processes=()
+#processes=()
 m_freq=(0.1,0.3 0.3,0.5 0.5,0.7 0.7,0.9)
 n=${#m_freq[@]}
 count=0

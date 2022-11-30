@@ -1,4 +1,4 @@
-processes=()
+#processes=()
 f="experiments/"
 exp=("${f}Kmeanssize" "${f}Kmeansclusters" "${f}Kmeansfreq" "${f}Kmeansfreq2")
 n_exp=${#exp[@]}

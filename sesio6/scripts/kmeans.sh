@@ -1,4 +1,4 @@
-processes=()
+#processes=()
 exp=""
 TIMES=1                                  
 trap 'trap " " SIGTERM; kill 0; wait; cleanup' SIGINT SIGTERM
