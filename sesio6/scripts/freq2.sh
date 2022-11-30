@@ -1,5 +1,5 @@
 m_freq=(0.1,0.3 0.3,0.5 0.5,0.7 0.7,0.9)
-n=${#sizes[@]}
+n=${#m_freq[@]}
 count=0
 for i in ${m_freq[@]}; do
     IFS=","
