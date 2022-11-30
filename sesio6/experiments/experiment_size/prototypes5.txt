@@ -1,2 +1,0 @@
-CLASS0:becaus+1.0 both+1.0 care+1.0 comput+1.0 got+1.0 interest+1.0 least+1.0 long+1.0 problem+1.0 re+1.0 same+1.0 second+1.0 set+1.0 someth+1.0 tell+1.0 two+1.0 under+1.0 
-CLASS1:believ+1.0 caus+1.0 day+1.0 did+1.0 effect+1.0 els+1.0 few+1.0 long+1.0 might+1.0 most+1.0 opinion+1.0 problem+1.0 read+1.0 right+1.0 run+1.0 set+1.0 state+1.0 those+1.0 through+1.0 year+1.0 

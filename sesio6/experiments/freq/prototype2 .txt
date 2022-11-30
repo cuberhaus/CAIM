@@ -1,2 +1,0 @@
-CLASS0:about+1.0 also+1.0 ani+1.0 anyon+1.0 been+1.0 could+1.0 doe+1.0 go+1.0 had+1.0 idea+1.0 just+1.0 keep+1.0 may+1.0 me+1.0 our+1.0 out+1.0 over+1.0 peopl+1.0 problem+1.0 run+1.0 seem+1.0 thank+1.0 thing+1.0 time+1.0 we+1.0 what+1.0 would+1.0 
-CLASS1:about+1.0 ani+1.0 do+1.0 good+1.0 had+1.0 interest+1.0 know+1.0 lot+1.0 most+1.0 other+1.0 peopl+1.0 so+1.0 some+1.0 them+1.0 tri+1.0 use+1.0 ve+1.0 veri+1.0 want+1.0 would+1.0 

@@ -8,7 +8,8 @@ done
 wait # This will wait for all child tasks to finish
 for ((i = 0; i < n; i++)); do
     echo "python generateprototypes.py --data documents$i.txt &"
-    python GeneratePrototypes.py --data documents"$i".txt &
+    # python GeneratePrototypes.py --data documents"$i".txt &
+    python GeneratePrototypes.py --data documents"$i".txt --nclust 8 &
 done
 wait
 echo "Program ended successfully"

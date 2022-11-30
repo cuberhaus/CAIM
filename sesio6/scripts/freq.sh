@@ -10,7 +10,7 @@ wait # This will wait for all child tasks to finish
 # clusters=(2 4 8 16 32)
 for ((i = 0; i < n; i++)); do
     echo "python generateprototypes.py --data documents$i.txt &"
-    python GeneratePrototypes.py --data documents"$i".txt &
+    python GeneratePrototypes.py --data documents"$i".txt --nclust 8 &
 done
 
 wait

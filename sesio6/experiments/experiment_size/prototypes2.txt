@@ -1,2 +1,0 @@
-CLASS0:actual+1.0 his+1.0 last+1.0 made+1.0 person+1.0 while+1.0 
-CLASS1:few+1.0 new+1.0 our+1.0 read+1.0 right+1.0 whi+1.0 
