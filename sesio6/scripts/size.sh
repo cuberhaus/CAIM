@@ -8,7 +8,7 @@ for ((i = 0; i < n; i++)); do
     pid=$!
     processes+=($pid)
 done
-trap 'kill ${processes[@]}' EXIT
+trap 'kill ${processes[@]}' SIGINT
 wait # This will wait for all child tasks to finish
 
 for ((i = 0; i < n; i++)); do
@@ -16,7 +16,7 @@ for ((i = 0; i < n; i++)); do
     pid=$!
     processes+=($pid)
 done
-trap 'kill ${processes[@]}' EXIT
+trap 'kill ${processes[@]}' SIGINT
 wait
 
 mkdir -p experiments/size

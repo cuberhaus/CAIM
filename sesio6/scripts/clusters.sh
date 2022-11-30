@@ -5,7 +5,7 @@ n=${#clusters[@]}
 python3 ExtractData.py --index abs --minfreq 0.1 --maxfreq 0.3 --numwords 200 --name 0 &
 pid=$!
 processes+=($pid)
-trap 'kill ${processes[@]}' EXIT
+trap 'kill ${processes[@]}' SIGINT
 wait
 for ((i = 0; i < n; i++)); do
     c_size=${clusters[$i]}
@@ -14,7 +14,7 @@ for ((i = 0; i < n; i++)); do
     processes+=($pid)
 done
 
-trap 'kill ${processes[@]}' EXIT
+trap 'kill ${processes[@]}' SIGINT
 wait
 mkdir -p experiments/clusters
 mv *.txt experiments/clusters/

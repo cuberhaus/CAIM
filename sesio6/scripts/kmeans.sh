@@ -58,7 +58,7 @@ for ((i = 0; i < n; i++)); do
     processes+=($pid)
     cd ../
 done
-trap 'kill ${processes[@]}' EXIT
+trap 'kill ${processes[@]}' SIGINT
 wait
 
 mkdir Kmeans"$exp"/
