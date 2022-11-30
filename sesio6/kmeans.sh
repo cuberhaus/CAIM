@@ -17,6 +17,6 @@ done
 
 wait
 
-mkdir Kmeans/
-mv Kmeans_* Kmeans/
+mkdir Kmeans_size/
+mv Kmeans_* Kmeans_size/
 echo "Program ended successfully"
