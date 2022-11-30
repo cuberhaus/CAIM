@@ -4,8 +4,8 @@ count=0
 for i in ${m_freq[@]}; do
     IFS=","
     set $i
-    echo "python ExtractData.py --index news --minfreq $1 --maxfreq $2 --numwords 200 --name $count &"
-    python ExtractData.py --index news --minfreq "$1" --maxfreq "$2" --numwords 200 --name $count &
+    echo "python ExtractData.py --index abs --minfreq $1 --maxfreq $2 --numwords 200 --name $count &"
+    python ExtractData.py --index abs --minfreq "$1" --maxfreq "$2" --numwords 200 --name $count &
     count=$((count+1))
 done
 

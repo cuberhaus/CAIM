@@ -41,7 +41,7 @@ if __name__ == '__main__':
 
     # Generate nclust prototypes with nclust random documents
     doc = choice(range(len(ldocs)), args.nclust)
-    f = open('prototype' + name + '_' + str(args.nclust)+ '.txt', 'w')
+    f = open('prototype' + name + '_' + str(args.nclust) + '.txt', 'w')
     for i, d in enumerate(doc):
         docvec = ''
         for v in ldocs[d].split():
