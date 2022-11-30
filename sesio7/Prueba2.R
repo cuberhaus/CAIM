@@ -3,8 +3,15 @@ library(igraph)
 # Load edges.txt graph 
 g <- read.graph("edges.txt", format="edgelist")
 # Plot the graph
-plot(g, layout=layout.circle, vertex.label=NA, vertex.size=3)
+plot(g, vertex.label=NA, vertex.size=3)
+# Number of nodes
+V(g)
+# Number of edges
+E(g)
+# Diameter
+diameter(g)
 # Clustering coefficient (transitivity)
 transitivity(g)
-# Average path length
-average.path.length(g)
+# Degree Distribution
+degree.distribution(g)
+
