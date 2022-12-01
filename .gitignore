@@ -5,3 +5,4 @@ sesio1/Envio/Heap/groups/
 *20_newsgroups/
 *arxiv_abs/
 __pycache__/
+*.ipynb_checkpoints*
