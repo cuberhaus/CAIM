@@ -1,11 +1,31 @@
 # Load igraph library
 library(igraph)
-# Generate Watts-Strogatz graph
-ws <- watts.strogatz.game(1, 100, 4, 0.05)
-# Plot the graph
-plot(ws, layout=layout.circle, vertex.label=NA, vertex.size=3)
-# Clustering coefficient (transitivity)
-transitivity(ws)
-# Average path length
-average.path.length(ws)
 
+# Parameter p
+p <- 10^(seq(-4,0,0.2))
+# Clustering coefficient (transitivity)
+trans <- c(1)
+# Average path length
+path <- c(1)
+
+for(i in p)
+{
+  # Generate Watts-Strogatz graph
+  watts <- watts.strogatz.game(1, 5000, 100, i)
+  # Clustering coefficient (transitivity)
+  trans <- c(trans, transitivity(watts))
+  # Average path length
+  path <- c(path, average.path.length(watts))
+}
+
+#delete auxiliar values
+trans <- trans[-1]
+path <- path[-1]
+
+#normalized to be within the range [0, 1]
+trans <- trans/trans[1]
+path <- path/path[1]
+
+# Plot the graph
+plot(p, trans, ylim = c(0,1), log="x", ylab="coeff") 
+points(p,path, pch=16)
