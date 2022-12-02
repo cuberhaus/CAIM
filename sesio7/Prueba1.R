@@ -11,18 +11,18 @@ path <- c(1)
 for(i in p)
 {
   # Generate Watts-Strogatz graph
-  watts <- watts.strogatz.game(1, 5000, 100, i)
+  watts <- watts.strogatz.game(1, 1000, 10, i)
   # Clustering coefficient (transitivity)
   trans <- c(trans, transitivity(watts))
   # Average path length
   path <- c(path, average.path.length(watts))
 }
 
-#delete auxiliar values
+# Delete auxiliar values
 trans <- trans[-1]
 path <- path[-1]
 
-#normalized to be within the range [0, 1]
+# Normalized to be within the range [0, 1]
 trans <- trans/trans[1]
 path <- path/path[1]
 

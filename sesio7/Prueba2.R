@@ -5,7 +5,7 @@ g <- read.graph("edges.txt", format="edgelist", directed=FALSE)
 
 # 1.
 # Plot the graph
-plot(g, vertex.label=NA, vertex.size=3)
+plot(g, vertex.label=NA, vertex.size=3, layout=layout.kamada.kawai)
 # Number of nodes
 V(g)
 # Number of edges
