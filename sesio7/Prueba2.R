@@ -16,8 +16,10 @@ diameter(g)
 transitivity(g)
 # Degree
 degree(g)
+hist(degree(g))
 # Degree Distribution
 degree.distribution(g)
+plot(degree.distribution(g))
 # Network with node sizes proportional to their pagerank
 size_g=(page.rank(g)$vector)*500
 plot(g,vertex.size=size_g)
