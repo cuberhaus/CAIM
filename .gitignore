@@ -6,3 +6,7 @@ sesio1/Envio/Heap/groups/
 *arxiv_abs/
 __pycache__/
 *.ipynb_checkpoints*
+.Rproj.user
+*.RData
+*.Rhistory
+*.Rproj
