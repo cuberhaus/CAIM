@@ -3,3 +3,6 @@ Part1.R Part2.R lab7CAIM.pdf
 
 prac_7_caim.zip: $(FILES)
 	zip -r prac_7_caim.zip $(FILES)
+
+clean: 
+	rm prac_7_caim.zip
