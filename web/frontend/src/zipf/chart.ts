@@ -27,22 +27,21 @@ export function drawZipfChart(container: HTMLElement, data: ZipfResponse, isLog:
     ? scaleLog().domain(yDomain).range([ih, 0])
     : scaleLinear().domain([0, freqs[0]]).range([ih, 0]);
 
-  // Grid
-  const xTicks = isLog ? xScale.ticks(5) : xScale.ticks(6);
-  const yTicks = isLog ? yScale.ticks(5) : yScale.ticks(6);
+  const xTicks = isLog ? logNiceTicks(xDomain[0], xDomain[1]) : xScale.ticks(6);
+  const yTicks = isLog ? logNiceTicks(yDomain[0], yDomain[1]) : yScale.ticks(6);
   for (const t of yTicks) {
     g.append("line").attr("x1", 0).attr("x2", iw).attr("y1", yScale(t)).attr("y2", yScale(t))
       .attr("stroke", "#1a1a2e").attr("stroke-width", 0.5);
     g.append("text").attr("x", -6).attr("y", yScale(t) + 3)
       .attr("fill", "#64748b").attr("font-size", "8px").attr("text-anchor", "end")
-      .text(isLog ? formatSI(t) : formatSI(t));
+      .text(formatSI(t));
   }
   for (const t of xTicks) {
     g.append("line").attr("x1", xScale(t)).attr("x2", xScale(t)).attr("y1", 0).attr("y2", ih)
       .attr("stroke", "#1a1a2e").attr("stroke-width", 0.5);
     g.append("text").attr("x", xScale(t)).attr("y", ih + 12)
       .attr("fill", "#64748b").attr("font-size", "8px").attr("text-anchor", "middle")
-      .text(isLog ? formatSI(t) : formatSI(t));
+      .text(formatSI(t));
   }
 
   // Actual data
@@ -92,6 +91,23 @@ export function drawZipfChart(container: HTMLElement, data: ZipfResponse, isLog:
   g.append("line").attr("x1", iw - 46).attr("x2", iw - 32).attr("y1", 8).attr("y2", 8)
     .attr("stroke", "#ef4444").attr("stroke-width", 1.5).attr("stroke-dasharray", "3,1");
   g.append("text").attr("x", iw - 28).attr("y", 11).attr("fill", "#cbd5e1").attr("font-size", "8px").text("Fitted");
+}
+
+function logNiceTicks(lo: number, hi: number): number[] {
+  const ticks: number[] = [];
+  const minExp = Math.floor(Math.log10(Math.max(1, lo)));
+  const maxExp = Math.ceil(Math.log10(Math.max(1, hi)));
+  for (let exp = minExp; exp <= maxExp; exp++) {
+    const base = Math.pow(10, exp);
+    ticks.push(base);
+    if (maxExp - minExp <= 3) {
+      for (const m of [2, 5]) {
+        const v = base * m;
+        if (v >= lo && v <= hi) ticks.push(v);
+      }
+    }
+  }
+  return ticks.filter(t => t >= lo * 0.9 && t <= hi * 1.1);
 }
 
 function formatSI(n: number): string {
