@@ -12,9 +12,50 @@ The following lab sessions are included in this repository:
 - iGraph: introduction to the iGraph library for network analysis and visualization.
 Each lab session is contained in its own directory, which includes a file with instructions and explanations, as well as any necessary code and data files.
 
+## Web App
+
+An interactive information retrieval explorer: PageRank on the global airport network with world map visualization, and Zipf's Law analysis with curve fitting on text corpora.
+
+**Stack:** Vanilla TypeScript (Vite) + D3.js (geo projection, charts) + FastAPI backend (SciPy)
+
+### Quick Start
+
+```bash
+# Docker (recommended)
+docker compose up -d        # http://localhost:8086
+
+# Dev mode
+make web-dev                # Backend :8086, Vite dev server
+```
+
+### Features
+
+- **PageRank tab:** D3.js world map with airport nodes sized by PageRank score, convergence chart, top-N ranking table
+- **Zipf's Law tab:** Word frequency distribution with Zipf curve fitting (SciPy `curve_fit`), configurable corpus selection
+- Tab-based navigation with dark theme
+
+### Web Structure
+
+```
+web/
+├── frontend/          # Vanilla TypeScript + Vite + D3.js
+│   └── src/
+│       ├── pagerank/          # Map visualization + PageRank controls
+│       ├── zipf/              # Frequency charts + curve fitting
+│       └── styles/            # Dark theme CSS
+├── backend/           # FastAPI + SciPy + NetworkX
+│   └── app.py
+└── requirements.txt
+```
+
 ## Requirements
-To run the code in this repository, you will need:
+
+### Lab sessions (original)
 
 - Python 3.6 or higher
 - Jupyter Notebook (for some lab sessions)
 - The following Python libraries: numpy, pandas, matplotlib, scipy, scikit-learn, networkx, igraph, mrjob
+
+### Web app
+
+- Docker (recommended), or Python 3.12+ and Node.js 18+
