@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CAIM Explorer</title>
+  <link rel="stylesheet" href="/src/styles/theme.css" />
+  <link rel="stylesheet" href="/src/styles/app.css" />
+</head>
+<body>
+  <header class="top-bar">
+    <h1 class="logo">CAIM<span>IR Explorer</span></h1>
+    <nav class="tabs" id="tabs">
+      <button class="tab active" data-tab="pagerank">PageRank</button>
+      <button class="tab" data-tab="zipf">Zipf's Law</button>
+    </nav>
+  </header>
+  <main id="app">
+    <section id="pagerank-tab" class="tab-content active"></section>
+    <section id="zipf-tab" class="tab-content"></section>
+  </main>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>

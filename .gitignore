@@ -6,6 +6,9 @@ sesio1/Envio/Heap/groups/
 *20_newsgroups/
 *arxiv_abs/
 __pycache__/
+
+web/frontend/node_modules/
+web/frontend/dist/
 *.ipynb_checkpoints*
 .Rproj.user
 *.RData

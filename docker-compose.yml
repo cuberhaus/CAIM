@@ -1,0 +1,6 @@
+services:
+  web:
+    build: .
+    ports:
+      - "8086:8086"
+    restart: unless-stopped
