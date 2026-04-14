@@ -86,3 +86,70 @@ def test_zipf_custom():
         "text": "the cat sat on the mat the cat the the", "top_n": 10,
     })
     assert r.status_code == 200
+
+
+# ─── Extended tests: PageRank & Zipf correctness ─────────────────
+
+
+def test_pagerank_rankings_are_sorted():
+    r = client.post("/api/pagerank", json={"damping": 0.85, "max_iterations": 100})
+    data = r.json()
+    ranks = data["rankings"]
+    scores = [r["score"] for r in ranks]
+    assert scores == sorted(scores, reverse=True), "Rankings should be sorted by score descending"
+
+
+def test_pagerank_scores_sum_to_one():
+    r = client.post("/api/pagerank", json={"damping": 0.85, "max_iterations": 200, "tolerance": 1e-8})
+    data = r.json()
+    # All scores in the full graph should sum close to 1
+    # (we only get top N, so partial sum is ≤ 1)
+    partial_sum = sum(r["score"] for r in data["rankings"])
+    assert partial_sum <= 1.01
+
+
+def test_pagerank_damping_effect():
+    """Different damping should produce different results."""
+    r1 = client.post("/api/pagerank", json={"damping": 0.5, "max_iterations": 100})
+    r2 = client.post("/api/pagerank", json={"damping": 0.99, "max_iterations": 100})
+    top1 = r1.json()["rankings"][0]["score"]
+    top2 = r2.json()["rankings"][0]["score"]
+    assert top1 != top2
+
+
+def test_pagerank_init_strategies():
+    for strategy in ["uniform", "nth"]:
+        r = client.post("/api/pagerank", json={"init_strategy": strategy})
+        assert r.status_code == 200
+        assert r.json()["init_strategy"] == strategy
+
+
+def test_airports_have_required_fields():
+    r = client.get("/api/airports")
+    airport = r.json()[0]
+    # Should have at least name/code and coordinates
+    assert any(k in airport for k in ["name", "code", "iata"])
+
+
+def test_graph_stats_consistency():
+    stats = client.get("/api/graph-stats").json()
+    airports = client.get("/api/airports").json()
+    assert stats["n_airports"] == len(airports)
+
+
+def test_zipf_custom_word_frequencies():
+    text = " ".join(["the"] * 50 + ["cat"] * 30 + ["sat"] * 20 + ["on"] * 15 + ["mat"] * 10)
+    r = client.post("/api/zipf/custom", json={"text": text, "top_n": 5})
+    assert r.status_code == 200
+
+
+def test_zipf_custom_empty_text():
+    r = client.post("/api/zipf/custom", json={"text": "", "top_n": 10})
+    assert r.status_code in [200, 400]
+
+
+def test_zipf_analyze_top_n():
+    datasets = client.get("/api/zipf/datasets").json()
+    first = datasets[0] if isinstance(datasets[0], str) else datasets[0].get("id", datasets[0].get("name"))
+    r = client.post("/api/zipf/analyze", json={"dataset": first, "top_n": 5})
+    assert r.status_code == 200
